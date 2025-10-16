@@ -1,22 +1,18 @@
 import torch
-import numpy as np
 from typing import List, Dict, Tuple
-from transformers import CLIPProcessor, CLIPModel
+from transformers import AutoProcessor, AutoModel
 from PIL import Image
 from tqdm import tqdm
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-class CLIPZeroShot:
-    def __init__(self, model_name: str = "openai/clip-vit-base-patch32", device: str = device):
+class SigLIPZeroShot:
+    def __init__(self, model_name: str = "google/siglip-base-patch16-224", device: str = device):
         self.device = device
-        print(f"[INFO] Loading CLIP model {model_name} on {device}...")
-        # carregar modelo
-        self.model = CLIPModel.from_pretrained(model_name)
-        self.model = self.model.to(self.device) #type: ignore
+        print(f"[INFO] Carregando o modelo SigLIP {model_name} no dispositivo {device}...")
+        self.model = AutoModel.from_pretrained(model_name).to(device)
         self.model.eval()
-        # carregar processor
-        self.processor = CLIPProcessor.from_pretrained(model_name)
+        self.processor = AutoProcessor.from_pretrained(model_name)
 
     def _normalize(self, emb: torch.Tensor) -> torch.Tensor:
         return emb / emb.norm(p=2, dim=-1, keepdim=True)
@@ -24,10 +20,9 @@ class CLIPZeroShot:
     def text_embeddings_mean(self, prompts_per_class: Dict[str, List[str]]) -> Tuple[List[str], torch.Tensor]:
         class_names = list(prompts_per_class.keys())
         all_embs = []
-        for c in tqdm(class_names, desc="Text embeddings"):
+        for c in tqdm(class_names, desc="Gerando embeddings de texto"):
             texts = prompts_per_class[c]
-            inputs = self.processor(text=texts, return_tensors="pt", padding=True)  # type: ignore
-            inputs = {k: v.to(self.device) for k, v in inputs.items()}
+            inputs = self.processor(text=texts, padding="max_length", return_tensors="pt").to(self.device)
             with torch.no_grad():
                 txt_feats = self.model.get_text_features(**inputs)
             txt_feats = self._normalize(txt_feats)
@@ -39,8 +34,7 @@ class CLIPZeroShot:
 
     def image_batch_embeddings(self, image_paths: List[str], batch_size: int = 32) -> torch.Tensor:
         imgs = [Image.open(p).convert("RGB") for p in image_paths]
-        inputs = self.processor(images=imgs, return_tensors="pt")  # type: ignore
-        inputs = {k: v.to(self.device) for k, v in inputs.items()}
+        inputs = self.processor(images=imgs, padding="max_length", return_tensors="pt").to(self.device)
         with torch.no_grad():
             img_feats = self.model.get_image_features(**inputs)
         img_feats = self._normalize(img_feats)
@@ -57,8 +51,7 @@ class CLIPZeroShot:
         for i in range(0, len(image_paths), batch_size):
             batch = image_paths[i:i+batch_size]
             imgs = [Image.open(p).convert("RGB") for p in batch]
-            inputs = self.processor(images=imgs, return_tensors="pt")  # type: ignore
-            inputs = {k: v.to(self.device) for k, v in inputs.items()}
+            inputs = self.processor(images=imgs, padding="max_length", return_tensors="pt").to(self.device)
             with torch.no_grad():
                 img_feats = self.model.get_image_features(**inputs)
             img_feats = self._normalize(img_feats)

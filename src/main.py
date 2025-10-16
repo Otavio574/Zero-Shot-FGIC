@@ -3,6 +3,7 @@ import argparse
 import os
 from src.load_data import list_image_paths, build_class_names
 from src.generate_prompts import make_prompts_for_all, DEFAULT_TEMPLATES
+from src.inference_siglip import SigLIPZeroShot, device
 from src.inference_clip import CLIPZeroShot, device
 from src.evaluate import compute_topk_from_similarities, save_predictions_csv
 from tqdm import tqdm
@@ -23,14 +24,25 @@ def run_pipeline(dataset_root: str, out_csv: str, model_name: str = "openai/clip
 
     prompts = make_prompts_for_all(class_names, templates)
 
-    clip_model = CLIPZeroShot(model_name=model_name)
-    class_names_ordered, text_embs = clip_model.text_embeddings_mean(prompts)
+    #clip_model = CLIPZeroShot(model_name=model_name)
+    #clip_model = SigLIPZeroShot(model_name=model_name)
+    
+    if 'siglip' in model_name.lower():
+        # Se o nome do modelo contiver 'siglip', use a classe SigLIPZeroShot
+        print(f"[INFO] Instanciando o modelo SigLIP: {model_name}")
+        zero_shot_model = SigLIPZeroShot(model_name=model_name)
+    else:
+        # Por padrão, ou se o nome não for 'siglip', use a classe CLIPZeroShot
+        print(f"[INFO] Instanciando o modelo CLIP: {model_name}")
+        zero_shot_model = CLIPZeroShot(model_name=model_name)
+
+    class_names_ordered, text_embs = zero_shot_model.text_embeddings_mean(prompts)
     # Guarantee same ordering
     assert class_names_ordered == class_names, "Ordering mismatch between class names."
 
     # For memory safety, predict in batches using generator
     print(f"[INFO] Running inference on {len(image_paths)} images (batch_size={batch_size})")
-    similarities = clip_model.predict(image_paths, class_names_ordered, text_embs, batch_size=batch_size)
+    similarities = zero_shot_model.predict(image_paths, class_names_ordered, text_embs, batch_size=batch_size)
 
     # Evaluate
     results = compute_topk_from_similarities(similarities, class_names_ordered, true_classes, topk=(1,5))
