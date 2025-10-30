@@ -1,3 +1,5 @@
+
+'''
 import os
 import pandas as pd
 
@@ -31,3 +33,4 @@ df.to_csv("stanford_dogs_labels.csv", index=False)
 
 print(f"[INFO] Dataset preparado! Total de imagens: {len(df)}")
 print(df.head())
+'''
