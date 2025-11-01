@@ -41,7 +41,7 @@ DATASETS = load_datasets_from_summary(SUMMARY_PATH)
 
 MODEL_NAME = "ViT-B/32"  # Modelo CLIP do OpenAI
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-RESULTS_DIR = "all_zero-shot_results/results_zero_shot_comparative_filtering"
+RESULTS_DIR = "all_zero-shot_results/results_zero_shot_filtering"
 
 # Parâmetro de filtragem
 SIMILARITY_THRESHOLD = 0.7  # Remove classes com similaridade média > 0.7
@@ -51,6 +51,47 @@ os.makedirs(RESULTS_DIR, exist_ok=True)
 # ============================
 # FUNÇÕES AUXILIARES
 # ============================
+
+def load_descriptions(dataset_name):
+    """Carrega descriptions do dataset"""
+    path = os.path.join("descriptors", f"{dataset_name}_descriptors.json")
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    else:
+        print(f"⚠️  Nenhum descriptor encontrado para {dataset_name}, usando genéricos.")
+        return {}
+
+
+def load_embeddings(dataset_name):
+    """Carrega embeddings de imagem"""
+    emb_path = os.path.join("embeddings", f"{dataset_name}.pt")
+    if not os.path.exists(emb_path):
+        print(f"❌ Embeddings não encontrados: {emb_path}")
+        return None, None
+    
+    data = torch.load(emb_path, weights_only=False)
+    if isinstance(data, dict):
+        return data["image_embeddings"], data.get("image_paths", None)
+    return data, None
+
+
+def infer_classes_from_paths(image_paths):
+    """Extrai nomes de classes dos caminhos"""
+    class_names = []
+    labels = []
+    class_to_idx = {}
+
+    for path in image_paths:
+        parts = Path(path).parts
+        class_name = parts[-2] if len(parts) >= 2 else "unknown"
+        if class_name not in class_to_idx:
+            class_to_idx[class_name] = len(class_names)
+            class_names.append(class_name)
+        labels.append(class_to_idx[class_name])
+
+    return np.array(labels), class_names
+
 
 def apply_comparative_filtering(text_embeds, class_names, threshold=0.7):
     """
@@ -83,137 +124,92 @@ def apply_comparative_filtering(text_embeds, class_names, threshold=0.7):
     return filtered_text_embeds, filtered_class_names, keep_indices
 
 
-def load_embeddings_and_generate_text(dataset_name, dataset_path, model):
-    """Carrega embeddings de imagem e gera embeddings de texto com prompts simples + filtering"""
+def evaluate_with_filtering(dataset_name, image_embeds, image_paths, descriptions, model):
+    """Avaliação com filtering de classes similares"""
     
-    embedding_path = os.path.join("embeddings", f"{dataset_name}.pt")
+    print(f"\n🔍 Iniciando avaliação com filtering: {dataset_name}")
+    labels, class_names = infer_classes_from_paths(image_paths)
+    num_classes_original = len(class_names)
     
-    if not os.path.exists(embedding_path):
-        print(f"⚠️  Embeddings não encontrados: {embedding_path}")
-        return None, None, None, None, None
+    print(f"   Classes detectadas: {num_classes_original}")
+    print(f"   Total de imagens: {len(image_embeds)}")
     
-    print(f"📂 Carregando embeddings: {embedding_path}")
-    embeddings_data = torch.load(embedding_path, weights_only=False)
+    # ===== AGREGAÇÃO DE MÚLTIPLOS DESCRIPTORS =====
+    class_descriptors = {}
     
-    if isinstance(embeddings_data, dict):
-        image_embeds = embeddings_data['image_embeddings']
-        image_paths = embeddings_data['image_paths']
-    else:
-        image_embeds = embeddings_data
-        image_paths = None
-    
-    print(f"   Shape: {image_embeds.shape}")
-
-    # Extrai classes e labels
-    if image_paths:
-        labels = []
-        class_to_idx = {}
-        class_names = []
-
-        for path in image_paths:
-            parts = Path(path).parts
-            class_name = parts[-2] if len(parts) >= 2 else "unknown"
-
-            if class_name not in class_to_idx:
-                class_to_idx[class_name] = len(class_names)
-                class_names.append(class_name)
-
-            labels.append(class_to_idx[class_name])
+    for class_name in class_names:
+        class_code = class_name.split('-')[0] if '-' in class_name else class_name
+        class_descriptors[class_name] = []
         
-        labels = np.array(labels)
-    else:
-        # Busca profunda por classes
-        print("⚠️  Sem paths salvos, tentando inferir classes...")
-        class_folders = {}
-
-        for depth in range(1, 6):
-            pattern = os.path.join(dataset_path, *['*'] * depth)
-            for potential_dir in glob(pattern):
-                if not os.path.isdir(potential_dir):
-                    continue
-                
-                imgs = []
-                for ext in ['*.jpg', '*.jpeg', '*.png']:
-                    imgs.extend(glob(os.path.join(potential_dir, ext)))
-                
-                if imgs:
-                    class_name = os.path.basename(potential_dir)
-                    if class_name not in class_folders:
-                        class_folders[class_name] = []
-                    class_folders[class_name].extend(imgs)
-
-        if not class_folders:
-            print("❌ Não foi possível inferir classes")
-            return None, None, None, None, None
-
-        class_names = sorted(class_folders.keys())
-        imgs_per_class = len(image_embeds) // len(class_names)
-        labels = np.array([min(i // imgs_per_class, len(class_names) - 1) for i in range(len(image_embeds))])
-        print(f"   ⚠️  Labels inferidos automaticamente.")
-
-    print(f"   Total de imagens: {len(labels)} | Classes: {len(set(labels))}")
-
-    # Gera text embeddings com PROMPTS SIMPLES
-    class_texts = [f"a photo of a {class_name.replace('_', ' ')}" for class_name in class_names]
-
-    print(f"\n📝 Gerando text embeddings para {len(class_texts)} classes...")
-
-    # Tokeniza e gera embeddings com CLIP
-    text_tokens = clip.tokenize(class_texts, truncate=True).to(DEVICE)
+        if descriptions:
+            for desc_key, desc_value in descriptions.items():
+                if class_code in desc_key or class_name in desc_key:
+                    class_descriptors[class_name].append(desc_value)
     
+    # Estatísticas
+    desc_counts = [len(descs) for descs in class_descriptors.values()]
+    if desc_counts:
+        print(f"   Descriptors: Total={sum(desc_counts)}, Média={np.mean(desc_counts):.1f}, Min={min(desc_counts)}, Max={max(desc_counts)}")
+    
+    # Gera lista flat de todos os textos
+    all_texts = []
+    text_to_class_idx = []
+    
+    for idx, class_name in enumerate(class_names):
+        descs = class_descriptors.get(class_name, [])
+        if not descs:
+            descs = [f"a photo of a {class_name.replace('_', ' ')}"]
+        
+        all_texts.extend(descs)
+        text_to_class_idx.extend([idx] * len(descs))
+    
+    # Gera embeddings de texto
+    text_tokens = clip.tokenize(all_texts, truncate=True).to(DEVICE)
     with torch.no_grad():
-        text_embeds = model.encode_text(text_tokens)
-        text_embeds /= text_embeds.norm(dim=-1, keepdim=True)
-
-    print(f"✅ Text embeddings prontos! Shape: {text_embeds.shape}")
+        all_text_embeds = model.encode_text(text_tokens)
+        all_text_embeds /= all_text_embeds.norm(dim=-1, keepdim=True)
     
-    # Aplica COMPARATIVE FILTERING
+    # Agrupa por classe e faz MÉDIA
+    print(f"🔄 Agregando {len(all_texts)} descriptors por classe...")
+    final_text_embeds = []
+    
+    for idx in range(len(class_names)):
+        indices = [i for i, c_idx in enumerate(text_to_class_idx) if c_idx == idx]
+        class_embeds = all_text_embeds[indices]
+        avg_embed = class_embeds.mean(dim=0)
+        avg_embed /= avg_embed.norm()
+        final_text_embeds.append(avg_embed)
+    
+    text_embeds = torch.stack(final_text_embeds)
+    
+    # Aplica filtering
     filtered_text_embeds, filtered_class_names, keep_indices = apply_comparative_filtering(
         text_embeds, class_names, threshold=SIMILARITY_THRESHOLD
     )
     
-    # Ajusta labels para refletir apenas classes mantidas
-    # Remove imagens de classes que foram filtradas
+    # Filtra imagens e labels para manter apenas classes válidas
     valid_mask = np.isin(labels, keep_indices)
     filtered_image_embeds = image_embeds[valid_mask]
     filtered_labels = labels[valid_mask]
     
-    # Remapeia labels para índices contínuos
+    # Remapeia labels
     old_to_new = {old_idx: new_idx for new_idx, old_idx in enumerate(keep_indices)}
     filtered_labels = np.array([old_to_new[label] for label in filtered_labels])
     
     print(f"📉 Imagens após filtragem: {len(filtered_labels)} (de {len(labels)})")
     
-    return filtered_image_embeds, filtered_text_embeds.cpu(), filtered_labels, filtered_class_names, keep_indices
-
-
-def evaluate_zero_shot(image_embeds, text_embeds, labels):
-    """Calcula acurácia zero-shot."""
-    # Garante que ambos estão em float32
-    image_embeds = image_embeds.float()
-    text_embeds = text_embeds.float()
+    # Avalia - GARANTE QUE TODOS ESTÃO NO MESMO DEVICE
+    image_embeds_float = filtered_image_embeds.to(DEVICE).float()
+    text_embeds_float = filtered_text_embeds.to(DEVICE).float()
     
-    sims = image_embeds @ text_embeds.T
-    preds = sims.argmax(dim=-1).numpy()
-    acc = accuracy_score(labels, preds)
-    return acc, preds
+    sims = image_embeds_float @ text_embeds_float.T
+    preds = sims.argmax(dim=-1).cpu().numpy()
+    acc = accuracy_score(filtered_labels, preds)
+    
+    print(f"✅ Acurácia com filtering: {acc:.4f}")
+    
+    return acc, num_classes_original, len(filtered_class_names), len(filtered_labels)
 
-
-def plot_confusion_matrix(labels, preds, class_names, output_path):
-    """Gera e salva matriz de confusão"""
-    cm = confusion_matrix(labels, preds, normalize='true')
-    plt.figure(figsize=(12, 10))
-    plt.imshow(cm, cmap='viridis', aspect='auto')
-    plt.title("CLIP Zero-Shot with Comparative Filtering", fontsize=14)
-    plt.colorbar()
-    fontsize = max(6, 12 - len(class_names) // 10)
-    plt.xticks(np.arange(len(class_names)), class_names, rotation=90, fontsize=fontsize)
-    plt.yticks(np.arange(len(class_names)), class_names, fontsize=fontsize)
-    plt.xlabel('Predicted')
-    plt.ylabel('True')
-    plt.tight_layout()
-    plt.savefig(output_path, dpi=150, bbox_inches='tight')
-    plt.close()
 
 # ============================
 # AVALIAÇÃO PRINCIPAL
@@ -223,8 +219,7 @@ def main():
     print(f"🚀 Avaliação Zero-Shot com Comparative Filtering")
     print(f"📦 Modelo: {MODEL_NAME}")
     print(f"💻 Device: {DEVICE}")
-    print(f"🔍 Método: Filtragem de classes similares (threshold={SIMILARITY_THRESHOLD})")
-    print(f"🎯 Objetivo: Reduzir confusão entre classes muito parecidas\n")
+    print(f"🔍 Threshold de similaridade: {SIMILARITY_THRESHOLD}\n")
     
     # Carrega modelo CLIP
     print("🔄 Carregando modelo CLIP...")
@@ -233,52 +228,40 @@ def main():
 
     summary = {
         "model": MODEL_NAME,
-        "method": "CLIP with comparative filtering",
+        "method": "comparative filtering",
         "similarity_threshold": SIMILARITY_THRESHOLD,
         "total_datasets": len(DATASETS),
-        "successful": 0,
-        "failed": 0,
         "results": {}
     }
 
     for dataset_name, dataset_path in DATASETS.items():
         print(f"\n{'='*60}")
-        print(f"📊 Avaliando dataset: {dataset_name}")
+        print(f"📊 Dataset: {dataset_name}")
         print(f"{'='*60}")
         
         try:
-            result = load_embeddings_and_generate_text(
-                dataset_name, dataset_path, model
+            image_embeds, image_paths = load_embeddings(dataset_name)
+            if image_embeds is None:
+                print(f"⚠️  Pulando {dataset_name} (sem embeddings)")
+                continue
+            
+            descriptions = load_descriptions(dataset_name)
+            
+            acc, num_orig, num_filtered, num_images = evaluate_with_filtering(
+                dataset_name, image_embeds, image_paths, descriptions, model
             )
             
-            if result[0] is None:
-                print(f"⏭️  Pulando {dataset_name}")
-                summary["failed"] += 1
-                continue
-                
-            image_embeds, text_embeds, labels, class_names, keep_indices = result
-
-            acc, preds = evaluate_zero_shot(image_embeds, text_embeds, labels)
-            print(f"\n✅ Acurácia zero-shot (FILTERING): {acc:.4f}")
-
-            plot_path = os.path.join(RESULTS_DIR, f"{dataset_name}_cm.png")
-            plot_confusion_matrix(labels, preds, class_names, plot_path)
-
-            summary["successful"] += 1
             summary["results"][dataset_name] = {
                 "accuracy": float(acc),
-                "num_classes_original": len(keep_indices) + sum(1 for _ in range(100) if _ not in keep_indices),
-                "num_classes_filtered": len(class_names),
-                "num_images": len(labels),
-                "classes_kept": keep_indices,
-                "confusion_matrix_plot": plot_path
+                "num_classes_original": num_orig,
+                "num_classes_filtered": num_filtered,
+                "num_images": num_images
             }
             
         except Exception as e:
             print(f"❌ Erro ao processar {dataset_name}: {e}")
             import traceback
             traceback.print_exc()
-            summary["failed"] += 1
             continue
 
     # Salva resultados
@@ -288,9 +271,7 @@ def main():
     
     print(f"\n{'='*60}")
     print(f"📈 Resultados salvos em {out_path}")
-    print(f"✅ {summary['successful']} datasets processados com sucesso.")
-    print(f"❌ {summary['failed']} falharam.")
-    print(f"\n💡 Filtering remove classes com alta similaridade textual!")
+    print(f"✅ Avaliação finalizada com sucesso.")
     print(f"{'='*60}\n")
 
 

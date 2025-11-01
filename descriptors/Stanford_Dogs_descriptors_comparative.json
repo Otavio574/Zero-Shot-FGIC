@@ -1,0 +1,602 @@
+{
+    "n02085620-Chihuahua": [
+        "A n02085620-Chihuahua is heavier and sturdier than a n02108551-Tibetan_mastiff.",
+        "A n02085620-Chihuahua has a shorter muzzle than a n02102040-English_springer.",
+        "A n02085620-Chihuahua is heavier and sturdier than a n02108915-French_bulldog."
+    ],
+    "n02085782-Japanese_spaniel": [
+        "A n02085782-Japanese_spaniel is heavier and sturdier than a n02097130-giant_schnauzer.",
+        "A n02085782-Japanese_spaniel is heavier and sturdier than a n02113023-Pembroke.",
+        "A n02085782-Japanese_spaniel tends to have longer fur than a n02088238-basset."
+    ],
+    "n02085936-Maltese_dog": [
+        "A n02085936-Maltese_dog is smaller than a n02088094-Afghan_hound.",
+        "A n02085936-Maltese_dog tends to have longer fur than a n02101556-clumber.",
+        "A n02085936-Maltese_dog is heavier and sturdier than a n02096177-cairn."
+    ],
+    "n02086079-Pekinese": [
+        "A n02086079-Pekinese has larger ears than a n02097474-Tibetan_terrier.",
+        "A n02086079-Pekinese is more muscular than a n02090721-Irish_wolfhound.",
+        "A n02086079-Pekinese appears more slender than a n02096051-Airedale."
+    ],
+    "n02086240-Shih-Tzu": [
+        "A n02086240-Shih-Tzu tends to have longer fur than a n02106382-Bouvier_des_Flandres.",
+        "A n02086240-Shih-Tzu appears more slender than a n02112706-Brabancon_griffon.",
+        "A n02086240-Shih-Tzu appears more slender than a n02099429-curly-coated_retriever."
+    ],
+    "n02086646-Blenheim_spaniel": [
+        "A n02086646-Blenheim_spaniel looks more delicate than a n02110958-pug.",
+        "A n02086646-Blenheim_spaniel is smaller than a n02104365-schipperke.",
+        "A n02086646-Blenheim_spaniel is heavier and sturdier than a n02086079-Pekinese."
+    ],
+    "n02086910-papillon": [
+        "A n02086910-papillon has larger ears than a n02086240-Shih-Tzu.",
+        "A n02086910-papillon is heavier and sturdier than a n02096177-cairn.",
+        "A n02086910-papillon is more muscular than a n02111277-Newfoundland."
+    ],
+    "n02087046-toy_terrier": [
+        "A n02087046-toy_terrier has larger ears than a n02107574-Greater_Swiss_Mountain_dog.",
+        "A n02087046-toy_terrier is heavier and sturdier than a n02106382-Bouvier_des_Flandres.",
+        "A n02087046-toy_terrier looks more delicate than a n02088364-beagle."
+    ],
+    "n02087394-Rhodesian_ridgeback": [
+        "A n02087394-Rhodesian_ridgeback has a different coat pattern compared to a n02098105-soft-coated_wheaten_terrier.",
+        "A n02087394-Rhodesian_ridgeback usually has a different body shape than a n02098413-Lhasa.",
+        "A n02087394-Rhodesian_ridgeback tends to have longer fur than a n02109047-Great_Dane."
+    ],
+    "n02088094-Afghan_hound": [
+        "A n02088094-Afghan_hound usually has a different body shape than a n02102318-cocker_spaniel.",
+        "A n02088094-Afghan_hound usually has a different body shape than a n02088466-bloodhound.",
+        "A n02088094-Afghan_hound has a different coat pattern compared to a n02091467-Norwegian_elkhound."
+    ],
+    "n02088238-basset": [
+        "A n02088238-basset has a different coat pattern compared to a n02091244-Ibizan_hound.",
+        "A n02088238-basset looks more delicate than a n02106662-German_shepherd.",
+        "A n02088238-basset tends to have longer fur than a n02090379-redbone."
+    ],
+    "n02088364-beagle": [
+        "A n02088364-beagle tends to have longer fur than a n02086910-papillon.",
+        "A n02088364-beagle is smaller than a n02096051-Airedale.",
+        "A n02088364-beagle is smaller than a n02085936-Maltese_dog."
+    ],
+    "n02088466-bloodhound": [
+        "A n02088466-bloodhound is smaller than a n02094114-Norfolk_terrier.",
+        "A n02088466-bloodhound has a different coat pattern compared to a n02097658-silky_terrier.",
+        "A n02088466-bloodhound appears more slender than a n02111277-Newfoundland."
+    ],
+    "n02088632-bluetick": [
+        "A n02088632-bluetick usually has a different body shape than a n02113978-Mexican_hairless.",
+        "A n02088632-bluetick looks more delicate than a n02110806-basenji.",
+        "A n02088632-bluetick has a different coat pattern compared to a n02088094-Afghan_hound."
+    ],
+    "n02089078-black-and-tan_coonhound": [
+        "A n02089078-black-and-tan_coonhound has a shorter muzzle than a n02098105-soft-coated_wheaten_terrier.",
+        "A n02089078-black-and-tan_coonhound appears more slender than a n02085620-Chihuahua.",
+        "A n02089078-black-and-tan_coonhound is more muscular than a n02088632-bluetick."
+    ],
+    "n02089867-Walker_hound": [
+        "A n02089867-Walker_hound has a different coat pattern compared to a n02109525-Saint_Bernard.",
+        "A n02089867-Walker_hound has larger ears than a n02107574-Greater_Swiss_Mountain_dog.",
+        "A n02089867-Walker_hound looks more delicate than a n02105412-kelpie."
+    ],
+    "n02089973-English_foxhound": [
+        "A n02089973-English_foxhound appears more slender than a n02112018-Pomeranian.",
+        "A n02089973-English_foxhound has larger ears than a n02105251-briard.",
+        "A n02089973-English_foxhound is more muscular than a n02100583-vizsla."
+    ],
+    "n02090379-redbone": [
+        "A n02090379-redbone has a shorter muzzle than a n02085936-Maltese_dog.",
+        "A n02090379-redbone tends to have longer fur than a n02115913-dhole.",
+        "A n02090379-redbone appears more slender than a n02096585-Boston_bull."
+    ],
+    "n02090622-borzoi": [
+        "A n02090622-borzoi tends to have longer fur than a n02085620-Chihuahua.",
+        "A n02090622-borzoi is smaller than a n02088466-bloodhound.",
+        "A n02090622-borzoi has a different coat pattern compared to a n02099267-flat-coated_retriever."
+    ],
+    "n02090721-Irish_wolfhound": [
+        "A n02090721-Irish_wolfhound is more muscular than a n02105855-Shetland_sheepdog.",
+        "A n02090721-Irish_wolfhound has a shorter muzzle than a n02110185-Siberian_husky.",
+        "A n02090721-Irish_wolfhound usually has a different body shape than a n02112350-keeshond."
+    ],
+    "n02091032-Italian_greyhound": [
+        "A n02091032-Italian_greyhound usually has a different body shape than a n02099849-Chesapeake_Bay_retriever.",
+        "A n02091032-Italian_greyhound has larger ears than a n02105251-briard.",
+        "A n02091032-Italian_greyhound is smaller than a n02093256-Staffordshire_bullterrier."
+    ],
+    "n02091134-whippet": [
+        "A n02091134-whippet is smaller than a n02110627-affenpinscher.",
+        "A n02091134-whippet tends to have longer fur than a n02110063-malamute.",
+        "A n02091134-whippet usually has a different body shape than a n02104365-schipperke."
+    ],
+    "n02091244-Ibizan_hound": [
+        "A n02091244-Ibizan_hound appears more slender than a n02094114-Norfolk_terrier.",
+        "A n02091244-Ibizan_hound tends to have longer fur than a n02105641-Old_English_sheepdog.",
+        "A n02091244-Ibizan_hound is smaller than a n02105162-malinois."
+    ],
+    "n02091467-Norwegian_elkhound": [
+        "A n02091467-Norwegian_elkhound usually has a different body shape than a n02088466-bloodhound.",
+        "A n02091467-Norwegian_elkhound usually has a different body shape than a n02113799-standard_poodle.",
+        "A n02091467-Norwegian_elkhound appears more slender than a n02098286-West_Highland_white_terrier."
+    ],
+    "n02091635-otterhound": [
+        "A n02091635-otterhound has a shorter muzzle than a n02099267-flat-coated_retriever.",
+        "A n02091635-otterhound has a different coat pattern compared to a n02088364-beagle.",
+        "A n02091635-otterhound has larger ears than a n02093859-Kerry_blue_terrier."
+    ],
+    "n02091831-Saluki": [
+        "A n02091831-Saluki tends to have longer fur than a n02094114-Norfolk_terrier.",
+        "A n02091831-Saluki has a different coat pattern compared to a n02096051-Airedale.",
+        "A n02091831-Saluki usually has a different body shape than a n02115641-dingo."
+    ],
+    "n02092002-Scottish_deerhound": [
+        "A n02092002-Scottish_deerhound usually has a different body shape than a n02085782-Japanese_spaniel.",
+        "A n02092002-Scottish_deerhound is more muscular than a n02112018-Pomeranian.",
+        "A n02092002-Scottish_deerhound has larger ears than a n02088632-bluetick."
+    ],
+    "n02092339-Weimaraner": [
+        "A n02092339-Weimaraner has a shorter muzzle than a n02086910-papillon.",
+        "A n02092339-Weimaraner tends to have longer fur than a n02093754-Border_terrier.",
+        "A n02092339-Weimaraner has a shorter muzzle than a n02088238-basset."
+    ],
+    "n02093256-Staffordshire_bullterrier": [
+        "A n02093256-Staffordshire_bullterrier has larger ears than a n02100877-Irish_setter.",
+        "A n02093256-Staffordshire_bullterrier is more muscular than a n02098413-Lhasa.",
+        "A n02093256-Staffordshire_bullterrier appears more slender than a n02105855-Shetland_sheepdog."
+    ],
+    "n02093428-American_Staffordshire_terrier": [
+        "A n02093428-American_Staffordshire_terrier has larger ears than a n02097658-silky_terrier.",
+        "A n02093428-American_Staffordshire_terrier is smaller than a n02102318-cocker_spaniel.",
+        "A n02093428-American_Staffordshire_terrier looks more delicate than a n02101388-Brittany_spaniel."
+    ],
+    "n02093647-Bedlington_terrier": [
+        "A n02093647-Bedlington_terrier is smaller than a n02106550-Rottweiler.",
+        "A n02093647-Bedlington_terrier is smaller than a n02086910-papillon.",
+        "A n02093647-Bedlington_terrier looks more delicate than a n02088466-bloodhound."
+    ],
+    "n02093754-Border_terrier": [
+        "A n02093754-Border_terrier usually has a different body shape than a n02092339-Weimaraner.",
+        "A n02093754-Border_terrier has a different coat pattern compared to a n02096585-Boston_bull.",
+        "A n02093754-Border_terrier usually has a different body shape than a n02106030-collie."
+    ],
+    "n02093859-Kerry_blue_terrier": [
+        "A n02093859-Kerry_blue_terrier is more muscular than a n02112350-keeshond.",
+        "A n02093859-Kerry_blue_terrier is heavier and sturdier than a n02096437-Dandie_Dinmont.",
+        "A n02093859-Kerry_blue_terrier appears more slender than a n02107908-Appenzeller."
+    ],
+    "n02093991-Irish_terrier": [
+        "A n02093991-Irish_terrier tends to have longer fur than a n02107908-Appenzeller.",
+        "A n02093991-Irish_terrier usually has a different body shape than a n02106166-Border_collie.",
+        "A n02093991-Irish_terrier is more muscular than a n02112137-chow."
+    ],
+    "n02094114-Norfolk_terrier": [
+        "A n02094114-Norfolk_terrier usually has a different body shape than a n02110185-Siberian_husky.",
+        "A n02094114-Norfolk_terrier is more muscular than a n02089078-black-and-tan_coonhound.",
+        "A n02094114-Norfolk_terrier has a shorter muzzle than a n02091635-otterhound."
+    ],
+    "n02094258-Norwich_terrier": [
+        "A n02094258-Norwich_terrier has larger ears than a n02086079-Pekinese.",
+        "A n02094258-Norwich_terrier is more muscular than a n02100877-Irish_setter.",
+        "A n02094258-Norwich_terrier is smaller than a n02106662-German_shepherd."
+    ],
+    "n02094433-Yorkshire_terrier": [
+        "A n02094433-Yorkshire_terrier is heavier and sturdier than a n02110806-basenji.",
+        "A n02094433-Yorkshire_terrier has a different coat pattern compared to a n02106166-Border_collie.",
+        "A n02094433-Yorkshire_terrier is smaller than a n02112018-Pomeranian."
+    ],
+    "n02095314-wire-haired_fox_terrier": [
+        "A n02095314-wire-haired_fox_terrier usually has a different body shape than a n02102973-Irish_water_spaniel.",
+        "A n02095314-wire-haired_fox_terrier is heavier and sturdier than a n02106166-Border_collie.",
+        "A n02095314-wire-haired_fox_terrier usually has a different body shape than a n02107574-Greater_Swiss_Mountain_dog."
+    ],
+    "n02095570-Lakeland_terrier": [
+        "A n02095570-Lakeland_terrier has larger ears than a n02113799-standard_poodle.",
+        "A n02095570-Lakeland_terrier appears more slender than a n02105641-Old_English_sheepdog.",
+        "A n02095570-Lakeland_terrier looks more delicate than a n02113978-Mexican_hairless."
+    ],
+    "n02095889-Sealyham_terrier": [
+        "A n02095889-Sealyham_terrier appears more slender than a n02102973-Irish_water_spaniel.",
+        "A n02095889-Sealyham_terrier tends to have longer fur than a n02107683-Bernese_mountain_dog.",
+        "A n02095889-Sealyham_terrier tends to have longer fur than a n02105251-briard."
+    ],
+    "n02096051-Airedale": [
+        "A n02096051-Airedale has a shorter muzzle than a n02094114-Norfolk_terrier.",
+        "A n02096051-Airedale is heavier and sturdier than a n02090379-redbone.",
+        "A n02096051-Airedale looks more delicate than a n02086646-Blenheim_spaniel."
+    ],
+    "n02096177-cairn": [
+        "A n02096177-cairn usually has a different body shape than a n02086646-Blenheim_spaniel.",
+        "A n02096177-cairn usually has a different body shape than a n02097658-silky_terrier.",
+        "A n02096177-cairn is heavier and sturdier than a n02091032-Italian_greyhound."
+    ],
+    "n02096294-Australian_terrier": [
+        "A n02096294-Australian_terrier has a shorter muzzle than a n02111500-Great_Pyrenees.",
+        "A n02096294-Australian_terrier is more muscular than a n02110063-malamute.",
+        "A n02096294-Australian_terrier is smaller than a n02091831-Saluki."
+    ],
+    "n02096437-Dandie_Dinmont": [
+        "A n02096437-Dandie_Dinmont is more muscular than a n02091635-otterhound.",
+        "A n02096437-Dandie_Dinmont has larger ears than a n02100583-vizsla.",
+        "A n02096437-Dandie_Dinmont tends to have longer fur than a n02107908-Appenzeller."
+    ],
+    "n02096585-Boston_bull": [
+        "A n02096585-Boston_bull looks more delicate than a n02107142-Doberman.",
+        "A n02096585-Boston_bull has a different coat pattern compared to a n02099712-Labrador_retriever.",
+        "A n02096585-Boston_bull appears more slender than a n02096177-cairn."
+    ],
+    "n02097047-miniature_schnauzer": [
+        "A n02097047-miniature_schnauzer has larger ears than a n02106030-collie.",
+        "A n02097047-miniature_schnauzer tends to have longer fur than a n02115913-dhole.",
+        "A n02097047-miniature_schnauzer looks more delicate than a n02101006-Gordon_setter."
+    ],
+    "n02097130-giant_schnauzer": [
+        "A n02097130-giant_schnauzer usually has a different body shape than a n02099267-flat-coated_retriever.",
+        "A n02097130-giant_schnauzer has a different coat pattern compared to a n02087046-toy_terrier.",
+        "A n02097130-giant_schnauzer has larger ears than a n02090622-borzoi."
+    ],
+    "n02097209-standard_schnauzer": [
+        "A n02097209-standard_schnauzer tends to have longer fur than a n02097298-Scotch_terrier.",
+        "A n02097209-standard_schnauzer usually has a different body shape than a n02099849-Chesapeake_Bay_retriever.",
+        "A n02097209-standard_schnauzer appears more slender than a n02097658-silky_terrier."
+    ],
+    "n02097298-Scotch_terrier": [
+        "A n02097298-Scotch_terrier tends to have longer fur than a n02091134-whippet.",
+        "A n02097298-Scotch_terrier has a different coat pattern compared to a n02108915-French_bulldog.",
+        "A n02097298-Scotch_terrier has a shorter muzzle than a n02095570-Lakeland_terrier."
+    ],
+    "n02097474-Tibetan_terrier": [
+        "A n02097474-Tibetan_terrier has a shorter muzzle than a n02107683-Bernese_mountain_dog.",
+        "A n02097474-Tibetan_terrier has larger ears than a n02100236-German_short-haired_pointer.",
+        "A n02097474-Tibetan_terrier is heavier and sturdier than a n02097047-miniature_schnauzer."
+    ],
+    "n02097658-silky_terrier": [
+        "A n02097658-silky_terrier looks more delicate than a n02113023-Pembroke.",
+        "A n02097658-silky_terrier has a different coat pattern compared to a n02096437-Dandie_Dinmont.",
+        "A n02097658-silky_terrier looks more delicate than a n02090622-borzoi."
+    ],
+    "n02098105-soft-coated_wheaten_terrier": [
+        "A n02098105-soft-coated_wheaten_terrier appears more slender than a n02092002-Scottish_deerhound.",
+        "A n02098105-soft-coated_wheaten_terrier is heavier and sturdier than a n02093647-Bedlington_terrier.",
+        "A n02098105-soft-coated_wheaten_terrier is heavier and sturdier than a n02101556-clumber."
+    ],
+    "n02098286-West_Highland_white_terrier": [
+        "A n02098286-West_Highland_white_terrier is heavier and sturdier than a n02112350-keeshond.",
+        "A n02098286-West_Highland_white_terrier looks more delicate than a n02101556-clumber.",
+        "A n02098286-West_Highland_white_terrier has a different coat pattern compared to a n02097658-silky_terrier."
+    ],
+    "n02098413-Lhasa": [
+        "A n02098413-Lhasa has a different coat pattern compared to a n02094114-Norfolk_terrier.",
+        "A n02098413-Lhasa is smaller than a n02092002-Scottish_deerhound.",
+        "A n02098413-Lhasa looks more delicate than a n02097130-giant_schnauzer."
+    ],
+    "n02099267-flat-coated_retriever": [
+        "A n02099267-flat-coated_retriever usually has a different body shape than a n02110806-basenji.",
+        "A n02099267-flat-coated_retriever has larger ears than a n02093647-Bedlington_terrier.",
+        "A n02099267-flat-coated_retriever appears more slender than a n02098286-West_Highland_white_terrier."
+    ],
+    "n02099429-curly-coated_retriever": [
+        "A n02099429-curly-coated_retriever has a different coat pattern compared to a n02086646-Blenheim_spaniel.",
+        "A n02099429-curly-coated_retriever appears more slender than a n02108422-bull_mastiff.",
+        "A n02099429-curly-coated_retriever has a different coat pattern compared to a n02105412-kelpie."
+    ],
+    "n02099601-golden_retriever": [
+        "A n02099601-golden_retriever has larger ears than a n02113186-Cardigan.",
+        "A n02099601-golden_retriever is more muscular than a n02113712-miniature_poodle.",
+        "A n02099601-golden_retriever is more muscular than a n02096585-Boston_bull."
+    ],
+    "n02099712-Labrador_retriever": [
+        "A n02099712-Labrador_retriever is more muscular than a n02096437-Dandie_Dinmont.",
+        "A n02099712-Labrador_retriever has a different coat pattern compared to a n02102040-English_springer.",
+        "A n02099712-Labrador_retriever usually has a different body shape than a n02099429-curly-coated_retriever."
+    ],
+    "n02099849-Chesapeake_Bay_retriever": [
+        "A n02099849-Chesapeake_Bay_retriever is smaller than a n02093754-Border_terrier.",
+        "A n02099849-Chesapeake_Bay_retriever tends to have longer fur than a n02093859-Kerry_blue_terrier.",
+        "A n02099849-Chesapeake_Bay_retriever is smaller than a n02106382-Bouvier_des_Flandres."
+    ],
+    "n02100236-German_short-haired_pointer": [
+        "A n02100236-German_short-haired_pointer is smaller than a n02093754-Border_terrier.",
+        "A n02100236-German_short-haired_pointer has a different coat pattern compared to a n02112350-keeshond.",
+        "A n02100236-German_short-haired_pointer looks more delicate than a n02113186-Cardigan."
+    ],
+    "n02100583-vizsla": [
+        "A n02100583-vizsla tends to have longer fur than a n02085936-Maltese_dog.",
+        "A n02100583-vizsla appears more slender than a n02096437-Dandie_Dinmont.",
+        "A n02100583-vizsla has a different coat pattern compared to a n02091244-Ibizan_hound."
+    ],
+    "n02100735-English_setter": [
+        "A n02100735-English_setter has a shorter muzzle than a n02094114-Norfolk_terrier.",
+        "A n02100735-English_setter is more muscular than a n02096177-cairn.",
+        "A n02100735-English_setter appears more slender than a n02108089-boxer."
+    ],
+    "n02100877-Irish_setter": [
+        "A n02100877-Irish_setter usually has a different body shape than a n02101006-Gordon_setter.",
+        "A n02100877-Irish_setter is smaller than a n02110627-affenpinscher.",
+        "A n02100877-Irish_setter is smaller than a n02091244-Ibizan_hound."
+    ],
+    "n02101006-Gordon_setter": [
+        "A n02101006-Gordon_setter has a different coat pattern compared to a n02096585-Boston_bull.",
+        "A n02101006-Gordon_setter looks more delicate than a n02106382-Bouvier_des_Flandres.",
+        "A n02101006-Gordon_setter has a shorter muzzle than a n02099712-Labrador_retriever."
+    ],
+    "n02101388-Brittany_spaniel": [
+        "A n02101388-Brittany_spaniel tends to have longer fur than a n02102480-Sussex_spaniel.",
+        "A n02101388-Brittany_spaniel is heavier and sturdier than a n02102177-Welsh_springer_spaniel.",
+        "A n02101388-Brittany_spaniel is heavier and sturdier than a n02099267-flat-coated_retriever."
+    ],
+    "n02101556-clumber": [
+        "A n02101556-clumber tends to have longer fur than a n02102318-cocker_spaniel.",
+        "A n02101556-clumber tends to have longer fur than a n02087394-Rhodesian_ridgeback.",
+        "A n02101556-clumber usually has a different body shape than a n02101388-Brittany_spaniel."
+    ],
+    "n02102040-English_springer": [
+        "A n02102040-English_springer is more muscular than a n02090721-Irish_wolfhound.",
+        "A n02102040-English_springer tends to have longer fur than a n02097658-silky_terrier.",
+        "A n02102040-English_springer is heavier and sturdier than a n02107312-miniature_pinscher."
+    ],
+    "n02102177-Welsh_springer_spaniel": [
+        "A n02102177-Welsh_springer_spaniel has a shorter muzzle than a n02106382-Bouvier_des_Flandres.",
+        "A n02102177-Welsh_springer_spaniel usually has a different body shape than a n02105251-briard.",
+        "A n02102177-Welsh_springer_spaniel has a shorter muzzle than a n02113023-Pembroke."
+    ],
+    "n02102318-cocker_spaniel": [
+        "A n02102318-cocker_spaniel usually has a different body shape than a n02105641-Old_English_sheepdog.",
+        "A n02102318-cocker_spaniel has a different coat pattern compared to a n02093256-Staffordshire_bullterrier.",
+        "A n02102318-cocker_spaniel is heavier and sturdier than a n02102480-Sussex_spaniel."
+    ],
+    "n02102480-Sussex_spaniel": [
+        "A n02102480-Sussex_spaniel has a different coat pattern compared to a n02101006-Gordon_setter.",
+        "A n02102480-Sussex_spaniel is heavier and sturdier than a n02089867-Walker_hound.",
+        "A n02102480-Sussex_spaniel is smaller than a n02093754-Border_terrier."
+    ],
+    "n02102973-Irish_water_spaniel": [
+        "A n02102973-Irish_water_spaniel is smaller than a n02096585-Boston_bull.",
+        "A n02102973-Irish_water_spaniel has a different coat pattern compared to a n02106550-Rottweiler.",
+        "A n02102973-Irish_water_spaniel tends to have longer fur than a n02107312-miniature_pinscher."
+    ],
+    "n02104029-kuvasz": [
+        "A n02104029-kuvasz is heavier and sturdier than a n02105505-komondor.",
+        "A n02104029-kuvasz has a shorter muzzle than a n02108915-French_bulldog.",
+        "A n02104029-kuvasz is more muscular than a n02093428-American_Staffordshire_terrier."
+    ],
+    "n02104365-schipperke": [
+        "A n02104365-schipperke looks more delicate than a n02097658-silky_terrier.",
+        "A n02104365-schipperke usually has a different body shape than a n02090622-borzoi.",
+        "A n02104365-schipperke has larger ears than a n02096177-cairn."
+    ],
+    "n02105056-groenendael": [
+        "A n02105056-groenendael has a different coat pattern compared to a n02102480-Sussex_spaniel.",
+        "A n02105056-groenendael usually has a different body shape than a n02098413-Lhasa.",
+        "A n02105056-groenendael has larger ears than a n02115641-dingo."
+    ],
+    "n02105162-malinois": [
+        "A n02105162-malinois has a different coat pattern compared to a n02100583-vizsla.",
+        "A n02105162-malinois is smaller than a n02091635-otterhound.",
+        "A n02105162-malinois tends to have longer fur than a n02096437-Dandie_Dinmont."
+    ],
+    "n02105251-briard": [
+        "A n02105251-briard appears more slender than a n02108915-French_bulldog.",
+        "A n02105251-briard is heavier and sturdier than a n02108551-Tibetan_mastiff.",
+        "A n02105251-briard usually has a different body shape than a n02105056-groenendael."
+    ],
+    "n02105412-kelpie": [
+        "A n02105412-kelpie usually has a different body shape than a n02091134-whippet.",
+        "A n02105412-kelpie has larger ears than a n02113624-toy_poodle.",
+        "A n02105412-kelpie looks more delicate than a n02098286-West_Highland_white_terrier."
+    ],
+    "n02105505-komondor": [
+        "A n02105505-komondor is heavier and sturdier than a n02091635-otterhound.",
+        "A n02105505-komondor has a shorter muzzle than a n02100877-Irish_setter.",
+        "A n02105505-komondor is smaller than a n02097474-Tibetan_terrier."
+    ],
+    "n02105641-Old_English_sheepdog": [
+        "A n02105641-Old_English_sheepdog is smaller than a n02095570-Lakeland_terrier.",
+        "A n02105641-Old_English_sheepdog tends to have longer fur than a n02108000-EntleBucher.",
+        "A n02105641-Old_English_sheepdog tends to have longer fur than a n02112018-Pomeranian."
+    ],
+    "n02105855-Shetland_sheepdog": [
+        "A n02105855-Shetland_sheepdog has a shorter muzzle than a n02102480-Sussex_spaniel.",
+        "A n02105855-Shetland_sheepdog usually has a different body shape than a n02093859-Kerry_blue_terrier.",
+        "A n02105855-Shetland_sheepdog appears more slender than a n02111500-Great_Pyrenees."
+    ],
+    "n02106030-collie": [
+        "A n02106030-collie is smaller than a n02112706-Brabancon_griffon.",
+        "A n02106030-collie appears more slender than a n02088238-basset.",
+        "A n02106030-collie usually has a different body shape than a n02098105-soft-coated_wheaten_terrier."
+    ],
+    "n02106166-Border_collie": [
+        "A n02106166-Border_collie usually has a different body shape than a n02093256-Staffordshire_bullterrier.",
+        "A n02106166-Border_collie has larger ears than a n02106382-Bouvier_des_Flandres.",
+        "A n02106166-Border_collie has a different coat pattern compared to a n02110627-affenpinscher."
+    ],
+    "n02106382-Bouvier_des_Flandres": [
+        "A n02106382-Bouvier_des_Flandres is smaller than a n02096437-Dandie_Dinmont.",
+        "A n02106382-Bouvier_des_Flandres usually has a different body shape than a n02116738-African_hunting_dog.",
+        "A n02106382-Bouvier_des_Flandres is smaller than a n02108089-boxer."
+    ],
+    "n02106550-Rottweiler": [
+        "A n02106550-Rottweiler is more muscular than a n02096585-Boston_bull.",
+        "A n02106550-Rottweiler is smaller than a n02112018-Pomeranian.",
+        "A n02106550-Rottweiler has a shorter muzzle than a n02086910-papillon."
+    ],
+    "n02106662-German_shepherd": [
+        "A n02106662-German_shepherd has larger ears than a n02108000-EntleBucher.",
+        "A n02106662-German_shepherd is heavier and sturdier than a n02091467-Norwegian_elkhound.",
+        "A n02106662-German_shepherd appears more slender than a n02086646-Blenheim_spaniel."
+    ],
+    "n02107142-Doberman": [
+        "A n02107142-Doberman is more muscular than a n02093859-Kerry_blue_terrier.",
+        "A n02107142-Doberman is more muscular than a n02108089-boxer.",
+        "A n02107142-Doberman is heavier and sturdier than a n02090379-redbone."
+    ],
+    "n02107312-miniature_pinscher": [
+        "A n02107312-miniature_pinscher has larger ears than a n02111129-Leonberg.",
+        "A n02107312-miniature_pinscher has larger ears than a n02105412-kelpie.",
+        "A n02107312-miniature_pinscher has larger ears than a n02111277-Newfoundland."
+    ],
+    "n02107574-Greater_Swiss_Mountain_dog": [
+        "A n02107574-Greater_Swiss_Mountain_dog has a shorter muzzle than a n02097130-giant_schnauzer.",
+        "A n02107574-Greater_Swiss_Mountain_dog has a shorter muzzle than a n02087046-toy_terrier.",
+        "A n02107574-Greater_Swiss_Mountain_dog usually has a different body shape than a n02093859-Kerry_blue_terrier."
+    ],
+    "n02107683-Bernese_mountain_dog": [
+        "A n02107683-Bernese_mountain_dog usually has a different body shape than a n02106662-German_shepherd.",
+        "A n02107683-Bernese_mountain_dog tends to have longer fur than a n02097298-Scotch_terrier.",
+        "A n02107683-Bernese_mountain_dog has larger ears than a n02097130-giant_schnauzer."
+    ],
+    "n02107908-Appenzeller": [
+        "A n02107908-Appenzeller usually has a different body shape than a n02093428-American_Staffordshire_terrier.",
+        "A n02107908-Appenzeller is more muscular than a n02090622-borzoi.",
+        "A n02107908-Appenzeller usually has a different body shape than a n02093991-Irish_terrier."
+    ],
+    "n02108000-EntleBucher": [
+        "A n02108000-EntleBucher usually has a different body shape than a n02107908-Appenzeller.",
+        "A n02108000-EntleBucher tends to have longer fur than a n02108915-French_bulldog.",
+        "A n02108000-EntleBucher is smaller than a n02110627-affenpinscher."
+    ],
+    "n02108089-boxer": [
+        "A n02108089-boxer is smaller than a n02094258-Norwich_terrier.",
+        "A n02108089-boxer usually has a different body shape than a n02104365-schipperke.",
+        "A n02108089-boxer tends to have longer fur than a n02093754-Border_terrier."
+    ],
+    "n02108422-bull_mastiff": [
+        "A n02108422-bull_mastiff has a shorter muzzle than a n02102480-Sussex_spaniel.",
+        "A n02108422-bull_mastiff is heavier and sturdier than a n02102040-English_springer.",
+        "A n02108422-bull_mastiff has a different coat pattern compared to a n02092002-Scottish_deerhound."
+    ],
+    "n02108551-Tibetan_mastiff": [
+        "A n02108551-Tibetan_mastiff is heavier and sturdier than a n02107142-Doberman.",
+        "A n02108551-Tibetan_mastiff is more muscular than a n02092002-Scottish_deerhound.",
+        "A n02108551-Tibetan_mastiff has larger ears than a n02099601-golden_retriever."
+    ],
+    "n02108915-French_bulldog": [
+        "A n02108915-French_bulldog is smaller than a n02113624-toy_poodle.",
+        "A n02108915-French_bulldog is heavier and sturdier than a n02097047-miniature_schnauzer.",
+        "A n02108915-French_bulldog is heavier and sturdier than a n02091831-Saluki."
+    ],
+    "n02109047-Great_Dane": [
+        "A n02109047-Great_Dane looks more delicate than a n02097298-Scotch_terrier.",
+        "A n02109047-Great_Dane is more muscular than a n02096437-Dandie_Dinmont.",
+        "A n02109047-Great_Dane is heavier and sturdier than a n02111889-Samoyed."
+    ],
+    "n02109525-Saint_Bernard": [
+        "A n02109525-Saint_Bernard appears more slender than a n02086240-Shih-Tzu.",
+        "A n02109525-Saint_Bernard usually has a different body shape than a n02110063-malamute.",
+        "A n02109525-Saint_Bernard tends to have longer fur than a n02104365-schipperke."
+    ],
+    "n02109961-Eskimo_dog": [
+        "A n02109961-Eskimo_dog is smaller than a n02096294-Australian_terrier.",
+        "A n02109961-Eskimo_dog is more muscular than a n02106166-Border_collie.",
+        "A n02109961-Eskimo_dog looks more delicate than a n02092002-Scottish_deerhound."
+    ],
+    "n02110063-malamute": [
+        "A n02110063-malamute is smaller than a n02090622-borzoi.",
+        "A n02110063-malamute usually has a different body shape than a n02091244-Ibizan_hound.",
+        "A n02110063-malamute is smaller than a n02097298-Scotch_terrier."
+    ],
+    "n02110185-Siberian_husky": [
+        "A n02110185-Siberian_husky has larger ears than a n02106030-collie.",
+        "A n02110185-Siberian_husky has larger ears than a n02095889-Sealyham_terrier.",
+        "A n02110185-Siberian_husky appears more slender than a n02106166-Border_collie."
+    ],
+    "n02110627-affenpinscher": [
+        "A n02110627-affenpinscher appears more slender than a n02111500-Great_Pyrenees.",
+        "A n02110627-affenpinscher is more muscular than a n02099267-flat-coated_retriever.",
+        "A n02110627-affenpinscher has a different coat pattern compared to a n02101556-clumber."
+    ],
+    "n02110806-basenji": [
+        "A n02110806-basenji is heavier and sturdier than a n02105251-briard.",
+        "A n02110806-basenji has a shorter muzzle than a n02096177-cairn.",
+        "A n02110806-basenji appears more slender than a n02107312-miniature_pinscher."
+    ],
+    "n02110958-pug": [
+        "A n02110958-pug is more muscular than a n02096437-Dandie_Dinmont.",
+        "A n02110958-pug has a shorter muzzle than a n02094433-Yorkshire_terrier.",
+        "A n02110958-pug looks more delicate than a n02109525-Saint_Bernard."
+    ],
+    "n02111129-Leonberg": [
+        "A n02111129-Leonberg has larger ears than a n02108915-French_bulldog.",
+        "A n02111129-Leonberg is heavier and sturdier than a n02109047-Great_Dane.",
+        "A n02111129-Leonberg is more muscular than a n02094258-Norwich_terrier."
+    ],
+    "n02111277-Newfoundland": [
+        "A n02111277-Newfoundland has larger ears than a n02112706-Brabancon_griffon.",
+        "A n02111277-Newfoundland usually has a different body shape than a n02095889-Sealyham_terrier.",
+        "A n02111277-Newfoundland is smaller than a n02108551-Tibetan_mastiff."
+    ],
+    "n02111500-Great_Pyrenees": [
+        "A n02111500-Great_Pyrenees has a shorter muzzle than a n02095889-Sealyham_terrier.",
+        "A n02111500-Great_Pyrenees looks more delicate than a n02110806-basenji.",
+        "A n02111500-Great_Pyrenees looks more delicate than a n02089867-Walker_hound."
+    ],
+    "n02111889-Samoyed": [
+        "A n02111889-Samoyed has a different coat pattern compared to a n02107908-Appenzeller.",
+        "A n02111889-Samoyed usually has a different body shape than a n02106550-Rottweiler.",
+        "A n02111889-Samoyed has larger ears than a n02090622-borzoi."
+    ],
+    "n02112018-Pomeranian": [
+        "A n02112018-Pomeranian is heavier and sturdier than a n02102177-Welsh_springer_spaniel.",
+        "A n02112018-Pomeranian has a shorter muzzle than a n02106382-Bouvier_des_Flandres.",
+        "A n02112018-Pomeranian has larger ears than a n02099601-golden_retriever."
+    ],
+    "n02112137-chow": [
+        "A n02112137-chow has a shorter muzzle than a n02105056-groenendael.",
+        "A n02112137-chow looks more delicate than a n02113186-Cardigan.",
+        "A n02112137-chow usually has a different body shape than a n02105162-malinois."
+    ],
+    "n02112350-keeshond": [
+        "A n02112350-keeshond looks more delicate than a n02115641-dingo.",
+        "A n02112350-keeshond usually has a different body shape than a n02109961-Eskimo_dog.",
+        "A n02112350-keeshond has a shorter muzzle than a n02085782-Japanese_spaniel."
+    ],
+    "n02112706-Brabancon_griffon": [
+        "A n02112706-Brabancon_griffon tends to have longer fur than a n02104029-kuvasz.",
+        "A n02112706-Brabancon_griffon tends to have longer fur than a n02111889-Samoyed.",
+        "A n02112706-Brabancon_griffon is more muscular than a n02102973-Irish_water_spaniel."
+    ],
+    "n02113023-Pembroke": [
+        "A n02113023-Pembroke has larger ears than a n02108089-boxer.",
+        "A n02113023-Pembroke looks more delicate than a n02090379-redbone.",
+        "A n02113023-Pembroke is smaller than a n02101388-Brittany_spaniel."
+    ],
+    "n02113186-Cardigan": [
+        "A n02113186-Cardigan is smaller than a n02100735-English_setter.",
+        "A n02113186-Cardigan usually has a different body shape than a n02088364-beagle.",
+        "A n02113186-Cardigan is heavier and sturdier than a n02087046-toy_terrier."
+    ],
+    "n02113624-toy_poodle": [
+        "A n02113624-toy_poodle has a different coat pattern compared to a n02110958-pug.",
+        "A n02113624-toy_poodle is smaller than a n02086910-papillon.",
+        "A n02113624-toy_poodle is smaller than a n02105056-groenendael."
+    ],
+    "n02113712-miniature_poodle": [
+        "A n02113712-miniature_poodle has a shorter muzzle than a n02097130-giant_schnauzer.",
+        "A n02113712-miniature_poodle is heavier and sturdier than a n02105251-briard.",
+        "A n02113712-miniature_poodle is smaller than a n02102177-Welsh_springer_spaniel."
+    ],
+    "n02113799-standard_poodle": [
+        "A n02113799-standard_poodle has a different coat pattern compared to a n02086910-papillon.",
+        "A n02113799-standard_poodle has a different coat pattern compared to a n02088364-beagle.",
+        "A n02113799-standard_poodle has larger ears than a n02110627-affenpinscher."
+    ],
+    "n02113978-Mexican_hairless": [
+        "A n02113978-Mexican_hairless is more muscular than a n02093859-Kerry_blue_terrier.",
+        "A n02113978-Mexican_hairless is heavier and sturdier than a n02112137-chow.",
+        "A n02113978-Mexican_hairless has a shorter muzzle than a n02109525-Saint_Bernard."
+    ],
+    "n02115641-dingo": [
+        "A n02115641-dingo has a different coat pattern compared to a n02107312-miniature_pinscher.",
+        "A n02115641-dingo is heavier and sturdier than a n02088466-bloodhound.",
+        "A n02115641-dingo looks more delicate than a n02105056-groenendael."
+    ],
+    "n02115913-dhole": [
+        "A n02115913-dhole has larger ears than a n02099429-curly-coated_retriever.",
+        "A n02115913-dhole has a different coat pattern compared to a n02088364-beagle.",
+        "A n02115913-dhole is more muscular than a n02100735-English_setter."
+    ],
+    "n02116738-African_hunting_dog": [
+        "A n02116738-African_hunting_dog tends to have longer fur than a n02100236-German_short-haired_pointer.",
+        "A n02116738-African_hunting_dog has a shorter muzzle than a n02087394-Rhodesian_ridgeback.",
+        "A n02116738-African_hunting_dog tends to have longer fur than a n02105162-malinois."
+    ]
+}

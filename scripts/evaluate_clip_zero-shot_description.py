@@ -41,7 +41,7 @@ DATASETS = load_datasets_from_summary(SUMMARY_PATH)
 
 MODEL_NAME = "ViT-B/32"  # Modelo CLIP do OpenAI
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-RESULTS_DIR = path_string + "results_zero_shot_description"
+RESULTS_DIR = path_string +"results_zero_shot_description"
 
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
@@ -51,7 +51,7 @@ os.makedirs(RESULTS_DIR, exist_ok=True)
 
 def load_descriptions(dataset_name):
     """Carrega descriptions do dataset"""
-    path = os.path.join("descriptors", f"{dataset_name}_descriptors.json")
+    path = os.path.join("descriptors", f"{dataset_name}_descriptors_comparative.json")
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 

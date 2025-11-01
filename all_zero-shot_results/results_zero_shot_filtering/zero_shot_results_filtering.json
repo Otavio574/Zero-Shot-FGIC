@@ -1,0 +1,14 @@
+{
+    "model": "ViT-B/32",
+    "method": "comparative filtering",
+    "similarity_threshold": 0.7,
+    "total_datasets": 1,
+    "results": {
+        "Stanford_Dogs": {
+            "accuracy": 0.4791413527744026,
+            "num_classes_original": 28,
+            "num_classes_filtered": 13,
+            "num_images": 2469
+        }
+    }
+}
