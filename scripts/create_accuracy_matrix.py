@@ -3,15 +3,15 @@ import pandas as pd
 from pathlib import Path
 
 # Caminho onde estão todos os resultados
-RESULTS_DIR = Path("results_zero_shot")
+RESULTS_DIR = Path("all_zero-shot_results")
 
 # Nome dos modelos/variantes a comparar (ajuste conforme seus arquivos)
 MODELS = {
-    "clip_baseline": "zero_shot_results.json",
-    "clip_description": "zero_shot_results_description.json",
-    "clip_comparative": "zero_shot_results_comparative.json",
-    "clip_comparative_filtering": "zero_shot_results_comparative_filtering.json",
-    "clip_waffle": "zero_shot_results_waffle.json",
+    "clip_baseline": "results_zero_shot_baseline/zero_shot_results.json",
+    "clip_description": "results_zero_shot_description/zero_shot_results_description.json",
+    "clip_comparative": "results_zero_shot_comparative/zero_shot_results_comparative.json",
+    "clip_comparative_filtering": "results_zero_shot_comparative_filtering/zero_shot_results_filtering.json",
+    "clip_waffle": "results_zero_shot_waffle/zero_shot_results_waffle.json",
 }
 
 # Dicionário geral para acumular resultados

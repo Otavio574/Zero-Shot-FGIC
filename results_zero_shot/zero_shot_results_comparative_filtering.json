@@ -1,0 +1,13 @@
+{
+  "model": "ViT-B/32",
+  "results": {
+    "annotations": {
+      "accuracy": 0,
+      "num_images": 0
+    },
+    "images": {
+      "accuracy": 0,
+      "num_images": 0
+    }
+  }
+}

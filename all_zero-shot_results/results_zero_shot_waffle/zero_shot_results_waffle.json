@@ -1,0 +1,14 @@
+{
+    "model": "openai/clip-vit-base-patch32",
+    "total_datasets": 1,
+    "successful": 1,
+    "failed": 0,
+    "results": {
+        "Stanford_Dogs": {
+            "accuracy": 0.5,
+            "num_classes": 28,
+            "num_images": 5000,
+            "confusion_matrix_plot": "all_zero-shot_results/results_zero_shot_waffle\\Stanford_Dogs_cm.png"
+        }
+    }
+}

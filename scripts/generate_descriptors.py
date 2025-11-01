@@ -87,42 +87,72 @@ class CLIPDescriptorGenerator:
         
         return self.descriptions[best_idx]
     
-    def process_dataset(self, 
-                       image_paths: List[str],
-                       output_path: str,
-                       max_images: Optional[int] = None) -> Dict[str, str]:
+    def process_dataset_by_class(self, 
+                                 dataset_path: str,
+                                 output_path: str,
+                                 max_images_per_class: Optional[int] = None) -> Dict[str, str]:
         """
-        Processa dataset e retorna dicionário {filename: description}
+        Processa dataset ORGANIZADO POR CLASSES e gera UM descriptor por classe.
+        
+        Estrutura esperada:
+        dataset_path/
+        ├── n02085620-Chihuahua/
+        │   ├── img1.jpg
+        │   ├── img2.jpg
+        └── n02085782-Japanese_spaniel/
+            ├── img1.jpg
+            └── img2.jpg
         
         Args:
-            image_paths: Lista de caminhos completos das imagens
+            dataset_path: Pasta raiz do dataset
             output_path: Onde salvar o JSON
-            max_images: Limitar número de imagens (None = todas)
+            max_images_per_class: Número de imagens para samplear por classe
             
         Returns:
-            Dicionário com {filename: description}
+            Dicionário com {class_folder: description}
         """
-        if max_images:
-            image_paths = image_paths[:max_images]
+        dataset_path = Path(dataset_path)
+        
+        # Encontra todas as subpastas (classes)
+        class_folders = [d for d in dataset_path.iterdir() if d.is_dir()]
+        
+        if not class_folders:
+            print(f"⚠️  Nenhuma pasta de classe encontrada em {dataset_path}")
+            return {}
+        
+        print(f"\n🎨 Processando dataset por classes...")
+        print(f"   Classes encontradas: {len(class_folders)}")
         
         descriptors = {}
         failed = []
         
-        print(f"\n🎨 Gerando descrições para {len(image_paths)} imagens...")
-        
-        for img_path in tqdm(image_paths, desc="Processando"):
+        for class_folder in tqdm(class_folders, desc="Processando classes"):
             try:
-                # Pega apenas o nome do arquivo (sem path)
-                filename = os.path.basename(img_path)
+                class_name = class_folder.name
                 
-                # Gera descrição
-                description = self.describe_image(img_path)
+                # Coleta imagens da classe
+                image_paths = []
+                for ext in ['.jpg', '.jpeg', '.png', '.JPG', '.JPEG', '.PNG']:
+                    image_paths.extend(class_folder.glob(f'*{ext}'))
                 
-                descriptors[filename] = description
+                if not image_paths:
+                    print(f"\n⚠️  Nenhuma imagem em {class_name}")
+                    continue
+                
+                # Limita número de imagens se necessário
+                if max_images_per_class:
+                    image_paths = image_paths[:max_images_per_class]
+                
+                # Gera descrição para a PRIMEIRA imagem da classe (representativa)
+                representative_image = str(image_paths[0])
+                description = self.describe_image(representative_image)
+                
+                # Salva com o nome da CLASSE, não da imagem
+                descriptors[class_name] = description
                 
             except Exception as e:
-                failed.append({"path": img_path, "error": str(e)})
-                print(f"\n❌ Erro em {img_path}: {e}")
+                failed.append({"class": class_folder.name, "error": str(e)})
+                print(f"\n❌ Erro em {class_folder.name}: {e}")
         
         # Salva JSON
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -130,7 +160,7 @@ class CLIPDescriptorGenerator:
             json.dump(descriptors, f, indent=2, ensure_ascii=False)
         
         print(f"\n✅ Concluído!")
-        print(f"   Sucessos: {len(descriptors)}")
+        print(f"   Classes processadas: {len(descriptors)}")
         print(f"   Falhas: {len(failed)}")
         print(f"   Salvo em: {output_path}")
         
@@ -184,24 +214,22 @@ def load_datasets_from_summary(summary_path: str) -> Dict[str, str]:
     return datasets_config
 
 
-def load_image_paths_from_folder(folder_path: str, extensions: tuple = ('.jpg', '.jpeg', '.png')) -> List[str]:
-    """Carrega todos os paths de imagens de uma pasta"""
-    folder = Path(folder_path)
-    image_paths = []
-    
-    for ext in extensions:
-        image_paths.extend(folder.rglob(f'*{ext}'))
-        image_paths.extend(folder.rglob(f'*{ext.upper()}'))
-    
-    return [str(p) for p in sorted(image_paths)]
-
-
 def get_concepts_for_dataset(dataset_name: str) -> List[str]:
     """Retorna conceitos apropriados para cada dataset"""
     
     concepts_map = {
+        # Dogs
+        "Stanford_Dogs": [
+            "dog", "canine", "puppy", "pet", "domestic dog", "breed",
+            "retriever", "labrador", "golden retriever", "german shepherd",
+            "bulldog", "poodle", "beagle", "chihuahua", "husky", "corgi",
+            "terrier", "spaniel", "setter", "pointer", "hound", "mastiff",
+            "schnauzer", "boxer", "dalmatian", "dachshund", "pug",
+            "shih tzu", "maltese", "pekingese", "japanese chin",
+        ],
+        
         # Birds
-        "CUB-200-2011": [
+        "CUB_200_2011": [
             "bird", "avian", "songbird", "waterfowl", "raptor", "seabird",
             "warbler", "sparrow", "finch", "thrush", "wren", "robin",
             "cardinal", "jay", "crow", "raven", "blackbird", "oriole",
@@ -210,46 +238,17 @@ def get_concepts_for_dataset(dataset_name: str) -> List[str]:
             "duck", "goose", "swan", "heron", "egret", "pelican",
             "gull", "tern", "sandpiper", "plover", "grebe",
         ],
-        "Birdsnap": [
-            "bird", "avian", "songbird", "perching bird", "flying bird",
-            "sparrow", "finch", "warbler", "thrush", "wren", "chickadee",
-            "titmouse", "nuthatch", "creeper", "cardinal", "grosbeak",
-            "bunting", "tanager", "oriole", "blackbird", "grackle",
-        ],
-        
-        # Dogs
-        "Stanford Dogs": [
-            "dog", "canine", "puppy", "pet", "domestic dog", "breed",
-            "retriever", "labrador", "golden retriever", "german shepherd",
-            "bulldog", "poodle", "beagle", "chihuahua", "husky", "corgi",
-            "terrier", "spaniel", "setter", "pointer", "hound", "mastiff",
-            "schnauzer", "boxer", "dalmatian", "dachshund", "pug",
-        ],
-        
-        # Pets (dogs + cats)
-        "Oxford-IIIT Pets": [
-            "pet", "domestic animal", "companion animal",
-            "dog", "canine", "puppy", "breed dog",
-            "cat", "feline", "kitten", "tabby cat", "persian cat",
-            "british shorthair", "siamese cat", "maine coon",
-            "pomeranian", "yorkshire terrier", "shiba inu", "samoyed",
-        ],
         
         # Cars
-        "Stanford Cars": [
+        "Stanford_Cars": [
             "car", "automobile", "vehicle", "sedan", "coupe", "suv",
             "convertible", "hatchback", "wagon", "sports car", "luxury car",
             "compact car", "minivan", "pickup truck", "crossover",
             "bmw", "mercedes", "audi", "toyota", "honda", "ford",
         ],
-        "CompCars": [
-            "car", "vehicle", "automobile", "motor vehicle", "sedan",
-            "suv", "hatchback", "coupe", "convertible", "sports car",
-            "luxury vehicle", "compact car", "family car", "truck",
-        ],
         
         # Aircraft
-        "FGVC Aircraft": [
+        "FGVC_Aircraft": [
             "aircraft", "airplane", "plane", "jet", "airliner", "fighter",
             "boeing", "airbus", "cessna", "commercial aircraft", "military aircraft",
             "passenger plane", "cargo plane", "propeller plane", "biplane",
@@ -257,66 +256,32 @@ def get_concepts_for_dataset(dataset_name: str) -> List[str]:
         ],
         
         # Flowers
-        "Oxford Flowers 102": [
+        "Oxford_Flowers_102": [
             "flower", "bloom", "blossom", "petal", "floral", "plant",
             "rose", "tulip", "daisy", "sunflower", "lily", "orchid",
             "carnation", "iris", "daffodil", "poppy", "peony", "dahlia",
             "hibiscus", "marigold", "chrysanthemum", "lavender",
         ],
         
-        # Leaves
-        "Flavia Leaves": [
-            "leaf", "foliage", "plant leaf", "tree leaf", "botanical",
-            "maple leaf", "oak leaf", "birch leaf", "elm leaf",
-            "green leaf", "autumn leaf", "veined leaf", "serrated leaf",
-        ],
-        
         # Food
-        "Food-101": [
+        "Food_101": [
             "food", "meal", "dish", "cuisine", "plate", "dessert", "snack",
             "pizza", "burger", "hamburger", "sushi", "pasta", "salad",
             "steak", "chicken", "fish", "soup", "sandwich", "taco",
             "cake", "ice cream", "pie", "cookie", "donut", "bread",
-            "rice", "noodles", "curry", "fries", "pancake", "waffle",
-        ],
-        
-        # Nature/Wildlife
-        "iNaturalist19": [
-            "animal", "plant", "organism", "wildlife", "nature", "species",
-            "mammal", "bird", "reptile", "amphibian", "fish", "insect",
-            "arachnid", "mollusk", "fungi", "mushroom", "lichen",
-            "tree", "flower", "grass", "fern", "moss", "algae",
-        ],
-        
-        # Insects - Butterflies
-        "Butterfly MNIST": [
-            "butterfly", "moth", "insect", "lepidoptera", "winged insect",
-            "monarch butterfly", "swallowtail", "admiral", "fritillary",
-            "painted lady", "blue butterfly", "skipper", "hairstreak",
-        ],
-        
-        # Insects - Bees
-        "Bee Images Dataset": [
-            "bee", "honeybee", "bumblebee", "insect", "pollinator",
-            "worker bee", "queen bee", "drone bee", "flying insect",
-            "buzzing insect", "apis mellifera", "hymenoptera",
-        ],
-        
-        # Fish
-        "Fish Recognition (Kaggle)": [
-            "fish", "aquatic animal", "marine life", "seafood", "underwater animal",
-            "salmon", "tuna", "trout", "bass", "carp", "catfish",
-            "goldfish", "shark", "ray", "eel", "mackerel", "herring",
-            "cod", "snapper", "grouper", "perch", "pike", "tilapia",
         ],
     }
     
-    # Tenta encontrar o dataset (case-insensitive e com flexibilidade)
-    dataset_normalized = dataset_name.lower().replace("-", " ").replace("_", " ")
+    # Normaliza nome do dataset para matching
+    dataset_normalized = dataset_name.replace("-", "_")
     
+    # Tenta match exato primeiro
+    if dataset_normalized in concepts_map:
+        return concepts_map[dataset_normalized]
+    
+    # Tenta match parcial
     for key, concepts in concepts_map.items():
-        key_normalized = key.lower().replace("-", " ").replace("_", " ")
-        if key_normalized in dataset_normalized or dataset_normalized in key_normalized:
+        if key.lower() in dataset_normalized.lower() or dataset_normalized.lower() in key.lower():
             return concepts
     
     # Fallback: conceitos genéricos
@@ -324,30 +289,24 @@ def get_concepts_for_dataset(dataset_name: str) -> List[str]:
     return [
         "object", "animal", "plant", "vehicle", "food", "tool",
         "bird", "dog", "cat", "fish", "insect", "flower", "tree",
-        "car", "airplane", "building", "furniture", "person",
+        "car", "airplane", "building", "furniture", "item",
     ]
 
 
 def generate_descriptors_for_datasets(
     datasets_config: Dict[str, str],
     output_dir: str = "descriptors",
-    max_images: Optional[int] = None,
+    max_images_per_class: Optional[int] = 1,
     clip_model: str = "ViT-B/32"
 ):
     """
-    Gera descriptors para múltiplos datasets.
+    Gera descriptors para múltiplos datasets (UM descriptor por CLASSE).
     
     Args:
         datasets_config: Dict com {nome_dataset: pasta_das_imagens}
         output_dir: Pasta onde salvar os JSONs
-        max_images: Limite por dataset (None = todas)
+        max_images_per_class: Número de imagens por classe (1 = apenas representativa)
         clip_model: Modelo CLIP a usar
-    
-    Exemplo:
-        datasets = {
-            "Stanford_Dogs": "/path/to/stanford_dogs",
-            "CUB-200": "/path/to/cub200",
-        }
     """
     
     # Inicializa gerador
@@ -357,7 +316,7 @@ def generate_descriptors_for_datasets(
     os.makedirs(output_dir, exist_ok=True)
     
     print(f"\n{'='*60}")
-    print(f"🚀 Iniciando geração de descriptors")
+    print(f"🚀 Iniciando geração de descriptors POR CLASSE")
     print(f"📊 Datasets: {len(datasets_config)}")
     print(f"🔧 Modelo: {clip_model}")
     print(f"📁 Output: {output_dir}")
@@ -367,24 +326,16 @@ def generate_descriptors_for_datasets(
         print(f"\n{'='*60}")
         print(f"📁 Dataset: {dataset_name}")
         
-        # Carrega imagens
-        image_paths = load_image_paths_from_folder(dataset_path)
-        print(f"🖼️  Imagens encontradas: {len(image_paths)}")
-        
-        if not image_paths:
-            print(f"⚠️  Nenhuma imagem encontrada em {dataset_path}")
-            continue
-        
         # Prepara descrições específicas para o dataset
         concepts = get_concepts_for_dataset(dataset_name)
         generator.prepare_descriptions(concepts)
         
-        # Processa
+        # Processa dataset por classes
         output_path = os.path.join(output_dir, f"{dataset_name}_descriptors.json")
-        generator.process_dataset(
-            image_paths=image_paths,
+        generator.process_dataset_by_class(
+            dataset_path=dataset_path,
             output_path=output_path,
-            max_images=max_images
+            max_images_per_class=max_images_per_class
         )
     
     print(f"\n{'='*60}")
@@ -401,26 +352,20 @@ if __name__ == "__main__":
     SUMMARY_PATH = Path("outputs/analysis/summary.json")
     OUTPUT_DIR = "descriptors"
     
-    # Opção 1: Carregar automaticamente do summary
+    # Carrega datasets do summary
     datasets = load_datasets_from_summary(str(SUMMARY_PATH))
     
-    # Opção 2: Configuração manual (caso necessário)
-    # datasets = {
-    #     "Stanford_Dogs": "datasets/Stanford_Dogs",
-    #     "CUB-200-2011": "datasets/CUB_200_2011",
-    # }
-    
-    # Gera descriptors
+    # Gera descriptors (UM por CLASSE)
     generate_descriptors_for_datasets(
         datasets_config=datasets,
         output_dir=OUTPUT_DIR,
-        max_images=100,  # None para processar todas as imagens
-        clip_model="ViT-B/32"  # ou "ViT-L/14" para melhor qualidade
+        max_images_per_class=1,  # Usa apenas 1 imagem representativa por classe
+        clip_model="ViT-B/32"
     )
     
     print("\n🎉 Descriptors prontos para uso no zero-shot!")
-    
-    # Exemplo de como carregar depois:
-    # with open("descriptors/Bee_Images_Dataset.json", "r") as f:
-    #     descriptors = json.load(f)
-    #     print(descriptors["bee_001.jpg"])
+    print("\n💡 Formato do JSON gerado:")
+    print("   {")
+    print('     "n02085620-Chihuahua": "a photo of a small dog",')
+    print('     "n02085782-Japanese_spaniel": "a close-up photo of a dog"')
+    print("   }")

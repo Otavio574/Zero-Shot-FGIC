@@ -1,0 +1,15 @@
+{
+    "model": "ViT-B/32",
+    "method": "CLIP with descriptions",
+    "total_datasets": 1,
+    "successful": 1,
+    "failed": 0,
+    "results": {
+        "Stanford_Dogs": {
+            "accuracy": 0.4994,
+            "num_classes": 28,
+            "num_images": 5000,
+            "confusion_matrix_plot": "all_zero-shot_results/results_zero_shot_description\\Stanford_Dogs_cm.png"
+        }
+    }
+}
