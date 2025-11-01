@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-def summarize_results(path="zero_shot_results.json"):
+def summarize_results(path="./results_zero_shot/zero_shot_results.json"):
     path = Path(path)
     if not path.exists():
         print(f"❌ Arquivo {path} não encontrado.")

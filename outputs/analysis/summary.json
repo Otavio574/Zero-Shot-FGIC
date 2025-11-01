@@ -1,0 +1,9 @@
+[
+  {
+    "dataset": "Stanford_Dogs",
+    "num_images": 5129,
+    "avg_width": 460.59,
+    "avg_height": 372.73,
+    "path": "datasets\\Stanford_Dogs"
+  }
+]

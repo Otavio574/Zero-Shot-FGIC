@@ -1,0 +1,64 @@
+{
+  "datasets": [
+    {
+      "name": "Bee_Images_Dataset",
+      "path": "./datasets/Bee_Images_Dataset"
+    },
+    {
+      "name": "Birdsnap",
+      "path": "./datasets/Birdsnap"
+    },
+    {
+      "name": "Butterfly_Dataset",
+      "path": "./datasets/Butterfly_Dataset"
+    },
+    {
+      "name": "CompCars",
+      "path": "./datasets/CompCars"
+    },
+    {
+      "name": "CUB_200_2011",
+      "path": "./datasets/CUB_200_2011"
+    },
+    {
+      "name": "Dental_Xray",
+      "path": "./datasets/Dental X-ray"
+    },
+    {
+      "name": "FGVC_Aircraft",
+      "path": "./datasets/FGVC Aircraft"
+    },
+    {
+      "name": "Fish_Dataset",
+      "path": "./datasets/Fish_Dataset"
+    },
+    {
+      "name": "Flavia_Leaves",
+      "path": "./datasets/Flavia Leaves"
+    },
+    {
+      "name": "Food_101",
+      "path": "./datasets/Food-101"
+    },
+    {
+      "name": "NA_Fish_Dataset",
+      "path": "./datasets/NA_Fish_Dataset"
+    },
+    {
+      "name": "Oxford_Flowers_102",
+      "path": "./datasets/Oxford_Flowers_102"
+    },
+    {
+      "name": "Oxford_IIIT_Pets",
+      "path": "./datasets/Oxford-IIIT Pets"
+    },
+    {
+      "name": "Stanford_Cars",
+      "path": "./datasets/Stanford Cars"
+    },
+    {
+      "name": "Stanford_Dogs",
+      "path": "./datasets/Stanford_Dogs"
+    }
+  ]
+}

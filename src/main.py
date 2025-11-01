@@ -1,11 +1,11 @@
 # src/main.py
 import argparse
 import os
-from src.load_data import list_image_paths, build_class_names
-from src.generate_prompts import make_prompts_for_all, DEFAULT_TEMPLATES
-from src.inference_siglip import SigLIPZeroShot, device
-from src.inference_clip import CLIPZeroShot, device
-from src.evaluate import compute_topk_from_similarities, save_predictions_csv
+from load_data import list_image_paths, build_class_names
+from generate_prompts import make_prompts_for_all, DEFAULT_TEMPLATES
+from inference_siglip import SigLIPZeroShot, device
+from inference_clip import CLIPZeroShot, device
+from evaluate import compute_topk_from_similarities, save_predictions_csv
 from tqdm import tqdm
 
 def run_pipeline(dataset_root: str, out_csv: str, model_name: str = "openai/clip-vit-base-patch32",

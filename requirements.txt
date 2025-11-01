@@ -5,3 +5,5 @@ tqdm
 pandas
 Pillow
 numpy
+matplotlib
+

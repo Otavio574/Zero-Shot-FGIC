@@ -1,11 +1,3 @@
-"""
-Gera descrições de imagens usando CLIP e salva em formato simples:
-{
-  "image_001.jpg": "description of the image",
-  "image_002.jpg": "another description"
-}
-"""
-
 import json
 import os
 from pathlib import Path
@@ -152,6 +144,46 @@ class CLIPDescriptorGenerator:
         return descriptors
 
 
+def load_datasets_from_summary(summary_path: str) -> Dict[str, str]:
+    """
+    Carrega configuração de datasets a partir do summary.json
+    
+    Args:
+        summary_path: Caminho para o arquivo summary.json
+        
+    Returns:
+        Dicionário {nome_dataset: caminho_pasta}
+    """
+    with open(summary_path, 'r', encoding='utf-8') as f:
+        summary = json.load(f)
+    
+    datasets_config = {}
+    
+    # Se o JSON é uma lista de datasets
+    if isinstance(summary, list):
+        for item in summary:
+            dataset_name = item.get('dataset')
+            dataset_path = item.get('path')
+            
+            if dataset_name and dataset_path:
+                datasets_config[dataset_name] = dataset_path
+    
+    # Se o JSON é um dicionário com chave "datasets"
+    elif isinstance(summary, dict) and 'datasets' in summary:
+        for item in summary['datasets']:
+            dataset_name = item.get('dataset')
+            dataset_path = item.get('path')
+            
+            if dataset_name and dataset_path:
+                datasets_config[dataset_name] = dataset_path
+    
+    print(f"📊 Datasets carregados do summary: {len(datasets_config)}")
+    for name in datasets_config.keys():
+        print(f"   - {name}")
+    
+    return datasets_config
+
+
 def load_image_paths_from_folder(folder_path: str, extensions: tuple = ('.jpg', '.jpeg', '.png')) -> List[str]:
     """Carrega todos os paths de imagens de uma pasta"""
     folder = Path(folder_path)
@@ -296,23 +328,6 @@ def get_concepts_for_dataset(dataset_name: str) -> List[str]:
     ]
 
 
-def load_datasets_from_summary(summary_path: Path) -> dict:
-    """Carrega configuração de datasets do summary.json"""
-    with open(summary_path, 'r', encoding='utf-8') as f:
-        summary = json.load(f)
-    
-    datasets = {}
-    
-    if isinstance(summary, list):
-        for item in summary:
-            dataset_name = item.get('dataset')
-            dataset_path = item.get('path')
-            if dataset_name and dataset_path:
-                datasets[dataset_name] = dataset_path
-    
-    return datasets
-
-
 def generate_descriptors_for_datasets(
     datasets_config: Dict[str, str],
     output_dir: str = "descriptors",
@@ -327,6 +342,12 @@ def generate_descriptors_for_datasets(
         output_dir: Pasta onde salvar os JSONs
         max_images: Limite por dataset (None = todas)
         clip_model: Modelo CLIP a usar
+    
+    Exemplo:
+        datasets = {
+            "Stanford_Dogs": "/path/to/stanford_dogs",
+            "CUB-200": "/path/to/cub200",
+        }
     """
     
     # Inicializa gerador
@@ -375,34 +396,31 @@ def generate_descriptors_for_datasets(
 # ============== EXEMPLO DE USO ==============
 
 if __name__ == "__main__":
-    from pathlib import Path
     
-    # Configuração dos paths
+    # Configuração usando o summary.json
     SUMMARY_PATH = Path("outputs/analysis/summary.json")
     OUTPUT_DIR = "descriptors"
     
-    # Carrega datasets automaticamente do summary.json
-    print("📂 Carregando configuração dos datasets...")
-    datasets = load_datasets_from_summary(SUMMARY_PATH)
+    # Opção 1: Carregar automaticamente do summary
+    datasets = load_datasets_from_summary(str(SUMMARY_PATH))
     
-    if not datasets:
-        print("❌ Nenhum dataset encontrado no summary!")
-        print(f"   Verifique se o arquivo existe: {SUMMARY_PATH}")
-        exit(1)
+    # Opção 2: Configuração manual (caso necessário)
+    # datasets = {
+    #     "Stanford_Dogs": "datasets/Stanford_Dogs",
+    #     "CUB-200-2011": "datasets/CUB_200_2011",
+    # }
     
-    # Gera descriptors para todos os datasets
+    # Gera descriptors
     generate_descriptors_for_datasets(
         datasets_config=datasets,
         output_dir=OUTPUT_DIR,
-        max_images=None,  # None para processar todas as imagens, ou um número para limitar
-        clip_model="ViT-B/32"  # ou "ViT-L/14" para melhor qualidade (mais lento)
+        max_images=100,  # None para processar todas as imagens
+        clip_model="ViT-B/32"  # ou "ViT-L/14" para melhor qualidade
     )
     
     print("\n🎉 Descriptors prontos para uso no zero-shot!")
-    print(f"📂 Verifique a pasta: {OUTPUT_DIR}/")
     
-    # Exemplo de como carregar e usar depois:
-    # with open("descriptors/Bee_Images_Dataset_descriptors.json", "r", encoding="utf-8") as f:
+    # Exemplo de como carregar depois:
+    # with open("descriptors/Bee_Images_Dataset.json", "r") as f:
     #     descriptors = json.load(f)
-    #     for filename, description in list(descriptors.items())[:3]:
-    #         print(f"{filename}: {description}")
+    #     print(descriptors["bee_001.jpg"])

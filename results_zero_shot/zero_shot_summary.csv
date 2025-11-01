@@ -1,0 +1,2 @@
+dataset,accuracy,num_classes,num_images
+Stanford_Dogs,0.6512,28,5000
