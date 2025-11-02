@@ -1,0 +1,9 @@
+
+✅ Matriz de acurácia gerada com sucesso!
+  Nome do dataset  clip_baseline  ...  clip_comparative_filtering  clip_waffle
+0    CUB_200_2011         0.0296  ...                    0.093194       0.0224
+1   Stanford_Dogs         0.4926  ...                    0.559148       0.2474
+
+[2 rows x 6 columns]
+
+💾 Arquivo salvo em: all_zero-shot_results\accuracy_matrix.csv

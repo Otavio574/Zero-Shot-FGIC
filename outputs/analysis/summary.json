@@ -1,9 +1,16 @@
 [
   {
+    "dataset": "CUB_200_2011",
+    "num_images": 5025,
+    "avg_width": 457.54,
+    "avg_height": 397.02,
+    "path": "datasets\\CUB_200_2011"
+  },
+  {
     "dataset": "Stanford_Dogs",
     "num_images": 5129,
-    "avg_width": 460.59,
-    "avg_height": 372.73,
+    "avg_width": 427.9,
+    "avg_height": 371.59,
     "path": "datasets\\Stanford_Dogs"
   }
 ]

@@ -1,0 +1,59 @@
+🚀 Avaliação Zero-Shot com WaffleCLIP
+📦 Modelo: ViT-B/32
+💻 Device: cuda
+
+🔄 Carregando modelo CLIP...
+✅ Modelo carregado!
+
+
+============================================================
+📊 Dataset: CUB_200_2011
+============================================================
+
+🔍 Iniciando avaliação WaffleCLIP: CUB_200_2011
+   Classes detectadas: 86
+   Total de imagens: 5000
+📊 Descriptors por classe:
+   Total: 86 | Média: 1.0 | Min: 1 | Max: 1
+   Classes com waffle: 86/86
+   Classes com fallback: 0/86
+
+📝 Gerando embeddings para 258 descriptors...
+🔄 Agregando embeddings por classe...
+✅ Acurácia WaffleCLIP: 0.0224
+
+🔍 DEBUG - Primeiras 5 predições:
+   ✗ True: 001.Black_footed_Albatross     | Pred: 045.Northern_Fulmar           
+   ✗ True: 001.Black_footed_Albatross     | Pred: 086.Pacific_Loon              
+   ✗ True: 001.Black_footed_Albatross     | Pred: 045.Northern_Fulmar           
+   ✗ True: 001.Black_footed_Albatross     | Pred: 040.Olive_sided_Flycatcher    
+   ✗ True: 001.Black_footed_Albatross     | Pred: 045.Northern_Fulmar           
+
+============================================================
+📊 Dataset: Stanford_Dogs
+============================================================
+
+🔍 Iniciando avaliação WaffleCLIP: Stanford_Dogs
+   Classes detectadas: 28
+   Total de imagens: 5000
+📊 Descriptors por classe:
+   Total: 28 | Média: 1.0 | Min: 1 | Max: 1
+   Classes com waffle: 28/28
+   Classes com fallback: 0/28
+
+📝 Gerando embeddings para 84 descriptors...
+🔄 Agregando embeddings por classe...
+✅ Acurácia WaffleCLIP: 0.2474
+
+🔍 DEBUG - Primeiras 5 predições:
+   ✓ True: n02085620-Chihuahua            | Pred: n02085620-Chihuahua           
+   ✓ True: n02085620-Chihuahua            | Pred: n02085620-Chihuahua           
+   ✓ True: n02085620-Chihuahua            | Pred: n02085620-Chihuahua           
+   ✓ True: n02085620-Chihuahua            | Pred: n02085620-Chihuahua           
+   ✓ True: n02085620-Chihuahua            | Pred: n02085620-Chihuahua           
+
+============================================================
+📈 Resultados salvos em all_zero-shot_results/results_zero_shot_waffle\zero_shot_results_waffle.json
+✅ Avaliação finalizada com sucesso.
+============================================================
+

@@ -1,2 +1,3 @@
-Nome do dataset,clip_baseline,clip_description,clip_comparative_filtering,clip_waffle
-Stanford_Dogs,0.4924,0.4994,0.6198,0.3010
+Nome do dataset,clip_baseline,clip_description,clip_comparative,clip_comparative_filtering,clip_waffle
+CUB_200_2011,0.0296,0.0176,0.0374,0.0932,0.0224
+Stanford_Dogs,0.4926,0.4992,0.3670,0.5591,0.2474

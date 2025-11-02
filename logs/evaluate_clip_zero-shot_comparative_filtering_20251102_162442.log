@@ -1,0 +1,53 @@
+🚀 Avaliação Zero-Shot com Comparative Filtering
+📦 Modelo: ViT-B/32
+💻 Device: cuda
+🔍 Threshold de similaridade: 0.7
+
+🔄 Carregando modelo CLIP...
+✅ Modelo carregado!
+
+
+============================================================
+📊 Dataset: CUB_200_2011
+============================================================
+
+🔍 CUB_200_2011: classes=86, images=5000
+   DEBUG shapes: image_embeds torch.Size([5000, 512]) text_embeds torch.Size([86, 512])
+   Filtering stats: mean=0.7253 std=0.0631 base=0.700 -> threshold=0.7063
+   ⚠️ keep=24 < min_keep (28). Mantendo top-28 menos similares (fallback).
+   ✅ Mantidas 28/86 classes: ['001.Black_footed_Albatross', '005.Crested_Auklet', '008.Rhinoceros_Auklet', '010.Red_winged_Blackbird', '011.Rusty_Blackbird', '014.Indigo_Bunting', '016.Painted_Bunting', '021.Eastern_Towhee', '022.Chuck_will_Widow', '028.Brown_Creeper']...
+   label dist (top 5): [(np.int64(0), 60), (np.int64(3), 60), (np.int64(4), 60), (np.int64(5), 60), (np.int64(7), 60)]
+   preds dist (top 5): [(np.int64(8), 603), (np.int64(14), 284), (np.int64(0), 247), (np.int64(11), 144), (np.int64(26), 72)]
+   ✅ accuracy (filtered) = 0.0932  (images kept: 1631)
+   Exemplos: (true -> pred)
+     ✗ 049.Boat_tailed_Grackle        -> 028.Brown_Creeper             
+     ✗ 053.Western_Grebe              -> 051.Horned_Grebe              
+     ✗ 053.Western_Grebe              -> 051.Horned_Grebe              
+     ✓ 064.Ring_billed_Gull           -> 064.Ring_billed_Gull          
+     ✗ 079.Belted_Kingfisher          -> 032.Mangrove_Cuckoo           
+     ✗ 070.Green_Violetear            -> 028.Brown_Creeper             
+
+============================================================
+📊 Dataset: Stanford_Dogs
+============================================================
+
+🔍 Stanford_Dogs: classes=28, images=5000
+   DEBUG shapes: image_embeds torch.Size([5000, 512]) text_embeds torch.Size([28, 512])
+   Filtering stats: mean=0.7085 std=0.0623 base=0.700 -> threshold=0.7062
+   ✅ Mantidas 22/28 classes: ['n02085620-Chihuahua', 'n02085936-Maltese_dog', 'n02086079-Pekinese', 'n02086240-Shih-Tzu', 'n02086646-Blenheim_spaniel', 'n02086910-papillon', 'n02087046-toy_terrier', 'n02087394-Rhodesian_ridgeback', 'n02088238-basset', 'n02088364-beagle']...
+   label dist (top 5): [(np.int64(1), 252), (np.int64(20), 232), (np.int64(15), 218), (np.int64(3), 214), (np.int64(19), 200)]
+   preds dist (top 5): [(np.int64(3), 608), (np.int64(17), 282), (np.int64(0), 280), (np.int64(9), 267), (np.int64(11), 263)]
+   ✅ accuracy (filtered) = 0.5591  (images kept: 3897)
+   Exemplos: (true -> pred)
+     ✓ n02087394-Rhodesian_ridgeback  -> n02087394-Rhodesian_ridgeback 
+     ✓ n02086079-Pekinese             -> n02086079-Pekinese            
+     ✓ n02086240-Shih-Tzu             -> n02086240-Shih-Tzu            
+     ✓ n02091635-otterhound           -> n02091635-otterhound          
+     ✗ n02086646-Blenheim_spaniel     -> n02086240-Shih-Tzu            
+     ✗ n02092002-Scottish_deerhound   -> n02091635-otterhound          
+
+============================================================
+📈 Resultados salvos em all_zero-shot_results/results_zero_shot_comparative_filtering\zero_shot_results_comparative_filtering.json
+✅ Avaliação finalizada com sucesso.
+============================================================
+

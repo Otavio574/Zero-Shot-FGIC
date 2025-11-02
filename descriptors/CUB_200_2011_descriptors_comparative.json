@@ -1,0 +1,1002 @@
+{
+    "001.Black_footed_Albatross": [
+        "A 001.Black_footed_Albatross looks more delicate than a 068.Ruby_throated_Hummingbird.",
+        "A 001.Black_footed_Albatross appears more slender than a 111.Loggerhead_Shrike.",
+        "A 001.Black_footed_Albatross looks more delicate than a 032.Mangrove_Cuckoo."
+    ],
+    "002.Laysan_Albatross": [
+        "A 002.Laysan_Albatross has larger ears than a 072.Pomarine_Jaeger.",
+        "A 002.Laysan_Albatross is smaller than a 130.Tree_Sparrow.",
+        "A 002.Laysan_Albatross has a different coat pattern compared to a 199.Winter_Wren."
+    ],
+    "003.Sooty_Albatross": [
+        "A 003.Sooty_Albatross tends to have longer fur than a 128.Seaside_Sparrow.",
+        "A 003.Sooty_Albatross appears more slender than a 116.Chipping_Sparrow.",
+        "A 003.Sooty_Albatross appears more slender than a 139.Scarlet_Tanager."
+    ],
+    "004.Groove_billed_Ani": [
+        "A 004.Groove_billed_Ani tends to have longer fur than a 104.American_Pipit.",
+        "A 004.Groove_billed_Ani is more muscular than a 143.Caspian_Tern.",
+        "A 004.Groove_billed_Ani usually has a different body shape than a 096.Hooded_Oriole."
+    ],
+    "005.Crested_Auklet": [
+        "A 005.Crested_Auklet has larger ears than a 007.Parakeet_Auklet.",
+        "A 005.Crested_Auklet usually has a different body shape than a 101.White_Pelican.",
+        "A 005.Crested_Auklet is heavier and sturdier than a 091.Mockingbird."
+    ],
+    "006.Least_Auklet": [
+        "A 006.Least_Auklet looks more delicate than a 186.Cedar_Waxwing.",
+        "A 006.Least_Auklet tends to have longer fur than a 099.Ovenbird.",
+        "A 006.Least_Auklet has larger ears than a 139.Scarlet_Tanager."
+    ],
+    "007.Parakeet_Auklet": [
+        "A 007.Parakeet_Auklet is smaller than a 154.Red_eyed_Vireo.",
+        "A 007.Parakeet_Auklet usually has a different body shape than a 034.Gray_crowned_Rosy_Finch.",
+        "A 007.Parakeet_Auklet has larger ears than a 087.Mallard."
+    ],
+    "008.Rhinoceros_Auklet": [
+        "A 008.Rhinoceros_Auklet tends to have longer fur than a 144.Common_Tern.",
+        "A 008.Rhinoceros_Auklet has a shorter muzzle than a 152.Blue_headed_Vireo.",
+        "A 008.Rhinoceros_Auklet usually has a different body shape than a 162.Canada_Warbler."
+    ],
+    "009.Brewer_Blackbird": [
+        "A 009.Brewer_Blackbird tends to have longer fur than a 025.Pelagic_Cormorant.",
+        "A 009.Brewer_Blackbird is smaller than a 074.Florida_Jay.",
+        "A 009.Brewer_Blackbird has a shorter muzzle than a 032.Mangrove_Cuckoo."
+    ],
+    "010.Red_winged_Blackbird": [
+        "A 010.Red_winged_Blackbird tends to have longer fur than a 026.Bronzed_Cowbird.",
+        "A 010.Red_winged_Blackbird is more muscular than a 179.Tennessee_Warbler.",
+        "A 010.Red_winged_Blackbird appears more slender than a 136.Barn_Swallow."
+    ],
+    "011.Rusty_Blackbird": [
+        "A 011.Rusty_Blackbird tends to have longer fur than a 047.American_Goldfinch.",
+        "A 011.Rusty_Blackbird looks more delicate than a 152.Blue_headed_Vireo.",
+        "A 011.Rusty_Blackbird has a shorter muzzle than a 074.Florida_Jay."
+    ],
+    "012.Yellow_headed_Blackbird": [
+        "A 012.Yellow_headed_Blackbird has larger ears than a 200.Common_Yellowthroat.",
+        "A 012.Yellow_headed_Blackbird appears more slender than a 144.Common_Tern.",
+        "A 012.Yellow_headed_Blackbird has larger ears than a 001.Black_footed_Albatross."
+    ],
+    "013.Bobolink": [
+        "A 013.Bobolink is heavier and sturdier than a 144.Common_Tern.",
+        "A 013.Bobolink tends to have longer fur than a 006.Least_Auklet.",
+        "A 013.Bobolink has a different coat pattern compared to a 161.Blue_winged_Warbler."
+    ],
+    "014.Indigo_Bunting": [
+        "A 014.Indigo_Bunting is more muscular than a 191.Red_headed_Woodpecker.",
+        "A 014.Indigo_Bunting looks more delicate than a 002.Laysan_Albatross.",
+        "A 014.Indigo_Bunting is more muscular than a 027.Shiny_Cowbird."
+    ],
+    "015.Lazuli_Bunting": [
+        "A 015.Lazuli_Bunting is more muscular than a 183.Northern_Waterthrush.",
+        "A 015.Lazuli_Bunting has larger ears than a 066.Western_Gull.",
+        "A 015.Lazuli_Bunting has a different coat pattern compared to a 059.California_Gull."
+    ],
+    "016.Painted_Bunting": [
+        "A 016.Painted_Bunting is more muscular than a 093.Clark_Nutcracker.",
+        "A 016.Painted_Bunting appears more slender than a 162.Canada_Warbler.",
+        "A 016.Painted_Bunting has a shorter muzzle than a 003.Sooty_Albatross."
+    ],
+    "017.Cardinal": [
+        "A 017.Cardinal is more muscular than a 087.Mallard.",
+        "A 017.Cardinal tends to have longer fur than a 176.Prairie_Warbler.",
+        "A 017.Cardinal tends to have longer fur than a 084.Red_legged_Kittiwake."
+    ],
+    "018.Spotted_Catbird": [
+        "A 018.Spotted_Catbird looks more delicate than a 081.Pied_Kingfisher.",
+        "A 018.Spotted_Catbird is smaller than a 107.Common_Raven.",
+        "A 018.Spotted_Catbird looks more delicate than a 007.Parakeet_Auklet."
+    ],
+    "019.Gray_Catbird": [
+        "A 019.Gray_Catbird is heavier and sturdier than a 151.Black_capped_Vireo.",
+        "A 019.Gray_Catbird is smaller than a 140.Summer_Tanager.",
+        "A 019.Gray_Catbird looks more delicate than a 196.House_Wren."
+    ],
+    "020.Yellow_breasted_Chat": [
+        "A 020.Yellow_breasted_Chat usually has a different body shape than a 131.Vesper_Sparrow.",
+        "A 020.Yellow_breasted_Chat is heavier and sturdier than a 161.Blue_winged_Warbler.",
+        "A 020.Yellow_breasted_Chat is more muscular than a 137.Cliff_Swallow."
+    ],
+    "021.Eastern_Towhee": [
+        "A 021.Eastern_Towhee has a different coat pattern compared to a 033.Yellow_billed_Cuckoo.",
+        "A 021.Eastern_Towhee has a shorter muzzle than a 133.White_throated_Sparrow.",
+        "A 021.Eastern_Towhee usually has a different body shape than a 104.American_Pipit."
+    ],
+    "022.Chuck_will_Widow": [
+        "A 022.Chuck_will_Widow usually has a different body shape than a 085.Horned_Lark.",
+        "A 022.Chuck_will_Widow appears more slender than a 076.Dark_eyed_Junco.",
+        "A 022.Chuck_will_Widow usually has a different body shape than a 130.Tree_Sparrow."
+    ],
+    "023.Brandt_Cormorant": [
+        "A 023.Brandt_Cormorant appears more slender than a 136.Barn_Swallow.",
+        "A 023.Brandt_Cormorant has a different coat pattern compared to a 065.Slaty_backed_Gull.",
+        "A 023.Brandt_Cormorant has a different coat pattern compared to a 071.Long_tailed_Jaeger."
+    ],
+    "024.Red_faced_Cormorant": [
+        "A 024.Red_faced_Cormorant is heavier and sturdier than a 185.Bohemian_Waxwing.",
+        "A 024.Red_faced_Cormorant usually has a different body shape than a 170.Mourning_Warbler.",
+        "A 024.Red_faced_Cormorant usually has a different body shape than a 074.Florida_Jay."
+    ],
+    "025.Pelagic_Cormorant": [
+        "A 025.Pelagic_Cormorant has a different coat pattern compared to a 159.Black_and_white_Warbler.",
+        "A 025.Pelagic_Cormorant usually has a different body shape than a 085.Horned_Lark.",
+        "A 025.Pelagic_Cormorant appears more slender than a 063.Ivory_Gull."
+    ],
+    "026.Bronzed_Cowbird": [
+        "A 026.Bronzed_Cowbird appears more slender than a 095.Baltimore_Oriole.",
+        "A 026.Bronzed_Cowbird is smaller than a 141.Artic_Tern.",
+        "A 026.Bronzed_Cowbird looks more delicate than a 179.Tennessee_Warbler."
+    ],
+    "027.Shiny_Cowbird": [
+        "A 027.Shiny_Cowbird has a shorter muzzle than a 124.Le_Conte_Sparrow.",
+        "A 027.Shiny_Cowbird looks more delicate than a 172.Nashville_Warbler.",
+        "A 027.Shiny_Cowbird is more muscular than a 144.Common_Tern."
+    ],
+    "028.Brown_Creeper": [
+        "A 028.Brown_Creeper tends to have longer fur than a 082.Ringed_Kingfisher.",
+        "A 028.Brown_Creeper usually has a different body shape than a 136.Barn_Swallow.",
+        "A 028.Brown_Creeper appears more slender than a 115.Brewer_Sparrow."
+    ],
+    "029.American_Crow": [
+        "A 029.American_Crow appears more slender than a 015.Lazuli_Bunting.",
+        "A 029.American_Crow tends to have longer fur than a 096.Hooded_Oriole.",
+        "A 029.American_Crow usually has a different body shape than a 033.Yellow_billed_Cuckoo."
+    ],
+    "030.Fish_Crow": [
+        "A 030.Fish_Crow tends to have longer fur than a 195.Carolina_Wren.",
+        "A 030.Fish_Crow looks more delicate than a 120.Fox_Sparrow.",
+        "A 030.Fish_Crow is smaller than a 194.Cactus_Wren."
+    ],
+    "031.Black_billed_Cuckoo": [
+        "A 031.Black_billed_Cuckoo is heavier and sturdier than a 044.Frigatebird.",
+        "A 031.Black_billed_Cuckoo looks more delicate than a 134.Cape_Glossy_Starling.",
+        "A 031.Black_billed_Cuckoo has a different coat pattern compared to a 052.Pied_billed_Grebe."
+    ],
+    "032.Mangrove_Cuckoo": [
+        "A 032.Mangrove_Cuckoo is smaller than a 179.Tennessee_Warbler.",
+        "A 032.Mangrove_Cuckoo has larger ears than a 047.American_Goldfinch.",
+        "A 032.Mangrove_Cuckoo has a shorter muzzle than a 079.Belted_Kingfisher."
+    ],
+    "033.Yellow_billed_Cuckoo": [
+        "A 033.Yellow_billed_Cuckoo usually has a different body shape than a 133.White_throated_Sparrow.",
+        "A 033.Yellow_billed_Cuckoo usually has a different body shape than a 122.Harris_Sparrow.",
+        "A 033.Yellow_billed_Cuckoo usually has a different body shape than a 022.Chuck_will_Widow."
+    ],
+    "034.Gray_crowned_Rosy_Finch": [
+        "A 034.Gray_crowned_Rosy_Finch usually has a different body shape than a 156.White_eyed_Vireo.",
+        "A 034.Gray_crowned_Rosy_Finch is heavier and sturdier than a 179.Tennessee_Warbler.",
+        "A 034.Gray_crowned_Rosy_Finch has a different coat pattern compared to a 127.Savannah_Sparrow."
+    ],
+    "035.Purple_Finch": [
+        "A 035.Purple_Finch tends to have longer fur than a 015.Lazuli_Bunting.",
+        "A 035.Purple_Finch usually has a different body shape than a 001.Black_footed_Albatross.",
+        "A 035.Purple_Finch has larger ears than a 025.Pelagic_Cormorant."
+    ],
+    "036.Northern_Flicker": [
+        "A 036.Northern_Flicker is heavier and sturdier than a 026.Bronzed_Cowbird.",
+        "A 036.Northern_Flicker usually has a different body shape than a 088.Western_Meadowlark.",
+        "A 036.Northern_Flicker tends to have longer fur than a 197.Marsh_Wren."
+    ],
+    "037.Acadian_Flycatcher": [
+        "A 037.Acadian_Flycatcher is more muscular than a 172.Nashville_Warbler.",
+        "A 037.Acadian_Flycatcher appears more slender than a 073.Blue_Jay.",
+        "A 037.Acadian_Flycatcher is more muscular than a 190.Red_cockaded_Woodpecker."
+    ],
+    "038.Great_Crested_Flycatcher": [
+        "A 038.Great_Crested_Flycatcher tends to have longer fur than a 069.Rufous_Hummingbird.",
+        "A 038.Great_Crested_Flycatcher is heavier and sturdier than a 067.Anna_Hummingbird.",
+        "A 038.Great_Crested_Flycatcher is heavier and sturdier than a 128.Seaside_Sparrow."
+    ],
+    "039.Least_Flycatcher": [
+        "A 039.Least_Flycatcher usually has a different body shape than a 046.Gadwall.",
+        "A 039.Least_Flycatcher has larger ears than a 157.Yellow_throated_Vireo.",
+        "A 039.Least_Flycatcher has a different coat pattern compared to a 007.Parakeet_Auklet."
+    ],
+    "040.Olive_sided_Flycatcher": [
+        "A 040.Olive_sided_Flycatcher is smaller than a 091.Mockingbird.",
+        "A 040.Olive_sided_Flycatcher has larger ears than a 190.Red_cockaded_Woodpecker.",
+        "A 040.Olive_sided_Flycatcher is heavier and sturdier than a 086.Pacific_Loon."
+    ],
+    "041.Scissor_tailed_Flycatcher": [
+        "A 041.Scissor_tailed_Flycatcher tends to have longer fur than a 095.Baltimore_Oriole.",
+        "A 041.Scissor_tailed_Flycatcher has a different coat pattern compared to a 132.White_crowned_Sparrow.",
+        "A 041.Scissor_tailed_Flycatcher usually has a different body shape than a 105.Whip_poor_Will."
+    ],
+    "042.Vermilion_Flycatcher": [
+        "A 042.Vermilion_Flycatcher appears more slender than a 077.Tropical_Kingbird.",
+        "A 042.Vermilion_Flycatcher is more muscular than a 132.White_crowned_Sparrow.",
+        "A 042.Vermilion_Flycatcher is smaller than a 098.Scott_Oriole."
+    ],
+    "043.Yellow_bellied_Flycatcher": [
+        "A 043.Yellow_bellied_Flycatcher tends to have longer fur than a 199.Winter_Wren.",
+        "A 043.Yellow_bellied_Flycatcher looks more delicate than a 051.Horned_Grebe.",
+        "A 043.Yellow_bellied_Flycatcher has larger ears than a 106.Horned_Puffin."
+    ],
+    "044.Frigatebird": [
+        "A 044.Frigatebird is more muscular than a 043.Yellow_bellied_Flycatcher.",
+        "A 044.Frigatebird usually has a different body shape than a 198.Rock_Wren.",
+        "A 044.Frigatebird appears more slender than a 033.Yellow_billed_Cuckoo."
+    ],
+    "045.Northern_Fulmar": [
+        "A 045.Northern_Fulmar appears more slender than a 041.Scissor_tailed_Flycatcher.",
+        "A 045.Northern_Fulmar has a different coat pattern compared to a 120.Fox_Sparrow.",
+        "A 045.Northern_Fulmar is smaller than a 058.Pigeon_Guillemot."
+    ],
+    "046.Gadwall": [
+        "A 046.Gadwall tends to have longer fur than a 088.Western_Meadowlark.",
+        "A 046.Gadwall has larger ears than a 160.Black_throated_Blue_Warbler.",
+        "A 046.Gadwall is more muscular than a 175.Pine_Warbler."
+    ],
+    "047.American_Goldfinch": [
+        "A 047.American_Goldfinch is smaller than a 007.Parakeet_Auklet.",
+        "A 047.American_Goldfinch has a shorter muzzle than a 130.Tree_Sparrow.",
+        "A 047.American_Goldfinch usually has a different body shape than a 122.Harris_Sparrow."
+    ],
+    "048.European_Goldfinch": [
+        "A 048.European_Goldfinch tends to have longer fur than a 067.Anna_Hummingbird.",
+        "A 048.European_Goldfinch appears more slender than a 019.Gray_Catbird.",
+        "A 048.European_Goldfinch appears more slender than a 064.Ring_billed_Gull."
+    ],
+    "049.Boat_tailed_Grackle": [
+        "A 049.Boat_tailed_Grackle appears more slender than a 093.Clark_Nutcracker.",
+        "A 049.Boat_tailed_Grackle is smaller than a 094.White_breasted_Nuthatch.",
+        "A 049.Boat_tailed_Grackle looks more delicate than a 145.Elegant_Tern."
+    ],
+    "050.Eared_Grebe": [
+        "A 050.Eared_Grebe usually has a different body shape than a 064.Ring_billed_Gull.",
+        "A 050.Eared_Grebe has larger ears than a 185.Bohemian_Waxwing.",
+        "A 050.Eared_Grebe tends to have longer fur than a 045.Northern_Fulmar."
+    ],
+    "051.Horned_Grebe": [
+        "A 051.Horned_Grebe has a shorter muzzle than a 174.Palm_Warbler.",
+        "A 051.Horned_Grebe has a shorter muzzle than a 191.Red_headed_Woodpecker.",
+        "A 051.Horned_Grebe looks more delicate than a 002.Laysan_Albatross."
+    ],
+    "052.Pied_billed_Grebe": [
+        "A 052.Pied_billed_Grebe usually has a different body shape than a 146.Forsters_Tern.",
+        "A 052.Pied_billed_Grebe tends to have longer fur than a 186.Cedar_Waxwing.",
+        "A 052.Pied_billed_Grebe has larger ears than a 020.Yellow_breasted_Chat."
+    ],
+    "053.Western_Grebe": [
+        "A 053.Western_Grebe has a shorter muzzle than a 189.Red_bellied_Woodpecker.",
+        "A 053.Western_Grebe tends to have longer fur than a 180.Wilson_Warbler.",
+        "A 053.Western_Grebe has larger ears than a 045.Northern_Fulmar."
+    ],
+    "054.Blue_Grosbeak": [
+        "A 054.Blue_Grosbeak has a different coat pattern compared to a 062.Herring_Gull.",
+        "A 054.Blue_Grosbeak is more muscular than a 009.Brewer_Blackbird.",
+        "A 054.Blue_Grosbeak is smaller than a 031.Black_billed_Cuckoo."
+    ],
+    "055.Evening_Grosbeak": [
+        "A 055.Evening_Grosbeak looks more delicate than a 074.Florida_Jay.",
+        "A 055.Evening_Grosbeak looks more delicate than a 160.Black_throated_Blue_Warbler.",
+        "A 055.Evening_Grosbeak is smaller than a 078.Gray_Kingbird."
+    ],
+    "056.Pine_Grosbeak": [
+        "A 056.Pine_Grosbeak has larger ears than a 146.Forsters_Tern.",
+        "A 056.Pine_Grosbeak has a shorter muzzle than a 151.Black_capped_Vireo.",
+        "A 056.Pine_Grosbeak usually has a different body shape than a 072.Pomarine_Jaeger."
+    ],
+    "057.Rose_breasted_Grosbeak": [
+        "A 057.Rose_breasted_Grosbeak is more muscular than a 006.Least_Auklet.",
+        "A 057.Rose_breasted_Grosbeak has a different coat pattern compared to a 141.Artic_Tern.",
+        "A 057.Rose_breasted_Grosbeak is smaller than a 169.Magnolia_Warbler."
+    ],
+    "058.Pigeon_Guillemot": [
+        "A 058.Pigeon_Guillemot looks more delicate than a 039.Least_Flycatcher.",
+        "A 058.Pigeon_Guillemot tends to have longer fur than a 043.Yellow_bellied_Flycatcher.",
+        "A 058.Pigeon_Guillemot has a different coat pattern compared to a 138.Tree_Swallow."
+    ],
+    "059.California_Gull": [
+        "A 059.California_Gull looks more delicate than a 097.Orchard_Oriole.",
+        "A 059.California_Gull usually has a different body shape than a 061.Heermann_Gull.",
+        "A 059.California_Gull tends to have longer fur than a 173.Orange_crowned_Warbler."
+    ],
+    "060.Glaucous_winged_Gull": [
+        "A 060.Glaucous_winged_Gull is smaller than a 107.Common_Raven.",
+        "A 060.Glaucous_winged_Gull has a shorter muzzle than a 193.Bewick_Wren.",
+        "A 060.Glaucous_winged_Gull has a shorter muzzle than a 097.Orchard_Oriole."
+    ],
+    "061.Heermann_Gull": [
+        "A 061.Heermann_Gull has a shorter muzzle than a 193.Bewick_Wren.",
+        "A 061.Heermann_Gull usually has a different body shape than a 016.Painted_Bunting.",
+        "A 061.Heermann_Gull is heavier and sturdier than a 054.Blue_Grosbeak."
+    ],
+    "062.Herring_Gull": [
+        "A 062.Herring_Gull appears more slender than a 007.Parakeet_Auklet.",
+        "A 062.Herring_Gull has a shorter muzzle than a 077.Tropical_Kingbird.",
+        "A 062.Herring_Gull has a different coat pattern compared to a 159.Black_and_white_Warbler."
+    ],
+    "063.Ivory_Gull": [
+        "A 063.Ivory_Gull has a shorter muzzle than a 028.Brown_Creeper.",
+        "A 063.Ivory_Gull has a different coat pattern compared to a 161.Blue_winged_Warbler.",
+        "A 063.Ivory_Gull is heavier and sturdier than a 006.Least_Auklet."
+    ],
+    "064.Ring_billed_Gull": [
+        "A 064.Ring_billed_Gull has a different coat pattern compared to a 131.Vesper_Sparrow.",
+        "A 064.Ring_billed_Gull has a different coat pattern compared to a 062.Herring_Gull.",
+        "A 064.Ring_billed_Gull tends to have longer fur than a 125.Lincoln_Sparrow."
+    ],
+    "065.Slaty_backed_Gull": [
+        "A 065.Slaty_backed_Gull looks more delicate than a 102.Western_Wood_Pewee.",
+        "A 065.Slaty_backed_Gull usually has a different body shape than a 129.Song_Sparrow.",
+        "A 065.Slaty_backed_Gull is more muscular than a 144.Common_Tern."
+    ],
+    "066.Western_Gull": [
+        "A 066.Western_Gull usually has a different body shape than a 051.Horned_Grebe.",
+        "A 066.Western_Gull has larger ears than a 103.Sayornis.",
+        "A 066.Western_Gull has larger ears than a 107.Common_Raven."
+    ],
+    "067.Anna_Hummingbird": [
+        "A 067.Anna_Hummingbird is heavier and sturdier than a 181.Worm_eating_Warbler.",
+        "A 067.Anna_Hummingbird tends to have longer fur than a 058.Pigeon_Guillemot.",
+        "A 067.Anna_Hummingbird appears more slender than a 041.Scissor_tailed_Flycatcher."
+    ],
+    "068.Ruby_throated_Hummingbird": [
+        "A 068.Ruby_throated_Hummingbird tends to have longer fur than a 037.Acadian_Flycatcher.",
+        "A 068.Ruby_throated_Hummingbird is smaller than a 013.Bobolink.",
+        "A 068.Ruby_throated_Hummingbird has larger ears than a 175.Pine_Warbler."
+    ],
+    "069.Rufous_Hummingbird": [
+        "A 069.Rufous_Hummingbird appears more slender than a 133.White_throated_Sparrow.",
+        "A 069.Rufous_Hummingbird appears more slender than a 137.Cliff_Swallow.",
+        "A 069.Rufous_Hummingbird tends to have longer fur than a 116.Chipping_Sparrow."
+    ],
+    "070.Green_Violetear": [
+        "A 070.Green_Violetear tends to have longer fur than a 191.Red_headed_Woodpecker.",
+        "A 070.Green_Violetear has a shorter muzzle than a 138.Tree_Swallow.",
+        "A 070.Green_Violetear tends to have longer fur than a 076.Dark_eyed_Junco."
+    ],
+    "071.Long_tailed_Jaeger": [
+        "A 071.Long_tailed_Jaeger has a shorter muzzle than a 090.Red_breasted_Merganser.",
+        "A 071.Long_tailed_Jaeger has a shorter muzzle than a 016.Painted_Bunting.",
+        "A 071.Long_tailed_Jaeger usually has a different body shape than a 100.Brown_Pelican."
+    ],
+    "072.Pomarine_Jaeger": [
+        "A 072.Pomarine_Jaeger is more muscular than a 177.Prothonotary_Warbler.",
+        "A 072.Pomarine_Jaeger is smaller than a 158.Bay_breasted_Warbler.",
+        "A 072.Pomarine_Jaeger looks more delicate than a 192.Downy_Woodpecker."
+    ],
+    "073.Blue_Jay": [
+        "A 073.Blue_Jay is heavier and sturdier than a 106.Horned_Puffin.",
+        "A 073.Blue_Jay tends to have longer fur than a 126.Nelson_Sharp_tailed_Sparrow.",
+        "A 073.Blue_Jay has a different coat pattern compared to a 128.Seaside_Sparrow."
+    ],
+    "074.Florida_Jay": [
+        "A 074.Florida_Jay has a shorter muzzle than a 198.Rock_Wren.",
+        "A 074.Florida_Jay is heavier and sturdier than a 066.Western_Gull.",
+        "A 074.Florida_Jay has a shorter muzzle than a 102.Western_Wood_Pewee."
+    ],
+    "075.Green_Jay": [
+        "A 075.Green_Jay is heavier and sturdier than a 085.Horned_Lark.",
+        "A 075.Green_Jay has a shorter muzzle than a 114.Black_throated_Sparrow.",
+        "A 075.Green_Jay usually has a different body shape than a 086.Pacific_Loon."
+    ],
+    "076.Dark_eyed_Junco": [
+        "A 076.Dark_eyed_Junco tends to have longer fur than a 093.Clark_Nutcracker.",
+        "A 076.Dark_eyed_Junco has a different coat pattern compared to a 030.Fish_Crow.",
+        "A 076.Dark_eyed_Junco is smaller than a 136.Barn_Swallow."
+    ],
+    "077.Tropical_Kingbird": [
+        "A 077.Tropical_Kingbird tends to have longer fur than a 058.Pigeon_Guillemot.",
+        "A 077.Tropical_Kingbird has a different coat pattern compared to a 198.Rock_Wren.",
+        "A 077.Tropical_Kingbird appears more slender than a 187.American_Three_toed_Woodpecker."
+    ],
+    "078.Gray_Kingbird": [
+        "A 078.Gray_Kingbird is smaller than a 075.Green_Jay.",
+        "A 078.Gray_Kingbird usually has a different body shape than a 006.Least_Auklet.",
+        "A 078.Gray_Kingbird has a different coat pattern compared to a 045.Northern_Fulmar."
+    ],
+    "079.Belted_Kingfisher": [
+        "A 079.Belted_Kingfisher usually has a different body shape than a 072.Pomarine_Jaeger.",
+        "A 079.Belted_Kingfisher is heavier and sturdier than a 077.Tropical_Kingbird.",
+        "A 079.Belted_Kingfisher is smaller than a 109.American_Redstart."
+    ],
+    "080.Green_Kingfisher": [
+        "A 080.Green_Kingfisher is smaller than a 020.Yellow_breasted_Chat.",
+        "A 080.Green_Kingfisher looks more delicate than a 027.Shiny_Cowbird.",
+        "A 080.Green_Kingfisher is more muscular than a 071.Long_tailed_Jaeger."
+    ],
+    "081.Pied_Kingfisher": [
+        "A 081.Pied_Kingfisher is more muscular than a 184.Louisiana_Waterthrush.",
+        "A 081.Pied_Kingfisher looks more delicate than a 009.Brewer_Blackbird.",
+        "A 081.Pied_Kingfisher has larger ears than a 112.Great_Grey_Shrike."
+    ],
+    "082.Ringed_Kingfisher": [
+        "A 082.Ringed_Kingfisher is more muscular than a 008.Rhinoceros_Auklet.",
+        "A 082.Ringed_Kingfisher is heavier and sturdier than a 178.Swainson_Warbler.",
+        "A 082.Ringed_Kingfisher has a different coat pattern compared to a 177.Prothonotary_Warbler."
+    ],
+    "083.White_breasted_Kingfisher": [
+        "A 083.White_breasted_Kingfisher appears more slender than a 041.Scissor_tailed_Flycatcher.",
+        "A 083.White_breasted_Kingfisher appears more slender than a 098.Scott_Oriole.",
+        "A 083.White_breasted_Kingfisher usually has a different body shape than a 150.Sage_Thrasher."
+    ],
+    "084.Red_legged_Kittiwake": [
+        "A 084.Red_legged_Kittiwake is more muscular than a 052.Pied_billed_Grebe.",
+        "A 084.Red_legged_Kittiwake tends to have longer fur than a 124.Le_Conte_Sparrow.",
+        "A 084.Red_legged_Kittiwake tends to have longer fur than a 152.Blue_headed_Vireo."
+    ],
+    "085.Horned_Lark": [
+        "A 085.Horned_Lark looks more delicate than a 048.European_Goldfinch.",
+        "A 085.Horned_Lark appears more slender than a 135.Bank_Swallow.",
+        "A 085.Horned_Lark has larger ears than a 065.Slaty_backed_Gull."
+    ],
+    "086.Pacific_Loon": [
+        "A 086.Pacific_Loon is smaller than a 045.Northern_Fulmar.",
+        "A 086.Pacific_Loon is more muscular than a 060.Glaucous_winged_Gull.",
+        "A 086.Pacific_Loon has a shorter muzzle than a 096.Hooded_Oriole."
+    ],
+    "087.Mallard": [
+        "A 087.Mallard has larger ears than a 164.Cerulean_Warbler.",
+        "A 087.Mallard looks more delicate than a 177.Prothonotary_Warbler.",
+        "A 087.Mallard is heavier and sturdier than a 002.Laysan_Albatross."
+    ],
+    "088.Western_Meadowlark": [
+        "A 088.Western_Meadowlark is smaller than a 085.Horned_Lark.",
+        "A 088.Western_Meadowlark has larger ears than a 057.Rose_breasted_Grosbeak.",
+        "A 088.Western_Meadowlark tends to have longer fur than a 137.Cliff_Swallow."
+    ],
+    "089.Hooded_Merganser": [
+        "A 089.Hooded_Merganser has a different coat pattern compared to a 086.Pacific_Loon.",
+        "A 089.Hooded_Merganser has larger ears than a 074.Florida_Jay.",
+        "A 089.Hooded_Merganser tends to have longer fur than a 153.Philadelphia_Vireo."
+    ],
+    "090.Red_breasted_Merganser": [
+        "A 090.Red_breasted_Merganser looks more delicate than a 156.White_eyed_Vireo.",
+        "A 090.Red_breasted_Merganser tends to have longer fur than a 109.American_Redstart.",
+        "A 090.Red_breasted_Merganser tends to have longer fur than a 102.Western_Wood_Pewee."
+    ],
+    "091.Mockingbird": [
+        "A 091.Mockingbird looks more delicate than a 052.Pied_billed_Grebe.",
+        "A 091.Mockingbird looks more delicate than a 160.Black_throated_Blue_Warbler.",
+        "A 091.Mockingbird looks more delicate than a 082.Ringed_Kingfisher."
+    ],
+    "092.Nighthawk": [
+        "A 092.Nighthawk appears more slender than a 054.Blue_Grosbeak.",
+        "A 092.Nighthawk appears more slender than a 186.Cedar_Waxwing.",
+        "A 092.Nighthawk is smaller than a 086.Pacific_Loon."
+    ],
+    "093.Clark_Nutcracker": [
+        "A 093.Clark_Nutcracker has a different coat pattern compared to a 178.Swainson_Warbler.",
+        "A 093.Clark_Nutcracker has a different coat pattern compared to a 016.Painted_Bunting.",
+        "A 093.Clark_Nutcracker tends to have longer fur than a 085.Horned_Lark."
+    ],
+    "094.White_breasted_Nuthatch": [
+        "A 094.White_breasted_Nuthatch is heavier and sturdier than a 111.Loggerhead_Shrike.",
+        "A 094.White_breasted_Nuthatch looks more delicate than a 004.Groove_billed_Ani.",
+        "A 094.White_breasted_Nuthatch tends to have longer fur than a 189.Red_bellied_Woodpecker."
+    ],
+    "095.Baltimore_Oriole": [
+        "A 095.Baltimore_Oriole appears more slender than a 064.Ring_billed_Gull.",
+        "A 095.Baltimore_Oriole has a different coat pattern compared to a 018.Spotted_Catbird.",
+        "A 095.Baltimore_Oriole tends to have longer fur than a 138.Tree_Swallow."
+    ],
+    "096.Hooded_Oriole": [
+        "A 096.Hooded_Oriole is more muscular than a 130.Tree_Sparrow.",
+        "A 096.Hooded_Oriole usually has a different body shape than a 153.Philadelphia_Vireo.",
+        "A 096.Hooded_Oriole has a shorter muzzle than a 121.Grasshopper_Sparrow."
+    ],
+    "097.Orchard_Oriole": [
+        "A 097.Orchard_Oriole has a shorter muzzle than a 020.Yellow_breasted_Chat.",
+        "A 097.Orchard_Oriole appears more slender than a 093.Clark_Nutcracker.",
+        "A 097.Orchard_Oriole is smaller than a 197.Marsh_Wren."
+    ],
+    "098.Scott_Oriole": [
+        "A 098.Scott_Oriole usually has a different body shape than a 096.Hooded_Oriole.",
+        "A 098.Scott_Oriole looks more delicate than a 109.American_Redstart.",
+        "A 098.Scott_Oriole has a different coat pattern compared to a 112.Great_Grey_Shrike."
+    ],
+    "099.Ovenbird": [
+        "A 099.Ovenbird has larger ears than a 162.Canada_Warbler.",
+        "A 099.Ovenbird has a shorter muzzle than a 065.Slaty_backed_Gull.",
+        "A 099.Ovenbird usually has a different body shape than a 147.Least_Tern."
+    ],
+    "100.Brown_Pelican": [
+        "A 100.Brown_Pelican appears more slender than a 135.Bank_Swallow.",
+        "A 100.Brown_Pelican has a different coat pattern compared to a 161.Blue_winged_Warbler.",
+        "A 100.Brown_Pelican has a different coat pattern compared to a 127.Savannah_Sparrow."
+    ],
+    "101.White_Pelican": [
+        "A 101.White_Pelican appears more slender than a 120.Fox_Sparrow.",
+        "A 101.White_Pelican usually has a different body shape than a 042.Vermilion_Flycatcher.",
+        "A 101.White_Pelican has a shorter muzzle than a 131.Vesper_Sparrow."
+    ],
+    "102.Western_Wood_Pewee": [
+        "A 102.Western_Wood_Pewee has larger ears than a 175.Pine_Warbler.",
+        "A 102.Western_Wood_Pewee has larger ears than a 156.White_eyed_Vireo.",
+        "A 102.Western_Wood_Pewee is smaller than a 040.Olive_sided_Flycatcher."
+    ],
+    "103.Sayornis": [
+        "A 103.Sayornis tends to have longer fur than a 104.American_Pipit.",
+        "A 103.Sayornis is smaller than a 191.Red_headed_Woodpecker.",
+        "A 103.Sayornis appears more slender than a 132.White_crowned_Sparrow."
+    ],
+    "104.American_Pipit": [
+        "A 104.American_Pipit has a shorter muzzle than a 190.Red_cockaded_Woodpecker.",
+        "A 104.American_Pipit is smaller than a 108.White_necked_Raven.",
+        "A 104.American_Pipit is more muscular than a 070.Green_Violetear."
+    ],
+    "105.Whip_poor_Will": [
+        "A 105.Whip_poor_Will has a shorter muzzle than a 085.Horned_Lark.",
+        "A 105.Whip_poor_Will usually has a different body shape than a 112.Great_Grey_Shrike.",
+        "A 105.Whip_poor_Will has a different coat pattern compared to a 180.Wilson_Warbler."
+    ],
+    "106.Horned_Puffin": [
+        "A 106.Horned_Puffin is heavier and sturdier than a 113.Baird_Sparrow.",
+        "A 106.Horned_Puffin is smaller than a 123.Henslow_Sparrow.",
+        "A 106.Horned_Puffin tends to have longer fur than a 028.Brown_Creeper."
+    ],
+    "107.Common_Raven": [
+        "A 107.Common_Raven is more muscular than a 130.Tree_Sparrow.",
+        "A 107.Common_Raven is smaller than a 198.Rock_Wren.",
+        "A 107.Common_Raven tends to have longer fur than a 178.Swainson_Warbler."
+    ],
+    "108.White_necked_Raven": [
+        "A 108.White_necked_Raven usually has a different body shape than a 061.Heermann_Gull.",
+        "A 108.White_necked_Raven has a different coat pattern compared to a 186.Cedar_Waxwing.",
+        "A 108.White_necked_Raven has a different coat pattern compared to a 126.Nelson_Sharp_tailed_Sparrow."
+    ],
+    "109.American_Redstart": [
+        "A 109.American_Redstart has a shorter muzzle than a 011.Rusty_Blackbird.",
+        "A 109.American_Redstart is more muscular than a 154.Red_eyed_Vireo.",
+        "A 109.American_Redstart is smaller than a 188.Pileated_Woodpecker."
+    ],
+    "110.Geococcyx": [
+        "A 110.Geococcyx is smaller than a 135.Bank_Swallow.",
+        "A 110.Geococcyx has a shorter muzzle than a 191.Red_headed_Woodpecker.",
+        "A 110.Geococcyx usually has a different body shape than a 019.Gray_Catbird."
+    ],
+    "111.Loggerhead_Shrike": [
+        "A 111.Loggerhead_Shrike is smaller than a 175.Pine_Warbler.",
+        "A 111.Loggerhead_Shrike appears more slender than a 193.Bewick_Wren.",
+        "A 111.Loggerhead_Shrike looks more delicate than a 012.Yellow_headed_Blackbird."
+    ],
+    "112.Great_Grey_Shrike": [
+        "A 112.Great_Grey_Shrike is heavier and sturdier than a 047.American_Goldfinch.",
+        "A 112.Great_Grey_Shrike tends to have longer fur than a 084.Red_legged_Kittiwake.",
+        "A 112.Great_Grey_Shrike is smaller than a 096.Hooded_Oriole."
+    ],
+    "113.Baird_Sparrow": [
+        "A 113.Baird_Sparrow is more muscular than a 089.Hooded_Merganser.",
+        "A 113.Baird_Sparrow appears more slender than a 088.Western_Meadowlark.",
+        "A 113.Baird_Sparrow is smaller than a 072.Pomarine_Jaeger."
+    ],
+    "114.Black_throated_Sparrow": [
+        "A 114.Black_throated_Sparrow is heavier and sturdier than a 095.Baltimore_Oriole.",
+        "A 114.Black_throated_Sparrow is more muscular than a 099.Ovenbird.",
+        "A 114.Black_throated_Sparrow is smaller than a 165.Chestnut_sided_Warbler."
+    ],
+    "115.Brewer_Sparrow": [
+        "A 115.Brewer_Sparrow has a different coat pattern compared to a 024.Red_faced_Cormorant.",
+        "A 115.Brewer_Sparrow usually has a different body shape than a 011.Rusty_Blackbird.",
+        "A 115.Brewer_Sparrow is heavier and sturdier than a 100.Brown_Pelican."
+    ],
+    "116.Chipping_Sparrow": [
+        "A 116.Chipping_Sparrow has a shorter muzzle than a 082.Ringed_Kingfisher.",
+        "A 116.Chipping_Sparrow has a different coat pattern compared to a 005.Crested_Auklet.",
+        "A 116.Chipping_Sparrow tends to have longer fur than a 019.Gray_Catbird."
+    ],
+    "117.Clay_colored_Sparrow": [
+        "A 117.Clay_colored_Sparrow is more muscular than a 105.Whip_poor_Will.",
+        "A 117.Clay_colored_Sparrow usually has a different body shape than a 196.House_Wren.",
+        "A 117.Clay_colored_Sparrow has a shorter muzzle than a 173.Orange_crowned_Warbler."
+    ],
+    "118.House_Sparrow": [
+        "A 118.House_Sparrow is more muscular than a 097.Orchard_Oriole.",
+        "A 118.House_Sparrow tends to have longer fur than a 158.Bay_breasted_Warbler.",
+        "A 118.House_Sparrow looks more delicate than a 157.Yellow_throated_Vireo."
+    ],
+    "119.Field_Sparrow": [
+        "A 119.Field_Sparrow tends to have longer fur than a 162.Canada_Warbler.",
+        "A 119.Field_Sparrow appears more slender than a 019.Gray_Catbird.",
+        "A 119.Field_Sparrow is heavier and sturdier than a 081.Pied_Kingfisher."
+    ],
+    "120.Fox_Sparrow": [
+        "A 120.Fox_Sparrow usually has a different body shape than a 114.Black_throated_Sparrow.",
+        "A 120.Fox_Sparrow looks more delicate than a 067.Anna_Hummingbird.",
+        "A 120.Fox_Sparrow is smaller than a 128.Seaside_Sparrow."
+    ],
+    "121.Grasshopper_Sparrow": [
+        "A 121.Grasshopper_Sparrow is smaller than a 002.Laysan_Albatross.",
+        "A 121.Grasshopper_Sparrow looks more delicate than a 055.Evening_Grosbeak.",
+        "A 121.Grasshopper_Sparrow is smaller than a 174.Palm_Warbler."
+    ],
+    "122.Harris_Sparrow": [
+        "A 122.Harris_Sparrow looks more delicate than a 135.Bank_Swallow.",
+        "A 122.Harris_Sparrow has larger ears than a 159.Black_and_white_Warbler.",
+        "A 122.Harris_Sparrow has larger ears than a 131.Vesper_Sparrow."
+    ],
+    "123.Henslow_Sparrow": [
+        "A 123.Henslow_Sparrow has a shorter muzzle than a 018.Spotted_Catbird.",
+        "A 123.Henslow_Sparrow usually has a different body shape than a 045.Northern_Fulmar.",
+        "A 123.Henslow_Sparrow usually has a different body shape than a 126.Nelson_Sharp_tailed_Sparrow."
+    ],
+    "124.Le_Conte_Sparrow": [
+        "A 124.Le_Conte_Sparrow has a shorter muzzle than a 128.Seaside_Sparrow.",
+        "A 124.Le_Conte_Sparrow appears more slender than a 167.Hooded_Warbler.",
+        "A 124.Le_Conte_Sparrow has a shorter muzzle than a 195.Carolina_Wren."
+    ],
+    "125.Lincoln_Sparrow": [
+        "A 125.Lincoln_Sparrow has larger ears than a 087.Mallard.",
+        "A 125.Lincoln_Sparrow has larger ears than a 181.Worm_eating_Warbler.",
+        "A 125.Lincoln_Sparrow has larger ears than a 009.Brewer_Blackbird."
+    ],
+    "126.Nelson_Sharp_tailed_Sparrow": [
+        "A 126.Nelson_Sharp_tailed_Sparrow has larger ears than a 054.Blue_Grosbeak.",
+        "A 126.Nelson_Sharp_tailed_Sparrow appears more slender than a 057.Rose_breasted_Grosbeak.",
+        "A 126.Nelson_Sharp_tailed_Sparrow has a shorter muzzle than a 107.Common_Raven."
+    ],
+    "127.Savannah_Sparrow": [
+        "A 127.Savannah_Sparrow is smaller than a 132.White_crowned_Sparrow.",
+        "A 127.Savannah_Sparrow is more muscular than a 040.Olive_sided_Flycatcher.",
+        "A 127.Savannah_Sparrow looks more delicate than a 139.Scarlet_Tanager."
+    ],
+    "128.Seaside_Sparrow": [
+        "A 128.Seaside_Sparrow has a different coat pattern compared to a 145.Elegant_Tern.",
+        "A 128.Seaside_Sparrow tends to have longer fur than a 112.Great_Grey_Shrike.",
+        "A 128.Seaside_Sparrow has larger ears than a 057.Rose_breasted_Grosbeak."
+    ],
+    "129.Song_Sparrow": [
+        "A 129.Song_Sparrow is heavier and sturdier than a 087.Mallard.",
+        "A 129.Song_Sparrow is smaller than a 077.Tropical_Kingbird.",
+        "A 129.Song_Sparrow appears more slender than a 037.Acadian_Flycatcher."
+    ],
+    "130.Tree_Sparrow": [
+        "A 130.Tree_Sparrow has a shorter muzzle than a 092.Nighthawk.",
+        "A 130.Tree_Sparrow tends to have longer fur than a 139.Scarlet_Tanager.",
+        "A 130.Tree_Sparrow looks more delicate than a 036.Northern_Flicker."
+    ],
+    "131.Vesper_Sparrow": [
+        "A 131.Vesper_Sparrow looks more delicate than a 143.Caspian_Tern.",
+        "A 131.Vesper_Sparrow usually has a different body shape than a 089.Hooded_Merganser.",
+        "A 131.Vesper_Sparrow is heavier and sturdier than a 050.Eared_Grebe."
+    ],
+    "132.White_crowned_Sparrow": [
+        "A 132.White_crowned_Sparrow has larger ears than a 004.Groove_billed_Ani.",
+        "A 132.White_crowned_Sparrow has a different coat pattern compared to a 183.Northern_Waterthrush.",
+        "A 132.White_crowned_Sparrow usually has a different body shape than a 069.Rufous_Hummingbird."
+    ],
+    "133.White_throated_Sparrow": [
+        "A 133.White_throated_Sparrow is more muscular than a 035.Purple_Finch.",
+        "A 133.White_throated_Sparrow is smaller than a 049.Boat_tailed_Grackle.",
+        "A 133.White_throated_Sparrow appears more slender than a 010.Red_winged_Blackbird."
+    ],
+    "134.Cape_Glossy_Starling": [
+        "A 134.Cape_Glossy_Starling is heavier and sturdier than a 045.Northern_Fulmar.",
+        "A 134.Cape_Glossy_Starling is smaller than a 035.Purple_Finch.",
+        "A 134.Cape_Glossy_Starling has a shorter muzzle than a 153.Philadelphia_Vireo."
+    ],
+    "135.Bank_Swallow": [
+        "A 135.Bank_Swallow usually has a different body shape than a 096.Hooded_Oriole.",
+        "A 135.Bank_Swallow is heavier and sturdier than a 032.Mangrove_Cuckoo.",
+        "A 135.Bank_Swallow has a different coat pattern compared to a 200.Common_Yellowthroat."
+    ],
+    "136.Barn_Swallow": [
+        "A 136.Barn_Swallow has a different coat pattern compared to a 109.American_Redstart.",
+        "A 136.Barn_Swallow usually has a different body shape than a 063.Ivory_Gull.",
+        "A 136.Barn_Swallow is smaller than a 082.Ringed_Kingfisher."
+    ],
+    "137.Cliff_Swallow": [
+        "A 137.Cliff_Swallow looks more delicate than a 100.Brown_Pelican.",
+        "A 137.Cliff_Swallow is more muscular than a 079.Belted_Kingfisher.",
+        "A 137.Cliff_Swallow looks more delicate than a 087.Mallard."
+    ],
+    "138.Tree_Swallow": [
+        "A 138.Tree_Swallow tends to have longer fur than a 007.Parakeet_Auklet.",
+        "A 138.Tree_Swallow has a shorter muzzle than a 188.Pileated_Woodpecker.",
+        "A 138.Tree_Swallow has a different coat pattern compared to a 116.Chipping_Sparrow."
+    ],
+    "139.Scarlet_Tanager": [
+        "A 139.Scarlet_Tanager is more muscular than a 038.Great_Crested_Flycatcher.",
+        "A 139.Scarlet_Tanager has larger ears than a 186.Cedar_Waxwing.",
+        "A 139.Scarlet_Tanager is heavier and sturdier than a 048.European_Goldfinch."
+    ],
+    "140.Summer_Tanager": [
+        "A 140.Summer_Tanager looks more delicate than a 162.Canada_Warbler.",
+        "A 140.Summer_Tanager has a shorter muzzle than a 094.White_breasted_Nuthatch.",
+        "A 140.Summer_Tanager is more muscular than a 189.Red_bellied_Woodpecker."
+    ],
+    "141.Artic_Tern": [
+        "A 141.Artic_Tern has a shorter muzzle than a 059.California_Gull.",
+        "A 141.Artic_Tern has a shorter muzzle than a 087.Mallard.",
+        "A 141.Artic_Tern is heavier and sturdier than a 089.Hooded_Merganser."
+    ],
+    "142.Black_Tern": [
+        "A 142.Black_Tern is smaller than a 138.Tree_Swallow.",
+        "A 142.Black_Tern tends to have longer fur than a 164.Cerulean_Warbler.",
+        "A 142.Black_Tern appears more slender than a 163.Cape_May_Warbler."
+    ],
+    "143.Caspian_Tern": [
+        "A 143.Caspian_Tern is smaller than a 056.Pine_Grosbeak.",
+        "A 143.Caspian_Tern is heavier and sturdier than a 141.Artic_Tern.",
+        "A 143.Caspian_Tern appears more slender than a 137.Cliff_Swallow."
+    ],
+    "144.Common_Tern": [
+        "A 144.Common_Tern usually has a different body shape than a 094.White_breasted_Nuthatch.",
+        "A 144.Common_Tern appears more slender than a 092.Nighthawk.",
+        "A 144.Common_Tern usually has a different body shape than a 029.American_Crow."
+    ],
+    "145.Elegant_Tern": [
+        "A 145.Elegant_Tern has larger ears than a 034.Gray_crowned_Rosy_Finch.",
+        "A 145.Elegant_Tern looks more delicate than a 163.Cape_May_Warbler.",
+        "A 145.Elegant_Tern usually has a different body shape than a 089.Hooded_Merganser."
+    ],
+    "146.Forsters_Tern": [
+        "A 146.Forsters_Tern has larger ears than a 062.Herring_Gull.",
+        "A 146.Forsters_Tern usually has a different body shape than a 040.Olive_sided_Flycatcher.",
+        "A 146.Forsters_Tern looks more delicate than a 038.Great_Crested_Flycatcher."
+    ],
+    "147.Least_Tern": [
+        "A 147.Least_Tern looks more delicate than a 188.Pileated_Woodpecker.",
+        "A 147.Least_Tern tends to have longer fur than a 023.Brandt_Cormorant.",
+        "A 147.Least_Tern is heavier and sturdier than a 101.White_Pelican."
+    ],
+    "148.Green_tailed_Towhee": [
+        "A 148.Green_tailed_Towhee is more muscular than a 049.Boat_tailed_Grackle.",
+        "A 148.Green_tailed_Towhee is smaller than a 144.Common_Tern.",
+        "A 148.Green_tailed_Towhee looks more delicate than a 090.Red_breasted_Merganser."
+    ],
+    "149.Brown_Thrasher": [
+        "A 149.Brown_Thrasher has larger ears than a 141.Artic_Tern.",
+        "A 149.Brown_Thrasher is heavier and sturdier than a 008.Rhinoceros_Auklet.",
+        "A 149.Brown_Thrasher is heavier and sturdier than a 124.Le_Conte_Sparrow."
+    ],
+    "150.Sage_Thrasher": [
+        "A 150.Sage_Thrasher is more muscular than a 082.Ringed_Kingfisher.",
+        "A 150.Sage_Thrasher has larger ears than a 197.Marsh_Wren.",
+        "A 150.Sage_Thrasher usually has a different body shape than a 053.Western_Grebe."
+    ],
+    "151.Black_capped_Vireo": [
+        "A 151.Black_capped_Vireo has larger ears than a 062.Herring_Gull.",
+        "A 151.Black_capped_Vireo has a different coat pattern compared to a 091.Mockingbird.",
+        "A 151.Black_capped_Vireo is more muscular than a 019.Gray_Catbird."
+    ],
+    "152.Blue_headed_Vireo": [
+        "A 152.Blue_headed_Vireo is smaller than a 178.Swainson_Warbler.",
+        "A 152.Blue_headed_Vireo is smaller than a 047.American_Goldfinch.",
+        "A 152.Blue_headed_Vireo has larger ears than a 198.Rock_Wren."
+    ],
+    "153.Philadelphia_Vireo": [
+        "A 153.Philadelphia_Vireo has larger ears than a 087.Mallard.",
+        "A 153.Philadelphia_Vireo has a shorter muzzle than a 059.California_Gull.",
+        "A 153.Philadelphia_Vireo is smaller than a 006.Least_Auklet."
+    ],
+    "154.Red_eyed_Vireo": [
+        "A 154.Red_eyed_Vireo is heavier and sturdier than a 118.House_Sparrow.",
+        "A 154.Red_eyed_Vireo is smaller than a 094.White_breasted_Nuthatch.",
+        "A 154.Red_eyed_Vireo has larger ears than a 049.Boat_tailed_Grackle."
+    ],
+    "155.Warbling_Vireo": [
+        "A 155.Warbling_Vireo has a different coat pattern compared to a 066.Western_Gull.",
+        "A 155.Warbling_Vireo is heavier and sturdier than a 166.Golden_winged_Warbler.",
+        "A 155.Warbling_Vireo is smaller than a 094.White_breasted_Nuthatch."
+    ],
+    "156.White_eyed_Vireo": [
+        "A 156.White_eyed_Vireo has a shorter muzzle than a 130.Tree_Sparrow.",
+        "A 156.White_eyed_Vireo has larger ears than a 197.Marsh_Wren.",
+        "A 156.White_eyed_Vireo usually has a different body shape than a 092.Nighthawk."
+    ],
+    "157.Yellow_throated_Vireo": [
+        "A 157.Yellow_throated_Vireo is heavier and sturdier than a 049.Boat_tailed_Grackle.",
+        "A 157.Yellow_throated_Vireo is smaller than a 044.Frigatebird.",
+        "A 157.Yellow_throated_Vireo has a different coat pattern compared to a 165.Chestnut_sided_Warbler."
+    ],
+    "158.Bay_breasted_Warbler": [
+        "A 158.Bay_breasted_Warbler usually has a different body shape than a 002.Laysan_Albatross.",
+        "A 158.Bay_breasted_Warbler is more muscular than a 128.Seaside_Sparrow.",
+        "A 158.Bay_breasted_Warbler usually has a different body shape than a 059.California_Gull."
+    ],
+    "159.Black_and_white_Warbler": [
+        "A 159.Black_and_white_Warbler has larger ears than a 135.Bank_Swallow.",
+        "A 159.Black_and_white_Warbler is heavier and sturdier than a 004.Groove_billed_Ani.",
+        "A 159.Black_and_white_Warbler usually has a different body shape than a 118.House_Sparrow."
+    ],
+    "160.Black_throated_Blue_Warbler": [
+        "A 160.Black_throated_Blue_Warbler usually has a different body shape than a 041.Scissor_tailed_Flycatcher.",
+        "A 160.Black_throated_Blue_Warbler is more muscular than a 008.Rhinoceros_Auklet.",
+        "A 160.Black_throated_Blue_Warbler is more muscular than a 169.Magnolia_Warbler."
+    ],
+    "161.Blue_winged_Warbler": [
+        "A 161.Blue_winged_Warbler has a shorter muzzle than a 094.White_breasted_Nuthatch.",
+        "A 161.Blue_winged_Warbler is heavier and sturdier than a 059.California_Gull.",
+        "A 161.Blue_winged_Warbler appears more slender than a 153.Philadelphia_Vireo."
+    ],
+    "162.Canada_Warbler": [
+        "A 162.Canada_Warbler has a different coat pattern compared to a 141.Artic_Tern.",
+        "A 162.Canada_Warbler is heavier and sturdier than a 101.White_Pelican.",
+        "A 162.Canada_Warbler has a shorter muzzle than a 084.Red_legged_Kittiwake."
+    ],
+    "163.Cape_May_Warbler": [
+        "A 163.Cape_May_Warbler has larger ears than a 027.Shiny_Cowbird.",
+        "A 163.Cape_May_Warbler has a shorter muzzle than a 036.Northern_Flicker.",
+        "A 163.Cape_May_Warbler tends to have longer fur than a 111.Loggerhead_Shrike."
+    ],
+    "164.Cerulean_Warbler": [
+        "A 164.Cerulean_Warbler is more muscular than a 036.Northern_Flicker.",
+        "A 164.Cerulean_Warbler usually has a different body shape than a 196.House_Wren.",
+        "A 164.Cerulean_Warbler has larger ears than a 168.Kentucky_Warbler."
+    ],
+    "165.Chestnut_sided_Warbler": [
+        "A 165.Chestnut_sided_Warbler looks more delicate than a 088.Western_Meadowlark.",
+        "A 165.Chestnut_sided_Warbler tends to have longer fur than a 073.Blue_Jay.",
+        "A 165.Chestnut_sided_Warbler usually has a different body shape than a 035.Purple_Finch."
+    ],
+    "166.Golden_winged_Warbler": [
+        "A 166.Golden_winged_Warbler has a different coat pattern compared to a 136.Barn_Swallow.",
+        "A 166.Golden_winged_Warbler is heavier and sturdier than a 114.Black_throated_Sparrow.",
+        "A 166.Golden_winged_Warbler is smaller than a 099.Ovenbird."
+    ],
+    "167.Hooded_Warbler": [
+        "A 167.Hooded_Warbler is smaller than a 090.Red_breasted_Merganser.",
+        "A 167.Hooded_Warbler is more muscular than a 182.Yellow_Warbler.",
+        "A 167.Hooded_Warbler has a different coat pattern compared to a 144.Common_Tern."
+    ],
+    "168.Kentucky_Warbler": [
+        "A 168.Kentucky_Warbler has larger ears than a 094.White_breasted_Nuthatch.",
+        "A 168.Kentucky_Warbler is smaller than a 162.Canada_Warbler.",
+        "A 168.Kentucky_Warbler looks more delicate than a 124.Le_Conte_Sparrow."
+    ],
+    "169.Magnolia_Warbler": [
+        "A 169.Magnolia_Warbler is heavier and sturdier than a 051.Horned_Grebe.",
+        "A 169.Magnolia_Warbler has larger ears than a 027.Shiny_Cowbird.",
+        "A 169.Magnolia_Warbler has larger ears than a 103.Sayornis."
+    ],
+    "170.Mourning_Warbler": [
+        "A 170.Mourning_Warbler usually has a different body shape than a 081.Pied_Kingfisher.",
+        "A 170.Mourning_Warbler has a different coat pattern compared to a 171.Myrtle_Warbler.",
+        "A 170.Mourning_Warbler has a shorter muzzle than a 188.Pileated_Woodpecker."
+    ],
+    "171.Myrtle_Warbler": [
+        "A 171.Myrtle_Warbler has a different coat pattern compared to a 154.Red_eyed_Vireo.",
+        "A 171.Myrtle_Warbler has a shorter muzzle than a 105.Whip_poor_Will.",
+        "A 171.Myrtle_Warbler tends to have longer fur than a 060.Glaucous_winged_Gull."
+    ],
+    "172.Nashville_Warbler": [
+        "A 172.Nashville_Warbler is more muscular than a 032.Mangrove_Cuckoo.",
+        "A 172.Nashville_Warbler appears more slender than a 176.Prairie_Warbler.",
+        "A 172.Nashville_Warbler has a shorter muzzle than a 197.Marsh_Wren."
+    ],
+    "173.Orange_crowned_Warbler": [
+        "A 173.Orange_crowned_Warbler is more muscular than a 115.Brewer_Sparrow.",
+        "A 173.Orange_crowned_Warbler is more muscular than a 106.Horned_Puffin.",
+        "A 173.Orange_crowned_Warbler tends to have longer fur than a 068.Ruby_throated_Hummingbird."
+    ],
+    "174.Palm_Warbler": [
+        "A 174.Palm_Warbler is more muscular than a 188.Pileated_Woodpecker.",
+        "A 174.Palm_Warbler has a shorter muzzle than a 049.Boat_tailed_Grackle.",
+        "A 174.Palm_Warbler is more muscular than a 017.Cardinal."
+    ],
+    "175.Pine_Warbler": [
+        "A 175.Pine_Warbler is heavier and sturdier than a 166.Golden_winged_Warbler.",
+        "A 175.Pine_Warbler tends to have longer fur than a 073.Blue_Jay.",
+        "A 175.Pine_Warbler is smaller than a 145.Elegant_Tern."
+    ],
+    "176.Prairie_Warbler": [
+        "A 176.Prairie_Warbler appears more slender than a 024.Red_faced_Cormorant.",
+        "A 176.Prairie_Warbler is smaller than a 009.Brewer_Blackbird.",
+        "A 176.Prairie_Warbler is heavier and sturdier than a 046.Gadwall."
+    ],
+    "177.Prothonotary_Warbler": [
+        "A 177.Prothonotary_Warbler is more muscular than a 004.Groove_billed_Ani.",
+        "A 177.Prothonotary_Warbler looks more delicate than a 147.Least_Tern.",
+        "A 177.Prothonotary_Warbler tends to have longer fur than a 012.Yellow_headed_Blackbird."
+    ],
+    "178.Swainson_Warbler": [
+        "A 178.Swainson_Warbler usually has a different body shape than a 193.Bewick_Wren.",
+        "A 178.Swainson_Warbler is heavier and sturdier than a 096.Hooded_Oriole.",
+        "A 178.Swainson_Warbler tends to have longer fur than a 200.Common_Yellowthroat."
+    ],
+    "179.Tennessee_Warbler": [
+        "A 179.Tennessee_Warbler is heavier and sturdier than a 129.Song_Sparrow.",
+        "A 179.Tennessee_Warbler is smaller than a 068.Ruby_throated_Hummingbird.",
+        "A 179.Tennessee_Warbler usually has a different body shape than a 085.Horned_Lark."
+    ],
+    "180.Wilson_Warbler": [
+        "A 180.Wilson_Warbler has a shorter muzzle than a 172.Nashville_Warbler.",
+        "A 180.Wilson_Warbler usually has a different body shape than a 167.Hooded_Warbler.",
+        "A 180.Wilson_Warbler has a different coat pattern compared to a 153.Philadelphia_Vireo."
+    ],
+    "181.Worm_eating_Warbler": [
+        "A 181.Worm_eating_Warbler tends to have longer fur than a 097.Orchard_Oriole.",
+        "A 181.Worm_eating_Warbler looks more delicate than a 095.Baltimore_Oriole.",
+        "A 181.Worm_eating_Warbler is smaller than a 080.Green_Kingfisher."
+    ],
+    "182.Yellow_Warbler": [
+        "A 182.Yellow_Warbler has a different coat pattern compared to a 030.Fish_Crow.",
+        "A 182.Yellow_Warbler has a different coat pattern compared to a 189.Red_bellied_Woodpecker.",
+        "A 182.Yellow_Warbler appears more slender than a 133.White_throated_Sparrow."
+    ],
+    "183.Northern_Waterthrush": [
+        "A 183.Northern_Waterthrush is smaller than a 103.Sayornis.",
+        "A 183.Northern_Waterthrush has a different coat pattern compared to a 101.White_Pelican.",
+        "A 183.Northern_Waterthrush tends to have longer fur than a 069.Rufous_Hummingbird."
+    ],
+    "184.Louisiana_Waterthrush": [
+        "A 184.Louisiana_Waterthrush has a different coat pattern compared to a 127.Savannah_Sparrow.",
+        "A 184.Louisiana_Waterthrush has a shorter muzzle than a 048.European_Goldfinch.",
+        "A 184.Louisiana_Waterthrush has a different coat pattern compared to a 008.Rhinoceros_Auklet."
+    ],
+    "185.Bohemian_Waxwing": [
+        "A 185.Bohemian_Waxwing usually has a different body shape than a 045.Northern_Fulmar.",
+        "A 185.Bohemian_Waxwing is heavier and sturdier than a 103.Sayornis.",
+        "A 185.Bohemian_Waxwing is more muscular than a 080.Green_Kingfisher."
+    ],
+    "186.Cedar_Waxwing": [
+        "A 186.Cedar_Waxwing has larger ears than a 114.Black_throated_Sparrow.",
+        "A 186.Cedar_Waxwing is heavier and sturdier than a 129.Song_Sparrow.",
+        "A 186.Cedar_Waxwing tends to have longer fur than a 032.Mangrove_Cuckoo."
+    ],
+    "187.American_Three_toed_Woodpecker": [
+        "A 187.American_Three_toed_Woodpecker has a different coat pattern compared to a 166.Golden_winged_Warbler.",
+        "A 187.American_Three_toed_Woodpecker looks more delicate than a 143.Caspian_Tern.",
+        "A 187.American_Three_toed_Woodpecker is heavier and sturdier than a 109.American_Redstart."
+    ],
+    "188.Pileated_Woodpecker": [
+        "A 188.Pileated_Woodpecker is more muscular than a 190.Red_cockaded_Woodpecker.",
+        "A 188.Pileated_Woodpecker tends to have longer fur than a 160.Black_throated_Blue_Warbler.",
+        "A 188.Pileated_Woodpecker is smaller than a 172.Nashville_Warbler."
+    ],
+    "189.Red_bellied_Woodpecker": [
+        "A 189.Red_bellied_Woodpecker is smaller than a 157.Yellow_throated_Vireo.",
+        "A 189.Red_bellied_Woodpecker has a shorter muzzle than a 112.Great_Grey_Shrike.",
+        "A 189.Red_bellied_Woodpecker looks more delicate than a 035.Purple_Finch."
+    ],
+    "190.Red_cockaded_Woodpecker": [
+        "A 190.Red_cockaded_Woodpecker is smaller than a 090.Red_breasted_Merganser.",
+        "A 190.Red_cockaded_Woodpecker usually has a different body shape than a 073.Blue_Jay.",
+        "A 190.Red_cockaded_Woodpecker is smaller than a 022.Chuck_will_Widow."
+    ],
+    "191.Red_headed_Woodpecker": [
+        "A 191.Red_headed_Woodpecker tends to have longer fur than a 107.Common_Raven.",
+        "A 191.Red_headed_Woodpecker has larger ears than a 101.White_Pelican.",
+        "A 191.Red_headed_Woodpecker has a shorter muzzle than a 139.Scarlet_Tanager."
+    ],
+    "192.Downy_Woodpecker": [
+        "A 192.Downy_Woodpecker usually has a different body shape than a 099.Ovenbird.",
+        "A 192.Downy_Woodpecker appears more slender than a 146.Forsters_Tern.",
+        "A 192.Downy_Woodpecker appears more slender than a 019.Gray_Catbird."
+    ],
+    "193.Bewick_Wren": [
+        "A 193.Bewick_Wren is heavier and sturdier than a 077.Tropical_Kingbird.",
+        "A 193.Bewick_Wren appears more slender than a 090.Red_breasted_Merganser.",
+        "A 193.Bewick_Wren is smaller than a 013.Bobolink."
+    ],
+    "194.Cactus_Wren": [
+        "A 194.Cactus_Wren tends to have longer fur than a 016.Painted_Bunting.",
+        "A 194.Cactus_Wren has a shorter muzzle than a 107.Common_Raven.",
+        "A 194.Cactus_Wren appears more slender than a 192.Downy_Woodpecker."
+    ],
+    "195.Carolina_Wren": [
+        "A 195.Carolina_Wren usually has a different body shape than a 128.Seaside_Sparrow.",
+        "A 195.Carolina_Wren usually has a different body shape than a 118.House_Sparrow.",
+        "A 195.Carolina_Wren appears more slender than a 125.Lincoln_Sparrow."
+    ],
+    "196.House_Wren": [
+        "A 196.House_Wren has a shorter muzzle than a 105.Whip_poor_Will.",
+        "A 196.House_Wren is more muscular than a 024.Red_faced_Cormorant.",
+        "A 196.House_Wren is smaller than a 020.Yellow_breasted_Chat."
+    ],
+    "197.Marsh_Wren": [
+        "A 197.Marsh_Wren has larger ears than a 038.Great_Crested_Flycatcher.",
+        "A 197.Marsh_Wren appears more slender than a 011.Rusty_Blackbird.",
+        "A 197.Marsh_Wren tends to have longer fur than a 139.Scarlet_Tanager."
+    ],
+    "198.Rock_Wren": [
+        "A 198.Rock_Wren usually has a different body shape than a 101.White_Pelican.",
+        "A 198.Rock_Wren usually has a different body shape than a 027.Shiny_Cowbird.",
+        "A 198.Rock_Wren appears more slender than a 193.Bewick_Wren."
+    ],
+    "199.Winter_Wren": [
+        "A 199.Winter_Wren is more muscular than a 109.American_Redstart.",
+        "A 199.Winter_Wren has larger ears than a 018.Spotted_Catbird.",
+        "A 199.Winter_Wren has a shorter muzzle than a 107.Common_Raven."
+    ],
+    "200.Common_Yellowthroat": [
+        "A 200.Common_Yellowthroat has larger ears than a 157.Yellow_throated_Vireo.",
+        "A 200.Common_Yellowthroat is heavier and sturdier than a 041.Scissor_tailed_Flycatcher.",
+        "A 200.Common_Yellowthroat is smaller than a 167.Hooded_Warbler."
+    ]
+}

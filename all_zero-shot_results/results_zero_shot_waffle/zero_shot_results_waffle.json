@@ -1,10 +1,15 @@
 {
     "model": "ViT-B/32",
     "method": "WaffleCLIP",
-    "total_datasets": 1,
+    "total_datasets": 2,
     "results": {
+        "CUB_200_2011": {
+            "accuracy": 0.0224,
+            "num_classes": 86,
+            "num_images": 5000
+        },
         "Stanford_Dogs": {
-            "accuracy": 0.2072,
+            "accuracy": 0.2474,
             "num_classes": 28,
             "num_images": 5000
         }

@@ -1,0 +1,21 @@
+{
+    "model": "ViT-B/32",
+    "method": "CLIP + Comparações entre classes",
+    "total_datasets": 2,
+    "successful": 2,
+    "failed": 0,
+    "results": {
+        "CUB_200_2011": {
+            "accuracy": 0.0374,
+            "num_classes": 86,
+            "num_images": 5000,
+            "confusion_matrix_plot": "all_zero-shot_results/results_zero_shot_comparative\\CUB_200_2011_cm.png"
+        },
+        "Stanford_Dogs": {
+            "accuracy": 0.367,
+            "num_classes": 28,
+            "num_images": 5000,
+            "confusion_matrix_plot": "all_zero-shot_results/results_zero_shot_comparative\\Stanford_Dogs_cm.png"
+        }
+    }
+}

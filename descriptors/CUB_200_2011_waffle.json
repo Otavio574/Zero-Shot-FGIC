@@ -1,0 +1,1002 @@
+{
+    "001.Black_footed_Albatross": [
+        "a picture of a tern, airplane, Humvee, cactus",
+        "a picture of a tern, toaster, pizza, airplane",
+        "a picture of a tern, candle, airplane, lighthouse"
+    ],
+    "002.Laysan_Albatross": [
+        "tern in the image, cucumber, shark, Humvee",
+        "tern in the image, Humvee, cucumber, airplane",
+        "tern in the image, pizza, Humvee, toaster"
+    ],
+    "003.Sooty_Albatross": [
+        "a picture of a bird, keyboard, shark, airplane",
+        "a picture of a bird, pencil, toaster, guitar",
+        "a picture of a bird, Humvee, motorcycle, cactus"
+    ],
+    "004.Groove_billed_Ani": [
+        "an image showing a raptor, shark, lighthouse, candle",
+        "an image showing a raptor, candle, keyboard, guitar",
+        "an image showing a raptor, lighthouse, airplane, banana"
+    ],
+    "005.Crested_Auklet": [
+        "an image showing a swan, guitar, airplane, motorcycle",
+        "an image showing a swan, cactus, toaster, guitar",
+        "an image showing a swan, banana, pencil, toaster"
+    ],
+    "006.Least_Auklet": [
+        "a picture of a crow, airplane, guitar, banana",
+        "a picture of a crow, telescope, cactus, volcano",
+        "a picture of a crow, keyboard, cucumber, Humvee"
+    ],
+    "007.Parakeet_Auklet": [
+        "an image showing a bird, pizza, telescope, banana",
+        "an image showing a bird, pizza, airplane, keyboard",
+        "an image showing a bird, toaster, pencil, lighthouse"
+    ],
+    "008.Rhinoceros_Auklet": [
+        "bird in the image, cactus, motorcycle, umbrella",
+        "bird in the image, cactus, keyboard, lighthouse",
+        "bird in the image, toaster, cucumber, telescope"
+    ],
+    "009.Brewer_Blackbird": [
+        "crow in the image, motorcycle, pizza, cucumber",
+        "crow in the image, pencil, guitar, candle",
+        "crow in the image, pizza, lighthouse, shark"
+    ],
+    "010.Red_winged_Blackbird": [
+        "an image showing a raven, banana, pizza, shark",
+        "an image showing a raven, banana, lighthouse, keyboard",
+        "an image showing a raven, toaster, cucumber, airplane"
+    ],
+    "011.Rusty_Blackbird": [
+        "an image showing a crow, lighthouse, keyboard, volcano",
+        "an image showing a crow, umbrella, guitar, pencil",
+        "an image showing a crow, pencil, candle, umbrella"
+    ],
+    "012.Yellow_headed_Blackbird": [
+        "blackbird in the image, candle, pizza, cactus",
+        "blackbird in the image, toaster, shark, pencil",
+        "blackbird in the image, guitar, cactus, airplane"
+    ],
+    "013.Bobolink": [
+        "a picture of a bird, candle, umbrella, banana",
+        "a picture of a bird, banana, airplane, cucumber",
+        "a picture of a bird, motorcycle, shark, telescope"
+    ],
+    "014.Indigo_Bunting": [
+        "an image showing a kite, cucumber, guitar, keyboard",
+        "an image showing a kite, pencil, toaster, umbrella",
+        "an image showing a kite, Humvee, airplane, lighthouse"
+    ],
+    "015.Lazuli_Bunting": [
+        "an image showing a bird, toaster, lighthouse, banana",
+        "an image showing a bird, telescope, shark, cucumber",
+        "an image showing a bird, pencil, Humvee, cactus"
+    ],
+    "016.Painted_Bunting": [
+        "blackbird in the image, toaster, motorcycle, volcano",
+        "blackbird in the image, airplane, telescope, shark",
+        "blackbird in the image, volcano, keyboard, cucumber"
+    ],
+    "017.Cardinal": [
+        "an image showing a bird, cactus, motorcycle, toaster",
+        "an image showing a bird, volcano, Humvee, telescope",
+        "an image showing a bird, lighthouse, umbrella, Humvee"
+    ],
+    "018.Spotted_Catbird": [
+        "an image showing a bird, airplane, cactus, pencil",
+        "an image showing a bird, telescope, pizza, Humvee",
+        "an image showing a bird, pizza, cucumber, banana"
+    ],
+    "019.Gray_Catbird": [
+        "a picture of a crow, umbrella, cucumber, guitar",
+        "a picture of a crow, candle, volcano, lighthouse",
+        "a picture of a crow, umbrella, motorcycle, candle"
+    ],
+    "020.Yellow_breasted_Chat": [
+        "a picture of a crow, volcano, shark, airplane",
+        "a picture of a crow, keyboard, telescope, volcano",
+        "a picture of a crow, cactus, pencil, umbrella"
+    ],
+    "021.Eastern_Towhee": [
+        "blackbird in the image, volcano, pencil, banana",
+        "blackbird in the image, pizza, volcano, banana",
+        "blackbird in the image, lighthouse, Humvee, telescope"
+    ],
+    "022.Chuck_will_Widow": [
+        "a picture of a kite, pizza, volcano, Humvee",
+        "a picture of a kite, cucumber, banana, airplane",
+        "a picture of a kite, cucumber, banana, shark"
+    ],
+    "023.Brandt_Cormorant": [
+        "pelican in the image, lighthouse, cucumber, toaster",
+        "pelican in the image, pizza, toaster, lighthouse",
+        "pelican in the image, umbrella, keyboard, toaster"
+    ],
+    "024.Red_faced_Cormorant": [
+        "an image showing a swan, candle, umbrella, airplane",
+        "an image showing a swan, umbrella, shark, airplane",
+        "an image showing a swan, airplane, volcano, lighthouse"
+    ],
+    "025.Pelagic_Cormorant": [
+        "an image showing a swan, shark, cactus, keyboard",
+        "an image showing a swan, shark, pencil, volcano",
+        "an image showing a swan, banana, airplane, Humvee"
+    ],
+    "026.Bronzed_Cowbird": [
+        "an image showing a crow, guitar, lighthouse, volcano",
+        "an image showing a crow, airplane, pizza, volcano",
+        "an image showing a crow, keyboard, pencil, cucumber"
+    ],
+    "027.Shiny_Cowbird": [
+        "a picture of a bird, shark, motorcycle, candle",
+        "a picture of a bird, pencil, pizza, shark",
+        "a picture of a bird, cucumber, pencil, guitar"
+    ],
+    "028.Brown_Creeper": [
+        "swan in the image, airplane, banana, lighthouse",
+        "swan in the image, Humvee, cucumber, pencil",
+        "swan in the image, pizza, motorcycle, keyboard"
+    ],
+    "029.American_Crow": [
+        "an image showing a crow, umbrella, volcano, airplane",
+        "an image showing a crow, guitar, banana, cucumber",
+        "an image showing a crow, guitar, Humvee, keyboard"
+    ],
+    "030.Fish_Crow": [
+        "crow in the image, toaster, pencil, candle",
+        "crow in the image, shark, umbrella, cucumber",
+        "crow in the image, keyboard, telescope, airplane"
+    ],
+    "031.Black_billed_Cuckoo": [
+        "an image showing a bird, banana, volcano, cactus",
+        "an image showing a bird, lighthouse, banana, Humvee",
+        "an image showing a bird, umbrella, motorcycle, Humvee"
+    ],
+    "032.Mangrove_Cuckoo": [
+        "an image showing a bird, volcano, cucumber, shark",
+        "an image showing a bird, motorcycle, cucumber, telescope",
+        "an image showing a bird, cucumber, pizza, keyboard"
+    ],
+    "033.Yellow_billed_Cuckoo": [
+        "an image showing a crow, airplane, pizza, telescope",
+        "an image showing a crow, banana, cucumber, keyboard",
+        "an image showing a crow, volcano, lighthouse, pencil"
+    ],
+    "034.Gray_crowned_Rosy_Finch": [
+        "a picture of a bird, toaster, keyboard, lighthouse",
+        "a picture of a bird, lighthouse, pizza, candle",
+        "a picture of a bird, guitar, candle, lighthouse"
+    ],
+    "035.Purple_Finch": [
+        "an image showing a crow, telescope, pencil, motorcycle",
+        "an image showing a crow, cucumber, Humvee, pizza",
+        "an image showing a crow, airplane, cucumber, toaster"
+    ],
+    "036.Northern_Flicker": [
+        "an image showing a raven, keyboard, toaster, cucumber",
+        "an image showing a raven, cactus, cucumber, pencil",
+        "an image showing a raven, pizza, cactus, candle"
+    ],
+    "037.Acadian_Flycatcher": [
+        "a picture of a bird, motorcycle, pencil, shark",
+        "a picture of a bird, telescope, Humvee, lighthouse",
+        "a picture of a bird, telescope, airplane, pencil"
+    ],
+    "038.Great_Crested_Flycatcher": [
+        "an image showing a crow, candle, toaster, banana",
+        "an image showing a crow, airplane, candle, umbrella",
+        "an image showing a crow, telescope, keyboard, cactus"
+    ],
+    "039.Least_Flycatcher": [
+        "an image showing a bird, lighthouse, keyboard, volcano",
+        "an image showing a bird, toaster, umbrella, candle",
+        "an image showing a bird, banana, cucumber, lighthouse"
+    ],
+    "040.Olive_sided_Flycatcher": [
+        "an image showing a crow, shark, toaster, Humvee",
+        "an image showing a crow, Humvee, lighthouse, guitar",
+        "an image showing a crow, candle, toaster, cucumber"
+    ],
+    "041.Scissor_tailed_Flycatcher": [
+        "a picture of a bird, pencil, shark, toaster",
+        "a picture of a bird, Humvee, airplane, banana",
+        "a picture of a bird, candle, banana, shark"
+    ],
+    "042.Vermilion_Flycatcher": [
+        "bird in the image, cactus, candle, keyboard",
+        "bird in the image, candle, banana, volcano",
+        "bird in the image, cactus, banana, pencil"
+    ],
+    "043.Yellow_bellied_Flycatcher": [
+        "an image showing a bird, cactus, keyboard, lighthouse",
+        "an image showing a bird, pizza, airplane, motorcycle",
+        "an image showing a bird, shark, candle, pencil"
+    ],
+    "044.Frigatebird": [
+        "an image showing a swan, pizza, motorcycle, guitar",
+        "an image showing a swan, motorcycle, shark, Humvee",
+        "an image showing a swan, motorcycle, lighthouse, guitar"
+    ],
+    "045.Northern_Fulmar": [
+        "tern in the image, shark, pizza, candle",
+        "tern in the image, motorcycle, airplane, keyboard",
+        "tern in the image, banana, umbrella, airplane"
+    ],
+    "046.Gadwall": [
+        "an image showing a swan, keyboard, pencil, motorcycle",
+        "an image showing a swan, telescope, pizza, airplane",
+        "an image showing a swan, Humvee, keyboard, umbrella"
+    ],
+    "047.American_Goldfinch": [
+        "an image showing a bird, lighthouse, toaster, shark",
+        "an image showing a bird, cucumber, toaster, motorcycle",
+        "an image showing a bird, volcano, guitar, lighthouse"
+    ],
+    "048.European_Goldfinch": [
+        "an image showing a crow, lighthouse, Humvee, banana",
+        "an image showing a crow, toaster, motorcycle, telescope",
+        "an image showing a crow, toaster, banana, umbrella"
+    ],
+    "049.Boat_tailed_Grackle": [
+        "an image showing a bird, shark, cactus, umbrella",
+        "an image showing a bird, lighthouse, shark, telescope",
+        "an image showing a bird, volcano, airplane, keyboard"
+    ],
+    "050.Eared_Grebe": [
+        "an image showing a swan, keyboard, toaster, Humvee",
+        "an image showing a swan, shark, Humvee, toaster",
+        "an image showing a swan, keyboard, cactus, volcano"
+    ],
+    "051.Horned_Grebe": [
+        "an image showing a duck, cucumber, lighthouse, telescope",
+        "an image showing a duck, lighthouse, airplane, cactus",
+        "an image showing a duck, telescope, volcano, lighthouse"
+    ],
+    "052.Pied_billed_Grebe": [
+        "an image showing a duck, shark, lighthouse, keyboard",
+        "an image showing a duck, telescope, candle, airplane",
+        "an image showing a duck, shark, guitar, lighthouse"
+    ],
+    "053.Western_Grebe": [
+        "an image showing a swan, motorcycle, telescope, keyboard",
+        "an image showing a swan, Humvee, telescope, candle",
+        "an image showing a swan, keyboard, shark, guitar"
+    ],
+    "054.Blue_Grosbeak": [
+        "an image showing a swan, lighthouse, pencil, pizza",
+        "an image showing a swan, pencil, keyboard, toaster",
+        "an image showing a swan, umbrella, motorcycle, lighthouse"
+    ],
+    "055.Evening_Grosbeak": [
+        "an image showing a blackbird, cucumber, telescope, toaster",
+        "an image showing a blackbird, lighthouse, cucumber, shark",
+        "an image showing a blackbird, pizza, telescope, airplane"
+    ],
+    "056.Pine_Grosbeak": [
+        "a picture of a bird, keyboard, candle, Humvee",
+        "a picture of a bird, banana, pizza, umbrella",
+        "a picture of a bird, cucumber, pencil, keyboard"
+    ],
+    "057.Rose_breasted_Grosbeak": [
+        "bird in the image, keyboard, guitar, pizza",
+        "bird in the image, guitar, pizza, cucumber",
+        "bird in the image, Humvee, airplane, guitar"
+    ],
+    "058.Pigeon_Guillemot": [
+        "tern in the image, shark, pizza, cucumber",
+        "tern in the image, volcano, pencil, Humvee",
+        "tern in the image, pizza, airplane, volcano"
+    ],
+    "059.California_Gull": [
+        "a picture of a crow, candle, pencil, lighthouse",
+        "a picture of a crow, volcano, lighthouse, guitar",
+        "a picture of a crow, pencil, shark, umbrella"
+    ],
+    "060.Glaucous_winged_Gull": [
+        "an image showing a crow, pencil, motorcycle, cactus",
+        "an image showing a crow, umbrella, pencil, candle",
+        "an image showing a crow, pizza, toaster, guitar"
+    ],
+    "061.Heermann_Gull": [
+        "an image showing a crow, volcano, umbrella, lighthouse",
+        "an image showing a crow, pizza, toaster, volcano",
+        "an image showing a crow, cucumber, telescope, airplane"
+    ],
+    "062.Herring_Gull": [
+        "a picture of a bird, toaster, lighthouse, motorcycle",
+        "a picture of a bird, cucumber, candle, volcano",
+        "a picture of a bird, pizza, guitar, cactus"
+    ],
+    "063.Ivory_Gull": [
+        "a picture of a bird, candle, keyboard, banana",
+        "a picture of a bird, shark, volcano, motorcycle",
+        "a picture of a bird, pencil, shark, Humvee"
+    ],
+    "064.Ring_billed_Gull": [
+        "an image showing a bird, keyboard, shark, volcano",
+        "an image showing a bird, Humvee, guitar, pizza",
+        "an image showing a bird, Humvee, cactus, candle"
+    ],
+    "065.Slaty_backed_Gull": [
+        "a picture of a bird, guitar, shark, toaster",
+        "a picture of a bird, pizza, umbrella, airplane",
+        "a picture of a bird, toaster, shark, pizza"
+    ],
+    "066.Western_Gull": [
+        "a picture of a gull, Humvee, guitar, motorcycle",
+        "a picture of a gull, guitar, motorcycle, shark",
+        "a picture of a gull, pencil, candle, telescope"
+    ],
+    "067.Anna_Hummingbird": [
+        "bird in the image, Humvee, guitar, telescope",
+        "bird in the image, Humvee, cucumber, lighthouse",
+        "bird in the image, shark, candle, volcano"
+    ],
+    "068.Ruby_throated_Hummingbird": [
+        "tern in the image, pencil, motorcycle, Humvee",
+        "tern in the image, toaster, guitar, motorcycle",
+        "tern in the image, keyboard, pencil, motorcycle"
+    ],
+    "069.Rufous_Hummingbird": [
+        "tern in the image, lighthouse, guitar, candle",
+        "tern in the image, shark, toaster, volcano",
+        "tern in the image, cucumber, umbrella, Humvee"
+    ],
+    "070.Green_Violetear": [
+        "hummingbird in the image, banana, cactus, airplane",
+        "hummingbird in the image, cucumber, banana, guitar",
+        "hummingbird in the image, Humvee, pizza, airplane"
+    ],
+    "071.Long_tailed_Jaeger": [
+        "tern in the image, Humvee, candle, airplane",
+        "tern in the image, candle, umbrella, lighthouse",
+        "tern in the image, airplane, keyboard, pizza"
+    ],
+    "072.Pomarine_Jaeger": [
+        "an image showing a tern, toaster, cactus, cucumber",
+        "an image showing a tern, airplane, motorcycle, candle",
+        "an image showing a tern, airplane, Humvee, pencil"
+    ],
+    "073.Blue_Jay": [
+        "a picture of a crow, telescope, guitar, keyboard",
+        "a picture of a crow, keyboard, cucumber, telescope",
+        "a picture of a crow, pizza, airplane, cactus"
+    ],
+    "074.Florida_Jay": [
+        "an image showing a bird, telescope, airplane, guitar",
+        "an image showing a bird, banana, cactus, toaster",
+        "an image showing a bird, shark, cactus, banana"
+    ],
+    "075.Green_Jay": [
+        "an image showing a bird, volcano, lighthouse, Humvee",
+        "an image showing a bird, shark, umbrella, banana",
+        "an image showing a bird, shark, cactus, lighthouse"
+    ],
+    "076.Dark_eyed_Junco": [
+        "a picture of a bird, pencil, candle, keyboard",
+        "a picture of a bird, motorcycle, toaster, telescope",
+        "a picture of a bird, umbrella, pencil, keyboard"
+    ],
+    "077.Tropical_Kingbird": [
+        "an image showing a blackbird, toaster, lighthouse, shark",
+        "an image showing a blackbird, pizza, cucumber, candle",
+        "an image showing a blackbird, pencil, pizza, guitar"
+    ],
+    "078.Gray_Kingbird": [
+        "crow in the image, pencil, guitar, motorcycle",
+        "crow in the image, Humvee, umbrella, shark",
+        "crow in the image, lighthouse, motorcycle, pizza"
+    ],
+    "079.Belted_Kingfisher": [
+        "crow in the image, keyboard, cactus, guitar",
+        "crow in the image, toaster, lighthouse, candle",
+        "crow in the image, toaster, Humvee, volcano"
+    ],
+    "080.Green_Kingfisher": [
+        "an image showing a swan, keyboard, cucumber, airplane",
+        "an image showing a swan, shark, umbrella, toaster",
+        "an image showing a swan, pizza, umbrella, lighthouse"
+    ],
+    "081.Pied_Kingfisher": [
+        "songbird in the image, umbrella, pencil, guitar",
+        "songbird in the image, Humvee, cucumber, candle",
+        "songbird in the image, pizza, guitar, cactus"
+    ],
+    "082.Ringed_Kingfisher": [
+        "a picture of a gull, pizza, telescope, lighthouse",
+        "a picture of a gull, cactus, umbrella, toaster",
+        "a picture of a gull, volcano, cactus, keyboard"
+    ],
+    "083.White_breasted_Kingfisher": [
+        "pelican in the image, lighthouse, cactus, umbrella",
+        "pelican in the image, pencil, toaster, candle",
+        "pelican in the image, toaster, pizza, banana"
+    ],
+    "084.Red_legged_Kittiwake": [
+        "a picture of a swan, keyboard, lighthouse, banana",
+        "a picture of a swan, motorcycle, keyboard, airplane",
+        "a picture of a swan, umbrella, toaster, cactus"
+    ],
+    "085.Horned_Lark": [
+        "a picture of a crow, volcano, telescope, banana",
+        "a picture of a crow, keyboard, telescope, airplane",
+        "a picture of a crow, cactus, motorcycle, candle"
+    ],
+    "086.Pacific_Loon": [
+        "an image showing a swan, Humvee, candle, umbrella",
+        "an image showing a swan, banana, volcano, toaster",
+        "an image showing a swan, telescope, candle, lighthouse"
+    ],
+    "087.Mallard": [
+        "an image showing a duck, umbrella, airplane, shark",
+        "an image showing a duck, Humvee, telescope, pizza",
+        "an image showing a duck, umbrella, pencil, motorcycle"
+    ],
+    "088.Western_Meadowlark": [
+        "crow in the image, motorcycle, banana, candle",
+        "crow in the image, umbrella, airplane, shark",
+        "crow in the image, cucumber, guitar, pizza"
+    ],
+    "089.Hooded_Merganser": [
+        "a picture of a duck, cucumber, banana, volcano",
+        "a picture of a duck, candle, telescope, banana",
+        "a picture of a duck, pizza, airplane, toaster"
+    ],
+    "090.Red_breasted_Merganser": [
+        "an image showing a swan, shark, pizza, guitar",
+        "an image showing a swan, volcano, guitar, pizza",
+        "an image showing a swan, pencil, telescope, shark"
+    ],
+    "091.Mockingbird": [
+        "an image showing a crow, shark, telescope, umbrella",
+        "an image showing a crow, banana, airplane, guitar",
+        "an image showing a crow, keyboard, volcano, candle"
+    ],
+    "092.Nighthawk": [
+        "an image showing a crow, cucumber, motorcycle, airplane",
+        "an image showing a crow, motorcycle, cucumber, umbrella",
+        "an image showing a crow, Humvee, shark, pizza"
+    ],
+    "093.Clark_Nutcracker": [
+        "an image showing a crow, umbrella, telescope, Humvee",
+        "an image showing a crow, pizza, telescope, cactus",
+        "an image showing a crow, telescope, pencil, banana"
+    ],
+    "094.White_breasted_Nuthatch": [
+        "an image showing a crow, pizza, toaster, guitar",
+        "an image showing a crow, keyboard, shark, banana",
+        "an image showing a crow, pizza, candle, pencil"
+    ],
+    "095.Baltimore_Oriole": [
+        "an image showing a crow, toaster, candle, banana",
+        "an image showing a crow, banana, motorcycle, guitar",
+        "an image showing a crow, telescope, volcano, pizza"
+    ],
+    "096.Hooded_Oriole": [
+        "an image showing a blackbird, airplane, pencil, cactus",
+        "an image showing a blackbird, telescope, guitar, candle",
+        "an image showing a blackbird, volcano, umbrella, pizza"
+    ],
+    "097.Orchard_Oriole": [
+        "a picture of a crow, cucumber, banana, pencil",
+        "a picture of a crow, shark, lighthouse, telescope",
+        "a picture of a crow, toaster, Humvee, banana"
+    ],
+    "098.Scott_Oriole": [
+        "a picture of a crow, pizza, Humvee, guitar",
+        "a picture of a crow, toaster, banana, guitar",
+        "a picture of a crow, motorcycle, umbrella, toaster"
+    ],
+    "099.Ovenbird": [
+        "an image showing a crow, pencil, toaster, cucumber",
+        "an image showing a crow, shark, umbrella, banana",
+        "an image showing a crow, umbrella, cactus, keyboard"
+    ],
+    "100.Brown_Pelican": [
+        "an image showing a swan, lighthouse, volcano, umbrella",
+        "an image showing a swan, airplane, motorcycle, umbrella",
+        "an image showing a swan, shark, umbrella, candle"
+    ],
+    "101.White_Pelican": [
+        "a picture of a swan, guitar, banana, pizza",
+        "a picture of a swan, cucumber, lighthouse, candle",
+        "a picture of a swan, lighthouse, airplane, guitar"
+    ],
+    "102.Western_Wood_Pewee": [
+        "an image showing a crow, guitar, Humvee, lighthouse",
+        "an image showing a crow, pencil, shark, Humvee",
+        "an image showing a crow, keyboard, cactus, telescope"
+    ],
+    "103.Sayornis": [
+        "an image showing a blackbird, umbrella, pencil, guitar",
+        "an image showing a blackbird, banana, keyboard, candle",
+        "an image showing a blackbird, candle, telescope, pizza"
+    ],
+    "104.American_Pipit": [
+        "a picture of a bird, umbrella, airplane, Humvee",
+        "a picture of a bird, pizza, motorcycle, candle",
+        "a picture of a bird, Humvee, shark, banana"
+    ],
+    "105.Whip_poor_Will": [
+        "an image showing a swan, pizza, airplane, volcano",
+        "an image showing a swan, airplane, candle, pizza",
+        "an image showing a swan, telescope, toaster, keyboard"
+    ],
+    "106.Horned_Puffin": [
+        "an image showing a duck, umbrella, volcano, airplane",
+        "an image showing a duck, pencil, candle, keyboard",
+        "an image showing a duck, keyboard, candle, shark"
+    ],
+    "107.Common_Raven": [
+        "an image showing a crow, cucumber, toaster, guitar",
+        "an image showing a crow, shark, lighthouse, pencil",
+        "an image showing a crow, volcano, toaster, shark"
+    ],
+    "108.White_necked_Raven": [
+        "an image showing a swan, Humvee, telescope, cactus",
+        "an image showing a swan, telescope, umbrella, shark",
+        "an image showing a swan, candle, pencil, toaster"
+    ],
+    "109.American_Redstart": [
+        "an image showing a bird, umbrella, cactus, motorcycle",
+        "an image showing a bird, guitar, pencil, umbrella",
+        "an image showing a bird, lighthouse, keyboard, cactus"
+    ],
+    "110.Geococcyx": [
+        "an image showing a raptor, pizza, guitar, airplane",
+        "an image showing a raptor, shark, banana, motorcycle",
+        "an image showing a raptor, umbrella, guitar, keyboard"
+    ],
+    "111.Loggerhead_Shrike": [
+        "an image showing a bird, candle, umbrella, Humvee",
+        "an image showing a bird, candle, lighthouse, shark",
+        "an image showing a bird, airplane, pencil, banana"
+    ],
+    "112.Great_Grey_Shrike": [
+        "a picture of a bird, volcano, pencil, Humvee",
+        "a picture of a bird, candle, shark, umbrella",
+        "a picture of a bird, candle, cucumber, pizza"
+    ],
+    "113.Baird_Sparrow": [
+        "owl in the image, toaster, lighthouse, telescope",
+        "owl in the image, guitar, cucumber, shark",
+        "owl in the image, lighthouse, guitar, motorcycle"
+    ],
+    "114.Black_throated_Sparrow": [
+        "a picture of a bird, umbrella, banana, telescope",
+        "a picture of a bird, cucumber, pizza, lighthouse",
+        "a picture of a bird, telescope, pizza, cactus"
+    ],
+    "115.Brewer_Sparrow": [
+        "an image showing a crow, cucumber, shark, banana",
+        "an image showing a crow, airplane, pencil, cucumber",
+        "an image showing a crow, telescope, Humvee, umbrella"
+    ],
+    "116.Chipping_Sparrow": [
+        "an image showing a bird, lighthouse, banana, candle",
+        "an image showing a bird, cactus, volcano, keyboard",
+        "an image showing a bird, candle, pizza, toaster"
+    ],
+    "117.Clay_colored_Sparrow": [
+        "an image showing a crow, shark, motorcycle, cucumber",
+        "an image showing a crow, motorcycle, cucumber, telescope",
+        "an image showing a crow, guitar, pizza, umbrella"
+    ],
+    "118.House_Sparrow": [
+        "an image showing a swan, candle, pizza, umbrella",
+        "an image showing a swan, toaster, pencil, candle",
+        "an image showing a swan, Humvee, pencil, umbrella"
+    ],
+    "119.Field_Sparrow": [
+        "a sparrow in the scene, telescope, motorcycle, banana",
+        "a sparrow in the scene, pencil, cactus, telescope",
+        "a sparrow in the scene, telescope, shark, cactus"
+    ],
+    "120.Fox_Sparrow": [
+        "an image showing a crow, toaster, pencil, shark",
+        "an image showing a crow, telescope, keyboard, umbrella",
+        "an image showing a crow, umbrella, airplane, volcano"
+    ],
+    "121.Grasshopper_Sparrow": [
+        "an image showing a crow, guitar, cactus, telescope",
+        "an image showing a crow, telescope, volcano, Humvee",
+        "an image showing a crow, guitar, toaster, Humvee"
+    ],
+    "122.Harris_Sparrow": [
+        "blackbird in the image, banana, umbrella, shark",
+        "blackbird in the image, telescope, pizza, volcano",
+        "blackbird in the image, cactus, pizza, lighthouse"
+    ],
+    "123.Henslow_Sparrow": [
+        "a picture of a crow, keyboard, toaster, lighthouse",
+        "a picture of a crow, candle, airplane, pencil",
+        "a picture of a crow, banana, telescope, guitar"
+    ],
+    "124.Le_Conte_Sparrow": [
+        "an image showing a bird, pencil, banana, telescope",
+        "an image showing a bird, cactus, candle, banana",
+        "an image showing a bird, telescope, lighthouse, cactus"
+    ],
+    "125.Lincoln_Sparrow": [
+        "a picture of a bird, shark, motorcycle, airplane",
+        "a picture of a bird, candle, cactus, toaster",
+        "a picture of a bird, volcano, toaster, shark"
+    ],
+    "126.Nelson_Sharp_tailed_Sparrow": [
+        "an image showing a crow, motorcycle, toaster, pencil",
+        "an image showing a crow, umbrella, telescope, cactus",
+        "an image showing a crow, lighthouse, airplane, pizza"
+    ],
+    "127.Savannah_Sparrow": [
+        "a picture of a bird, cucumber, candle, guitar",
+        "a picture of a bird, pizza, guitar, shark",
+        "a picture of a bird, cactus, cucumber, guitar"
+    ],
+    "128.Seaside_Sparrow": [
+        "a picture of a bird, guitar, Humvee, candle",
+        "a picture of a bird, airplane, pencil, motorcycle",
+        "a picture of a bird, toaster, guitar, shark"
+    ],
+    "129.Song_Sparrow": [
+        "an image showing a raven, cactus, airplane, lighthouse",
+        "an image showing a raven, pizza, umbrella, Humvee",
+        "an image showing a raven, lighthouse, pizza, volcano"
+    ],
+    "130.Tree_Sparrow": [
+        "a picture of a swan, cucumber, pencil, umbrella",
+        "a picture of a swan, telescope, shark, banana",
+        "a picture of a swan, candle, banana, Humvee"
+    ],
+    "131.Vesper_Sparrow": [
+        "an image showing a crow, telescope, umbrella, banana",
+        "an image showing a crow, airplane, pizza, pencil",
+        "an image showing a crow, candle, guitar, pizza"
+    ],
+    "132.White_crowned_Sparrow": [
+        "an image showing a swan, cactus, shark, telescope",
+        "an image showing a swan, candle, shark, lighthouse",
+        "an image showing a swan, airplane, umbrella, telescope"
+    ],
+    "133.White_throated_Sparrow": [
+        "an image showing a swan, shark, toaster, Humvee",
+        "an image showing a swan, cactus, keyboard, pizza",
+        "an image showing a swan, pencil, pizza, shark"
+    ],
+    "134.Cape_Glossy_Starling": [
+        "an image showing a crow, cactus, airplane, lighthouse",
+        "an image showing a crow, cactus, volcano, Humvee",
+        "an image showing a crow, guitar, toaster, airplane"
+    ],
+    "135.Bank_Swallow": [
+        "an image showing a swan, airplane, pencil, banana",
+        "an image showing a swan, keyboard, Humvee, umbrella",
+        "an image showing a swan, lighthouse, pizza, cucumber"
+    ],
+    "136.Barn_Swallow": [
+        "an image showing a bird, keyboard, cucumber, shark",
+        "an image showing a bird, keyboard, volcano, shark",
+        "an image showing a bird, pizza, lighthouse, guitar"
+    ],
+    "137.Cliff_Swallow": [
+        "a picture of a kite, candle, Humvee, volcano",
+        "a picture of a kite, candle, volcano, toaster",
+        "a picture of a kite, toaster, motorcycle, banana"
+    ],
+    "138.Tree_Swallow": [
+        "crow in the image, Humvee, candle, volcano",
+        "crow in the image, cactus, pizza, telescope",
+        "crow in the image, lighthouse, Humvee, cucumber"
+    ],
+    "139.Scarlet_Tanager": [
+        "an image showing a blackbird, toaster, banana, cucumber",
+        "an image showing a blackbird, shark, airplane, cactus",
+        "an image showing a blackbird, cucumber, umbrella, pizza"
+    ],
+    "140.Summer_Tanager": [
+        "an image showing a crow, cactus, airplane, pizza",
+        "an image showing a crow, volcano, pizza, telescope",
+        "an image showing a crow, banana, telescope, pizza"
+    ],
+    "141.Artic_Tern": [
+        "an image showing a crow, Humvee, banana, pizza",
+        "an image showing a crow, guitar, shark, lighthouse",
+        "an image showing a crow, airplane, umbrella, cactus"
+    ],
+    "142.Black_Tern": [
+        "tern in the image, pencil, cucumber, volcano",
+        "tern in the image, cucumber, lighthouse, telescope",
+        "tern in the image, candle, cucumber, umbrella"
+    ],
+    "143.Caspian_Tern": [
+        "tern in the image, toaster, lighthouse, keyboard",
+        "tern in the image, volcano, telescope, pizza",
+        "tern in the image, volcano, shark, banana"
+    ],
+    "144.Common_Tern": [
+        "an image showing a crow, airplane, keyboard, umbrella",
+        "an image showing a crow, pencil, pizza, keyboard",
+        "an image showing a crow, lighthouse, pencil, keyboard"
+    ],
+    "145.Elegant_Tern": [
+        "an image showing a bird, shark, airplane, motorcycle",
+        "an image showing a bird, shark, lighthouse, umbrella",
+        "an image showing a bird, toaster, cactus, cucumber"
+    ],
+    "146.Forsters_Tern": [
+        "an image showing a bird, umbrella, cucumber, banana",
+        "an image showing a bird, cucumber, volcano, keyboard",
+        "an image showing a bird, airplane, cactus, guitar"
+    ],
+    "147.Least_Tern": [
+        "crow in the image, candle, banana, telescope",
+        "crow in the image, lighthouse, airplane, keyboard",
+        "crow in the image, cactus, shark, umbrella"
+    ],
+    "148.Green_tailed_Towhee": [
+        "an image showing a bird, banana, telescope, umbrella",
+        "an image showing a bird, telescope, cactus, banana",
+        "an image showing a bird, volcano, keyboard, cucumber"
+    ],
+    "149.Brown_Thrasher": [
+        "an image showing a crow, umbrella, pizza, shark",
+        "an image showing a crow, airplane, cactus, shark",
+        "an image showing a crow, cactus, airplane, guitar"
+    ],
+    "150.Sage_Thrasher": [
+        "a picture of a bird, toaster, pizza, guitar",
+        "a picture of a bird, shark, Humvee, telescope",
+        "a picture of a bird, toaster, Humvee, cucumber"
+    ],
+    "151.Black_capped_Vireo": [
+        "an image showing a crow, toaster, telescope, pencil",
+        "an image showing a crow, lighthouse, cactus, Humvee",
+        "an image showing a crow, motorcycle, candle, telescope"
+    ],
+    "152.Blue_headed_Vireo": [
+        "an image showing a crow, guitar, cucumber, umbrella",
+        "an image showing a crow, Humvee, cucumber, cactus",
+        "an image showing a crow, volcano, keyboard, umbrella"
+    ],
+    "153.Philadelphia_Vireo": [
+        "an image showing a swan, shark, pencil, motorcycle",
+        "an image showing a swan, motorcycle, cactus, candle",
+        "an image showing a swan, lighthouse, cucumber, pencil"
+    ],
+    "154.Red_eyed_Vireo": [
+        "an image showing a bird, banana, candle, cucumber",
+        "an image showing a bird, banana, cucumber, candle",
+        "an image showing a bird, pencil, shark, pizza"
+    ],
+    "155.Warbling_Vireo": [
+        "an image showing a bird, pencil, shark, candle",
+        "an image showing a bird, keyboard, airplane, motorcycle",
+        "an image showing a bird, shark, airplane, candle"
+    ],
+    "156.White_eyed_Vireo": [
+        "an image showing a blackbird, umbrella, telescope, Humvee",
+        "an image showing a blackbird, pizza, guitar, telescope",
+        "an image showing a blackbird, banana, Humvee, airplane"
+    ],
+    "157.Yellow_throated_Vireo": [
+        "an image showing a crow, telescope, keyboard, guitar",
+        "an image showing a crow, candle, toaster, volcano",
+        "an image showing a crow, lighthouse, airplane, Humvee"
+    ],
+    "158.Bay_breasted_Warbler": [
+        "a picture of a bird, umbrella, shark, cucumber",
+        "a picture of a bird, candle, guitar, toaster",
+        "a picture of a bird, pizza, cactus, banana"
+    ],
+    "159.Black_and_white_Warbler": [
+        "an image showing a bird, guitar, banana, keyboard",
+        "an image showing a bird, Humvee, pencil, umbrella",
+        "an image showing a bird, cucumber, lighthouse, telescope"
+    ],
+    "160.Black_throated_Blue_Warbler": [
+        "a picture of a swan, shark, guitar, cactus",
+        "a picture of a swan, shark, telescope, banana",
+        "a picture of a swan, guitar, Humvee, motorcycle"
+    ],
+    "161.Blue_winged_Warbler": [
+        "crow in the image, motorcycle, pencil, shark",
+        "crow in the image, cactus, cucumber, keyboard",
+        "crow in the image, airplane, pizza, keyboard"
+    ],
+    "162.Canada_Warbler": [
+        "a view of a swan, guitar, cucumber, keyboard",
+        "a view of a swan, telescope, lighthouse, airplane",
+        "a view of a swan, lighthouse, motorcycle, banana"
+    ],
+    "163.Cape_May_Warbler": [
+        "an image showing a bird, volcano, airplane, toaster",
+        "an image showing a bird, volcano, keyboard, pencil",
+        "an image showing a bird, cactus, volcano, umbrella"
+    ],
+    "164.Cerulean_Warbler": [
+        "a picture of a bird, candle, pizza, banana",
+        "a picture of a bird, candle, toaster, airplane",
+        "a picture of a bird, motorcycle, candle, guitar"
+    ],
+    "165.Chestnut_sided_Warbler": [
+        "tern in the image, cucumber, motorcycle, guitar",
+        "tern in the image, umbrella, pencil, guitar",
+        "tern in the image, pencil, lighthouse, shark"
+    ],
+    "166.Golden_winged_Warbler": [
+        "a picture of a kite, lighthouse, candle, pizza",
+        "a picture of a kite, cucumber, umbrella, pizza",
+        "a picture of a kite, telescope, toaster, volcano"
+    ],
+    "167.Hooded_Warbler": [
+        "a picture of a swan, banana, cactus, toaster",
+        "a picture of a swan, cucumber, telescope, pizza",
+        "a picture of a swan, pencil, banana, Humvee"
+    ],
+    "168.Kentucky_Warbler": [
+        "an image showing a crow, cactus, telescope, banana",
+        "an image showing a crow, cucumber, guitar, pizza",
+        "an image showing a crow, banana, pencil, umbrella"
+    ],
+    "169.Magnolia_Warbler": [
+        "a goose in the scene, keyboard, lighthouse, telescope",
+        "a goose in the scene, umbrella, candle, Humvee",
+        "a goose in the scene, pencil, airplane, guitar"
+    ],
+    "170.Mourning_Warbler": [
+        "an image showing a blackbird, lighthouse, cucumber, toaster",
+        "an image showing a blackbird, motorcycle, banana, airplane",
+        "an image showing a blackbird, pencil, volcano, toaster"
+    ],
+    "171.Myrtle_Warbler": [
+        "an image showing a bird, volcano, motorcycle, umbrella",
+        "an image showing a bird, cactus, telescope, keyboard",
+        "an image showing a bird, shark, lighthouse, umbrella"
+    ],
+    "172.Nashville_Warbler": [
+        "an image showing a raven, banana, lighthouse, volcano",
+        "an image showing a raven, lighthouse, airplane, toaster",
+        "an image showing a raven, guitar, telescope, candle"
+    ],
+    "173.Orange_crowned_Warbler": [
+        "an image showing a swan, candle, lighthouse, banana",
+        "an image showing a swan, candle, cactus, volcano",
+        "an image showing a swan, guitar, candle, telescope"
+    ],
+    "174.Palm_Warbler": [
+        "crow in the image, cucumber, telescope, toaster",
+        "crow in the image, guitar, lighthouse, shark",
+        "crow in the image, candle, cucumber, lighthouse"
+    ],
+    "175.Pine_Warbler": [
+        "an image showing a blackbird, shark, cactus, Humvee",
+        "an image showing a blackbird, cactus, telescope, cucumber",
+        "an image showing a blackbird, keyboard, lighthouse, guitar"
+    ],
+    "176.Prairie_Warbler": [
+        "an image showing a crow, umbrella, keyboard, airplane",
+        "an image showing a crow, candle, volcano, banana",
+        "an image showing a crow, telescope, airplane, toaster"
+    ],
+    "177.Prothonotary_Warbler": [
+        "a picture of a bird, volcano, banana, lighthouse",
+        "a picture of a bird, lighthouse, candle, telescope",
+        "a picture of a bird, guitar, candle, cucumber"
+    ],
+    "178.Swainson_Warbler": [
+        "an image showing a raven, motorcycle, volcano, cactus",
+        "an image showing a raven, pencil, banana, keyboard",
+        "an image showing a raven, cactus, pizza, umbrella"
+    ],
+    "179.Tennessee_Warbler": [
+        "an image showing a blackbird, telescope, pencil, airplane",
+        "an image showing a blackbird, pizza, telescope, guitar",
+        "an image showing a blackbird, umbrella, keyboard, motorcycle"
+    ],
+    "180.Wilson_Warbler": [
+        "a picture of a bird, pencil, volcano, guitar",
+        "a picture of a bird, telescope, guitar, toaster",
+        "a picture of a bird, volcano, shark, cucumber"
+    ],
+    "181.Worm_eating_Warbler": [
+        "swan in the image, keyboard, candle, shark",
+        "swan in the image, toaster, banana, lighthouse",
+        "swan in the image, umbrella, cactus, toaster"
+    ],
+    "182.Yellow_Warbler": [
+        "an image showing a crow, airplane, volcano, candle",
+        "an image showing a crow, cucumber, motorcycle, candle",
+        "an image showing a crow, pencil, candle, shark"
+    ],
+    "183.Northern_Waterthrush": [
+        "an image showing a crow, shark, cucumber, pencil",
+        "an image showing a crow, pizza, pencil, umbrella",
+        "an image showing a crow, cactus, Humvee, keyboard"
+    ],
+    "184.Louisiana_Waterthrush": [
+        "an image showing a crow, banana, guitar, toaster",
+        "an image showing a crow, cactus, pizza, keyboard",
+        "an image showing a crow, cucumber, cactus, airplane"
+    ],
+    "185.Bohemian_Waxwing": [
+        "an image showing a blackbird, Humvee, lighthouse, pencil",
+        "an image showing a blackbird, airplane, lighthouse, guitar",
+        "an image showing a blackbird, candle, volcano, Humvee"
+    ],
+    "186.Cedar_Waxwing": [
+        "an image showing a blackbird, telescope, umbrella, cactus",
+        "an image showing a blackbird, candle, umbrella, pizza",
+        "an image showing a blackbird, Humvee, cucumber, volcano"
+    ],
+    "187.American_Three_toed_Woodpecker": [
+        "an image showing a swan, toaster, keyboard, shark",
+        "an image showing a swan, candle, shark, banana",
+        "an image showing a swan, telescope, pizza, candle"
+    ],
+    "188.Pileated_Woodpecker": [
+        "egret in the image, airplane, banana, volcano",
+        "egret in the image, shark, pencil, banana",
+        "egret in the image, airplane, umbrella, telescope"
+    ],
+    "189.Red_bellied_Woodpecker": [
+        "an image showing a swan, Humvee, pizza, cactus",
+        "an image showing a swan, candle, telescope, keyboard",
+        "an image showing a swan, Humvee, cactus, airplane"
+    ],
+    "190.Red_cockaded_Woodpecker": [
+        "swan in the image, shark, motorcycle, lighthouse",
+        "swan in the image, cucumber, cactus, banana",
+        "swan in the image, volcano, Humvee, keyboard"
+    ],
+    "191.Red_headed_Woodpecker": [
+        "an image showing a swan, umbrella, banana, lighthouse",
+        "an image showing a swan, guitar, cactus, candle",
+        "an image showing a swan, Humvee, cactus, guitar"
+    ],
+    "192.Downy_Woodpecker": [
+        "an image showing a crow, cucumber, cactus, airplane",
+        "an image showing a crow, airplane, lighthouse, cucumber",
+        "an image showing a crow, banana, cactus, toaster"
+    ],
+    "193.Bewick_Wren": [
+        "an image showing a swan, lighthouse, motorcycle, shark",
+        "an image showing a swan, pencil, umbrella, lighthouse",
+        "an image showing a swan, motorcycle, candle, banana"
+    ],
+    "194.Cactus_Wren": [
+        "a picture of a bird, pencil, banana, candle",
+        "a picture of a bird, keyboard, banana, guitar",
+        "a picture of a bird, keyboard, banana, motorcycle"
+    ],
+    "195.Carolina_Wren": [
+        "blackbird in the image, telescope, guitar, shark",
+        "blackbird in the image, umbrella, toaster, Humvee",
+        "blackbird in the image, keyboard, telescope, motorcycle"
+    ],
+    "196.House_Wren": [
+        "an image showing a bird, banana, lighthouse, candle",
+        "an image showing a bird, airplane, cactus, keyboard",
+        "an image showing a bird, guitar, pencil, umbrella"
+    ],
+    "197.Marsh_Wren": [
+        "an image showing a swan, guitar, lighthouse, cucumber",
+        "an image showing a swan, umbrella, volcano, motorcycle",
+        "an image showing a swan, volcano, toaster, guitar"
+    ],
+    "198.Rock_Wren": [
+        "a picture of a crow, cucumber, shark, banana",
+        "a picture of a crow, shark, motorcycle, toaster",
+        "a picture of a crow, telescope, lighthouse, banana"
+    ],
+    "199.Winter_Wren": [
+        "an image showing a crow, cucumber, lighthouse, umbrella",
+        "an image showing a crow, telescope, volcano, pizza",
+        "an image showing a crow, shark, motorcycle, cactus"
+    ],
+    "200.Common_Yellowthroat": [
+        "an image showing a blackbird, pencil, cactus, pizza",
+        "an image showing a blackbird, banana, cactus, telescope",
+        "an image showing a blackbird, shark, toaster, lighthouse"
+    ]
+}

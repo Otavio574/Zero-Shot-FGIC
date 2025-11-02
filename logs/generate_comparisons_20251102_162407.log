@@ -1,0 +1,12 @@
+🐾 Gerando descritores comparativos para todos os datasets...
+
+📊 Processando CUB_200_2011...
+   ✅ 200 classes detectadas.
+   💾 Arquivo salvo em: descriptors\CUB_200_2011_descriptors_comparative.json
+   💬 Exemplo para '001.Black_footed_Albatross': A 001.Black_footed_Albatross looks more delicate than a 068.Ruby_throated_Hummingbird.
+📊 Processando Stanford_Dogs...
+   ✅ 120 classes detectadas.
+   💾 Arquivo salvo em: descriptors\Stanford_Dogs_descriptors_comparative.json
+   💬 Exemplo para 'n02085620-Chihuahua': A n02085620-Chihuahua usually has a different body shape than a n02091032-Italian_greyhound.
+
+🎯 Geração de descritores comparativos concluída com sucesso!

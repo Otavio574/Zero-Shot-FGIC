@@ -1,0 +1,131 @@
+📊 Datasets carregados do summary: 2
+   - CUB_200_2011
+   - Stanford_Dogs
+⏳ Carregando CLIP: ViT-B/32...
+✅ CLIP carregado!
+
+============================================================
+🚀 Iniciando geração de descriptors POR CLASSE
+📊 Datasets: 2
+🔧 Modelo: ViT-B/32
+📁 Output: descriptors
+============================================================
+
+
+============================================================
+📁 Dataset: CUB_200_2011
+📝 Preparando descrições...
+   Conceitos: 40
+   Templates: 8
+   Total: 320 descrições possíveis
+⏳ Encodando descrições com CLIP...
+✅ Descrições prontas!
+
+🎨 Processando dataset por classes...
+   Classes encontradas: 200
+
+Processando classes:   0%|          | 0/200 [00:00<?, ?it/s]
+Processando classes:   0%|          | 1/200 [00:00<00:25,  7.82it/s]
+Processando classes:   4%|▍         | 8/200 [00:00<00:04, 38.88it/s]
+Processando classes:   8%|▊         | 15/200 [00:00<00:03, 50.35it/s]
+Processando classes:  10%|█         | 21/200 [00:00<00:03, 51.07it/s]
+Processando classes:  14%|█▎        | 27/200 [00:00<00:03, 53.33it/s]
+Processando classes:  16%|█▋        | 33/200 [00:00<00:03, 54.22it/s]
+Processando classes:  20%|█▉        | 39/200 [00:00<00:02, 53.90it/s]
+Processando classes:  22%|██▎       | 45/200 [00:00<00:02, 54.11it/s]
+Processando classes:  26%|██▌       | 51/200 [00:00<00:02, 54.67it/s]
+Processando classes:  29%|██▉       | 58/200 [00:01<00:02, 57.61it/s]
+Processando classes:  32%|███▏      | 64/200 [00:01<00:02, 55.82it/s]
+Processando classes:  35%|███▌      | 70/200 [00:01<00:02, 55.54it/s]
+Processando classes:  38%|███▊      | 76/200 [00:01<00:02, 54.22it/s]
+Processando classes:  41%|████      | 82/200 [00:01<00:02, 53.95it/s]
+Processando classes:  44%|████▍     | 88/200 [00:01<00:02, 52.39it/s]
+Processando classes:  47%|████▋     | 94/200 [00:01<00:02, 52.85it/s]
+Processando classes:  50%|█████     | 100/200 [00:01<00:01, 53.03it/s]
+Processando classes:  53%|█████▎    | 106/200 [00:02<00:01, 54.05it/s]
+Processando classes:  56%|█████▋    | 113/200 [00:02<00:01, 54.36it/s]
+Processando classes:  60%|█████▉    | 119/200 [00:02<00:01, 53.59it/s]
+Processando classes:  62%|██████▎   | 125/200 [00:02<00:01, 53.86it/s]
+Processando classes:  66%|██████▌   | 131/200 [00:02<00:01, 54.47it/s]
+Processando classes:  69%|██████▉   | 138/200 [00:02<00:01, 55.01it/s]
+Processando classes:  72%|███████▏  | 144/200 [00:02<00:01, 55.95it/s]
+Processando classes:  75%|███████▌  | 150/200 [00:02<00:00, 53.69it/s]
+Processando classes:  78%|███████▊  | 156/200 [00:02<00:00, 53.75it/s]
+Processando classes:  81%|████████  | 162/200 [00:03<00:00, 53.12it/s]
+Processando classes:  84%|████████▍ | 168/200 [00:03<00:00, 54.04it/s]
+Processando classes:  87%|████████▋ | 174/200 [00:03<00:00, 55.20it/s]
+Processando classes:  90%|█████████ | 180/200 [00:03<00:00, 54.10it/s]
+Processando classes:  93%|█████████▎| 186/200 [00:03<00:00, 54.01it/s]
+Processando classes:  96%|█████████▌| 192/200 [00:03<00:00, 55.25it/s]
+Processando classes:  99%|█████████▉| 198/200 [00:03<00:00, 55.82it/s]
+Processando classes: 100%|██████████| 200/200 [00:03<00:00, 53.62it/s]
+
+✅ Concluído!
+   Classes processadas: 200
+   Falhas: 0
+   Salvo em: descriptors\CUB_200_2011_descriptors.json
+
+============================================================
+📁 Dataset: Stanford_Dogs
+📝 Preparando descrições...
+   Conceitos: 31
+   Templates: 8
+   Total: 248 descrições possíveis
+⏳ Encodando descrições com CLIP...
+✅ Descrições prontas!
+
+🎨 Processando dataset por classes...
+   Classes encontradas: 120
+
+Processando classes:   0%|          | 0/120 [00:00<?, ?it/s]
+Processando classes:   3%|▎         | 4/120 [00:00<00:04, 27.93it/s]
+Processando classes:   9%|▉         | 11/120 [00:00<00:02, 45.33it/s]
+Processando classes:  13%|█▎        | 16/120 [00:00<00:03, 34.32it/s]
+Processando classes:  17%|█▋        | 20/120 [00:00<00:03, 28.04it/s]
+Processando classes:  21%|██        | 25/120 [00:00<00:03, 29.56it/s]
+Processando classes:  24%|██▍       | 29/120 [00:00<00:03, 28.21it/s]
+Processando classes:  29%|██▉       | 35/120 [00:01<00:02, 35.36it/s]
+Processando classes:  32%|███▎      | 39/120 [00:01<00:02, 30.18it/s]
+Processando classes:  38%|███▊      | 46/120 [00:01<00:02, 33.33it/s]
+Processando classes:  42%|████▏     | 50/120 [00:01<00:02, 27.88it/s]
+Processando classes:  45%|████▌     | 54/120 [00:01<00:02, 30.12it/s]
+Processando classes:  48%|████▊     | 58/120 [00:01<00:02, 26.21it/s]
+Processando classes:  51%|█████     | 61/120 [00:02<00:02, 25.54it/s]
+Processando classes:  53%|█████▎    | 64/120 [00:02<00:02, 24.60it/s]
+Processando classes:  56%|█████▌    | 67/120 [00:02<00:02, 24.02it/s]
+Processando classes:  58%|█████▊    | 70/120 [00:02<00:02, 21.09it/s]
+Processando classes:  61%|██████    | 73/120 [00:02<00:02, 20.04it/s]
+Processando classes:  63%|██████▎   | 76/120 [00:02<00:02, 20.16it/s]
+Processando classes:  66%|██████▌   | 79/120 [00:02<00:01, 20.74it/s]
+Processando classes:  68%|██████▊   | 82/120 [00:03<00:02, 18.53it/s]
+Processando classes:  70%|███████   | 84/120 [00:03<00:01, 18.41it/s]
+Processando classes:  72%|███████▏  | 86/120 [00:03<00:01, 18.25it/s]
+Processando classes:  74%|███████▍  | 89/120 [00:03<00:01, 20.47it/s]
+Processando classes:  77%|███████▋  | 92/120 [00:03<00:01, 20.51it/s]
+Processando classes:  79%|███████▉  | 95/120 [00:03<00:01, 21.77it/s]
+Processando classes:  82%|████████▏ | 98/120 [00:03<00:00, 22.82it/s]
+Processando classes:  85%|████████▌ | 102/120 [00:04<00:00, 26.14it/s]
+Processando classes:  91%|█████████ | 109/120 [00:04<00:00, 34.99it/s]
+Processando classes:  94%|█████████▍| 113/120 [00:04<00:00, 28.27it/s]
+Processando classes:  98%|█████████▊| 117/120 [00:04<00:00, 24.09it/s]
+Processando classes: 100%|██████████| 120/120 [00:04<00:00, 24.24it/s]
+Processando classes: 100%|██████████| 120/120 [00:04<00:00, 25.48it/s]
+
+✅ Concluído!
+   Classes processadas: 120
+   Falhas: 0
+   Salvo em: descriptors\Stanford_Dogs_descriptors.json
+
+============================================================
+✅ Todos os descriptors gerados!
+📂 Verifique a pasta: descriptors
+============================================================
+
+
+🎉 Descriptors prontos para uso no zero-shot!
+
+💡 Formato do JSON gerado:
+   {
+     "n02085620-Chihuahua": "a photo of a small dog",
+     "n02085782-Japanese_spaniel": "a close-up photo of a dog"
+   }

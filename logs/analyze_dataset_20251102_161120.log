@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\ota45\OneDrive\TCC\Zero-Shot-FGIC\analyze_dataset.py", line 29, in <module>
+    print(f"\U0001f4c2 Analisando {name}...")
+  File "C:\Users\ota45\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4c2' in position 0: character maps to <undefined>

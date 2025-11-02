@@ -1,0 +1,43 @@
+🚀 Avaliação Zero-Shot COMPARATIVA com CLIP
+📦 Modelo: ViT-B/32
+💻 Device: cuda
+🧠 Método: Comparações diretas entre classes
+
+🔄 Carregando modelo CLIP...
+✅ Modelo carregado!
+
+
+============================================================
+📊 Avaliando dataset: CUB_200_2011
+============================================================
+✅ Descrições comparativas carregadas: 200 classes
+📂 Carregando embeddings: embeddings\CUB_200_2011.pt
+   Shape: torch.Size([5000, 512])
+   Total de imagens: 5000 | Classes: 86
+
+📝 Gerando text embeddings para 86 classes...
+   Exemplo de comparação: A 001.Black_footed_Albatross looks more delicate than a 068.Ruby_throated_Hummingbird. A 001.Black_footed_Albatross appears more slender than a 111.Lo...
+✅ Text embeddings prontos! Shape: torch.Size([86, 512])
+
+✅ Acurácia zero-shot (comparativo): 0.0374
+
+============================================================
+📊 Avaliando dataset: Stanford_Dogs
+============================================================
+✅ Descrições comparativas carregadas: 120 classes
+📂 Carregando embeddings: embeddings\Stanford_Dogs.pt
+   Shape: torch.Size([5000, 512])
+   Total de imagens: 5000 | Classes: 28
+
+📝 Gerando text embeddings para 28 classes...
+   Exemplo de comparação: A n02085620-Chihuahua usually has a different body shape than a n02091032-Italian_greyhound. A n02085620-Chihuahua appears more slender than a n021013...
+✅ Text embeddings prontos! Shape: torch.Size([28, 512])
+
+✅ Acurácia zero-shot (comparativo): 0.3670
+
+============================================================
+📈 Resultados salvos em all_zero-shot_results/results_zero_shot_comparative\zero_shot_results_comparative.json
+✅ 2 datasets processados com sucesso.
+❌ 0 falharam.
+============================================================
+

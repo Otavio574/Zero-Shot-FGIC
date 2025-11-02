@@ -1,0 +1,22 @@
+🚀 Iniciando geração de waffle descriptors...
+
+📂 2 arquivos detectados:
+   - CUB_200_2011_descriptors.json
+   - Stanford_Dogs_descriptors.json
+
+🧇 Gerando waffle descriptors para CUB_200_2011...
+✅ Waffle descriptors salvos em: descriptors\CUB_200_2011_waffle.json
+💬 Exemplo para '001.Black_footed_Albatross':
+   - a picture of a tern, airplane, Humvee, cactus
+   - a picture of a tern, toaster, pizza, airplane
+   - a picture of a tern, candle, airplane, lighthouse
+
+🧇 Gerando waffle descriptors para Stanford_Dogs...
+✅ Waffle descriptors salvos em: descriptors\Stanford_Dogs_waffle.json
+💬 Exemplo para 'n02085620-Chihuahua':
+   - a photograph of a chihuahua, banana, cucumber, lighthouse
+   - a photograph of a chihuahua, guitar, cactus, toaster
+   - a photograph of a chihuahua, motorcycle, Humvee, cucumber
+
+🎯 Geração de waffle descriptors finalizada com sucesso!
+📁 Todos os arquivos foram salvos em: descriptors
